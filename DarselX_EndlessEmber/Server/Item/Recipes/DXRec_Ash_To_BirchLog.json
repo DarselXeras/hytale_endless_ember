@@ -1,0 +1,21 @@
+{
+  "Input": [
+    {
+      "ItemId": "Wood_Ash_Trunk",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Wood_Birch_Trunk",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "StructuralCrafting",
+      "Categories": [
+        "Decorative"
+      ],
+      "Id": "Builders"
+    }
+  ]
+}

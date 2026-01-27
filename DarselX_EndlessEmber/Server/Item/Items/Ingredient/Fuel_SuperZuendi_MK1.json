@@ -1,0 +1,95 @@
+{
+  "TranslationProperties": {
+    "Name": "dexpack-items.items.DexPack_SPC.zuendi.z1.name",
+    "Description": "dexpack-items.items.DexPack_SPC.zuendi.z1.description"
+  },
+  "Icon": "Icons/ItemsGenerated/z1_icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/zuendi.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/z1_texture.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Rubble",
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {},
+      "Harvest": {}
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Brazier",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "CubeShadingMode": "Standard"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    }
+  ],
+  "FuelQuality": 60,
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "DropOnDeath": true,
+  "Model": "Items/zuendi.blockymodel",
+  "Texture": "Items/z1_texture.png",
+  "Quality": "Uncommon",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 5
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Fuel_SuperZuendi_MK1"
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Fuel_SuperZuendi_MK1"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Tinkering"
+        ]
+      }
+    ],
+    "TimeSeconds": 10,
+    "RequiredMemoriesLevel": 1,
+    "KnowledgeRequired": false
+  },
+  "MaxStack": 25
+}

@@ -1,0 +1,99 @@
+{
+  "TranslationProperties": {
+    "Name": "dexpack-items.items.DexPack_SPC.zuendi.z2.name",
+    "Description": "dexpack-items.items.DexPack_SPC.zuendi.z2.description"
+  },
+  "Icon": "Icons/ItemsGenerated/z2_icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/zuendi.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/z2_texture.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Rubble",
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {},
+      "Harvest": {}
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Brazier",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "CubeShadingMode": "Standard"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    }
+  ],
+  "FuelQuality": 180,
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "DropOnDeath": true,
+  "Model": "Items/zuendi.blockymodel",
+  "Texture": "Items/z2_texture.png",
+  "Quality": "Rare",
+  "Scale": 1,
+  "ItemLevel": 2,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Fuel_SuperZuendi_MK1",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Fuel_SuperZuendi_MK2"
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Fuel_SuperZuendi_MK2"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Tinkering"
+        ]
+      }
+    ],
+    "TimeSeconds": 25,
+    "RequiredMemoriesLevel": 2,
+    "KnowledgeRequired": false
+  },
+  "MaxStack": 16
+}
