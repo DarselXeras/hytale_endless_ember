@@ -1,7 +1,7 @@
 {
   "Group": "DarselX",
-  "Name": "DexPack",
-  "Version": "1.0.0",
+  "Name": "Endless Ember",
+  "Version": "0.1.25",
   "Description": "",
   "Authors": [
     {
@@ -10,7 +10,7 @@
       "Url": ""
     }
   ],
-  "Website": "",
+  "Website": "https://www.curseforge.com/hytale/mods/dx-endles-ember",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},

@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "dexpack-items.items.DexPack_SPC.zuendi.infinite.name",
-    "Description": "dexpack-items.items.DexPack_SPC.zuendi.infinite.description"
+    "Name": "DarselXMods.Items.DexPack_SPC.EndlessEmber.MK2.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.EndlessEmber.MK2.description"
   },
-  "Icon": "Icons/ItemsGenerated/zi_icon.png",
+  "Icon": "Icons/ItemsGenerated/eemk2_icon.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -11,10 +11,10 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Items/zuendi.blockymodel",
+    "CustomModel": "Items/endless_ember_item.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Items/zi_texture.png",
+        "Texture": "Items/eemk2_texture.png",
         "Weight": 1
       }
     ],
@@ -42,7 +42,7 @@
       "Id": "Fuel"
     }
   ],
-  "FuelQuality": 3600,
+  "FuelQuality": 180,
   "PlayerAnimationsId": "Item",
   "Tags": {
     "Type": [
@@ -51,41 +51,37 @@
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
   "DropOnDeath": true,
-  "Model": "Items/zuendi.blockymodel",
-  "Texture": "Items/zi_texture.png",
-  "Quality": "Legendary",
+  "Model": "Items/endless_ember_item.blockymodel",
+  "Texture": "Items/eemk2_texture.png",
+  "Quality": "Rare",
   "Scale": 1,
-  "ItemLevel": 5,
+  "ItemLevel": 2,
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Life_Essence_Concentrated",
-        "Quantity": 5
-      },
-      {
-        "ItemId": "Ingredient_Fire_Essence",
-        "Quantity": 2
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 20
       },
       {
         "ItemId": "Ingredient_Charcoal",
-        "Quantity": 100
+        "Quantity": 8
       },
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
-        "Quantity": 10
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 3
       },
       {
-        "ItemId": "Fuel_SuperZuendi_MK3",
-        "Quantity": 4
+        "ItemId": "Endless_Ember_MK1",
+        "Quantity": 1
       }
     ],
     "Output": [
       {
-        "ItemId": "Fuel_SuperZuendi_Infinite"
+        "ItemId": "Endless_Ember_MK2"
       }
     ],
     "PrimaryOutput": {
-      "ItemId": "Fuel_SuperZuendi_Infinite"
+      "ItemId": "Endless_Ember_MK2"
     },
     "BenchRequirement": [
       {
@@ -95,9 +91,9 @@
         ]
       }
     ],
-    "TimeSeconds": 60,
-    "RequiredMemoriesLevel": 4,
+    "TimeSeconds": 10,
+    "RequiredMemoriesLevel": 2,
     "KnowledgeRequired": false
   },
-  "MaxStack": 1
+  "MaxStack": 16
 }

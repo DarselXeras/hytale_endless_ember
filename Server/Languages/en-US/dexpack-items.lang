@@ -1,8 +1,0 @@
-items.DexPack_SPC.zuendi.z1.name = Endless Ember MK1
-items.DexPack_SPC.zuendi.z1.description = Burn time: 60 seconds
-items.DexPack_SPC.zuendi.z2.name = Endless Ember MK2
-items.DexPack_SPC.zuendi.z2.description = Burn time: 180 seconds
-items.DexPack_SPC.zuendi.z3.name = Endless Ember MK3
-items.DexPack_SPC.zuendi.z3.description = Burn time: 360 seconds
-items.DexPack_SPC.zuendi.infinite.name = Infinite Ember
-items.DexPack_SPC.zuendi.infinite.description = It doesn't really burn forever, but it does burn for an incredibly long time! No, just kidding, that stuff burns for about an hour!

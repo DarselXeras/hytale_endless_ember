@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "dexpack-items.items.DexPack_SPC.zuendi.z1.name",
-    "Description": "dexpack-items.items.DexPack_SPC.zuendi.z1.description"
+    "Name": "DarselXMods.Items.DexPack_SPC.EndlessEmber.MK1.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.EndlessEmber.MK1.description"
   },
-  "Icon": "Icons/ItemsGenerated/z1_icon.png",
+  "Icon": "Icons/ItemsGenerated/eemk1_icon.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -11,10 +11,10 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Items/zuendi.blockymodel",
+    "CustomModel": "Items/endless_ember_item.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Items/z1_texture.png",
+        "Texture": "Items/eemk1_texture.png",
         "Weight": 1
       }
     ],
@@ -51,8 +51,8 @@
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
   "DropOnDeath": true,
-  "Model": "Items/zuendi.blockymodel",
-  "Texture": "Items/z1_texture.png",
+  "Model": "Items/endless_ember_item.blockymodel",
+  "Texture": "Items/eemk1_texture.png",
   "Quality": "Uncommon",
   "Scale": 1,
   "ItemLevel": 1,
@@ -73,11 +73,11 @@
     ],
     "Output": [
       {
-        "ItemId": "Fuel_SuperZuendi_MK1"
+        "ItemId": "Endless_Ember_MK1"
       }
     ],
     "PrimaryOutput": {
-      "ItemId": "Fuel_SuperZuendi_MK1"
+      "ItemId": "Endless_Ember_MK1"
     },
     "BenchRequirement": [
       {
@@ -87,7 +87,7 @@
         ]
       }
     ],
-    "TimeSeconds": 10,
+    "TimeSeconds": 5,
     "RequiredMemoriesLevel": 1,
     "KnowledgeRequired": false
   },
