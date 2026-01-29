@@ -6,3 +6,7 @@ Items.DexPack_SPC.EndlessEmber.MK3.name = Super Zündi MK3
 Items.DexPack_SPC.EndlessEmber.MK3.description = Brenndauer: 360 Sekunden
 Items.DexPack_SPC.EndlessEmber.MKI.name = Legendärer Megazündi
 Items.DexPack_SPC.EndlessEmber.MKI.description = Brennt jetzt nicht wirklich für immer, aber für eine schon ganz schön lange Zeit! Nein, also jetzt mal im Ernst, das Ding brennt in etwa eine Stunde!
+Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Brennstoff
+
+Blocks.DexPack_SPC.EmberTinkerbench.name = Ember Tinkerbench
+Blocks.DexPack_SPC.EmberTinkerbench.description = Werkbank zum Fertigen von Brennstoffen und Allerlei anderer wundervoller Dinge!

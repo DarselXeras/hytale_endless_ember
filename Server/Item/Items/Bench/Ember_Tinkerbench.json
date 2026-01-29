@@ -1,13 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Bench_Armory.name",
-    "Description": "server.items.Bench_Armory.description"
+    "Name": "DarselXMods.Blocks.DexPack_SPC.EmberTinkerbench.name",
+    "Description": "DarselXMods.Blocks.DexPack_SPC.EmberTinkerbench.description"
   },
   "Icon": "Icons/ItemsGenerated/EmberTinkerbench_icon.png",
   "Categories": [
     "Furniture.Benches"
   ],
-  "Quality": "Developer",
+  "Quality": "Common",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -15,12 +15,12 @@
     "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Benches/ember_tinkerbench_sides.png",
+        "Texture": "Blocks/Benches/EmberTinkertableMK1.png",
         "Weight": 1
       }
     ],
     "VariantRotation": "NESW",
-    "HitboxType": "Bench_Armory",
+    "HitboxType": "Bench_Workbench",
     "Light": {
       "Color": "#000"
     },
@@ -28,9 +28,66 @@
       "Id": "crafting",
       "Definitions": {
         "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
           "Looping": true
         },
-        "CraftCompletedInstant": {}
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/EmberTinkertableMK2.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim"
+              }
+            }
+          }
+        },
+        "Tier3": {
+          "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/EmberTinkertableMK3.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
+              }
+            }
+          }
+        },
+		"Tier4": {
+          "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/EmberTinkertableMK4.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
+              }
+            }
+          }
+        }		
       }
     },
     "Gathering": {
@@ -39,102 +96,98 @@
       }
     },
     "Bench": {
-      "Type": "DiagramCrafting",
-      "LocalOpenSoundEventId": "SFX_Bench_Placeholder",
-      "LocalCloseSoundEventId": "SFX_Bench_Placeholder",
-      "CompletedSoundEventId": "SFX_Bench_Placeholder",
+      "Type": "Crafting",
+      "Id": "Ember_Tinkerbench",
       "Categories": [
         {
-          "Id": "Weapons",
-          "Icon": "Icons/CraftingCategories/Armory/Weapons.png",
-          "ItemCategories": [
-            {
-              "Id": "Sword",
-              "Icon": "Icons/CraftingCategories/Armory/Sword.png",
-              "Slots": 2,
-              "Name": "Sword"
-            },
-            {
-              "Id": "Club",
-              "Icon": "Icons/CraftingCategories/Armory/Club.png",
-              "Slots": 2,
-              "Name": "Club"
-            },
-            {
-              "Id": "Axe",
-              "Icon": "Icons/CraftingCategories/Armory/Axe.png",
-              "Slots": 2,
-              "Name": "Axe"
-            },
-            {
-              "Id": "Longsword",
-              "Icon": "Icons/CraftingCategories/Armory/Longsword.png",
-              "Slots": 2,
-              "Name": "Longsword"
-            },
-            {
-              "Id": "Mace",
-              "Icon": "Icons/CraftingCategories/Armory/Mace.png",
-              "Slots": 2,
-              "Name": "Mace"
-            },
-            {
-              "Id": "Battleaxe",
-              "Icon": "Icons/CraftingCategories/Armory/Battleaxe.png",
-              "Slots": 2,
-              "Name": "Battleaxe"
-            },
-            {
-              "Id": "Bow",
-              "Icon": "Icons/CraftingCategories/Armory/Bow.png",
-              "Slots": 2,
-              "Name": "Bow"
-            },
-            {
-              "Id": "Shield",
-              "Icon": "Icons/CraftingCategories/Armory/Shield.png",
-              "Slots": 2,
-              "Name": "Shield"
-            }
-          ],
-          "Name": "Weapons"
-        },
-        {
-          "Id": "Armor",
-          "Icon": "Icons/CraftingCategories/Armory/MetalArmor.png",
-          "ItemCategories": [
-            {
-              "Id": "Head",
-              "Icon": "Icons/CraftingCategories/Armory/MetalHead.png",
-              "Slots": 2,
-              "Name": "Head"
-            },
-            {
-              "Id": "Chest",
-              "Icon": "Icons/CraftingCategories/Armory/MetalChest.png",
-              "Slots": 2,
-              "Name": "Chest"
-            },
-            {
-              "Id": "Hands",
-              "Icon": "Icons/CraftingCategories/Armory/MetalHands.png",
-              "Slots": 2,
-              "Name": "Hands"
-            },
-            {
-              "Id": "Legs",
-              "Icon": "Icons/CraftingCategories/Armory/MetalLegs.png",
-              "Slots": 2,
-              "Name": "Legs"
-            }
-          ],
-          "Name": "Armor"
+          "Id": "Ember_Tinkerbench_Fuel",
+          "Name": "DarselXMods.Items.Ember_Tinkerbench.Bench.Categories.Fuel.name",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/fuel.png"
         }
       ],
-      "Id": "Armory"
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 50
+              },
+              {
+                "ResourceTypeId": "Rock",
+                "Quantity": 25
+              },
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 25
+              },
+              {
+                "ItemId": "Endless_Ember_MK1",
+                "Quantity": 5
+              }
+            ],
+            "TimeSeconds": 10
+          },
+          "CraftingTimeReductionModifier": 0.15
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Gold",
+                "Quantity": 50
+              },
+              {
+                "ResourceTypeId": "Rock",
+                "Quantity": 100
+              },
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 100
+              },
+              {
+                "ItemId": "Endless_Ember_MK2",
+                "Quantity": 5
+              }
+            ],
+            "TimeSeconds": 15
+          },
+          "CraftingTimeReductionModifier": 0.25
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Adamantite",
+                "Quantity": 15
+              },
+              {
+                "ResourceTypeId": "Rock",
+                "Quantity": 250
+              },
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 250
+              },
+              {
+                "ItemId": "Endless_Ember_MK3",
+                "Quantity": 5
+              }
+            ],
+            "TimeSeconds": 20
+          },
+          "CraftingTimeReductionModifier": 0.5
+        }
+      ]
     },
     "BlockParticleSetId": "Stone",
-    "ParticleColor": "#5C583E",
+    "ParticleColor": "#3e5c5c",
     "Support": {
       "Down": [
         {
@@ -142,7 +195,8 @@
         }
       ]
     },
-    "BlockSoundSetId": "Stone"
+    "BlockSoundSetId": "Stone",
+    "RequiresAlphaBlending": false
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
@@ -164,48 +218,6 @@
   },
   "MaxStack": 1,
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "State": {
-    "Tier2": {
-      "Variant": true,
-      "TranslationProperties": {
-        "Name": "server.items.Bench_Armory.name",
-        "Description": "server.items.Bench_Armory_Tier2.description"
-      },
-      "Icon": "Icons/ItemsGenerated/Bench_Armory.png",
-      "IconProperties": {
-        "Scale": 0.37,
-        "Translation": [
-          11.4,
-          -15
-        ],
-        "Rotation": [
-          22.5,
-          45,
-          22.5
-        ]
-      }
-    },
-    "Tier3": {
-      "Variant": true,
-      "TranslationProperties": {
-        "Name": "server.items.Bench_Armory.name",
-        "Description": "server.items.Bench_Armory_Tier3.description"
-      },
-      "Icon": "Icons/ItemsGenerated/Bench_Armory.png",
-      "IconProperties": {
-        "Scale": 0.37,
-        "Translation": [
-          11.4,
-          -15
-        ],
-        "Rotation": [
-          22.5,
-          45,
-          22.5
-        ]
-      }
-    }
-  },
   "Interactions": {
     "Pick": {
       "Settings": {
@@ -230,7 +242,102 @@
       ]
     }
   },
-  "Scale": 2,
+  "Scale": 1,
   "Model": "Blocks/Benches/EmberTinkerbench.blockymodel",
-  "Texture": "Blocks/Benches/ember_tinkerbench_sides.png"
+  "Texture": "Blocks/Benches/EmberTinkertableMK1.png",
+  "Container": {
+    "GlobalFilter": "AllowAll"
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 10
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "ItemTag": "",
+        "Quantity": 10
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 25
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Tinkerbench"
+    },
+    "Output": [
+      {
+        "ItemId": "Ember_Tinkerbench",
+        "Quantity": 1
+      }
+    ],
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/Workbench2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Workbench2_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench2",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim"
+              }
+            }
+          }
+        },
+        "Tier3": {
+          "CustomModel": "Blocks/Benches/Workbench3.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Workbench3_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench3",
+          "State": {
+            "Id": "crafting",
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TimeSeconds": 10,
+    "KnowledgeRequired": false
+  }
 }

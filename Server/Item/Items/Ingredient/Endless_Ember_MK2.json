@@ -85,10 +85,11 @@
     },
     "BenchRequirement": [
       {
-        "Id": "Workbench",
+        "Id": "Ember_Tinkerbench",
         "Categories": [
-          "Workbench_Tinkering"
-        ]
+          "Ember_Tinkerbench_Fuel"
+        ],
+        "RequiredTierLevel": 2
       }
     ],
     "TimeSeconds": 10,
