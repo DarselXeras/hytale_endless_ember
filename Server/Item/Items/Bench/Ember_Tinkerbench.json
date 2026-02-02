@@ -12,7 +12,7 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
+    "CustomModel": "Blocks/Benches/EmberTinkerbench_MK1.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Benches/EmberTinkertableMK1.png",
@@ -35,7 +35,7 @@
           "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
         },
         "Tier2": {
-          "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
+          "CustomModel": "Blocks/Benches/EmberTinkerbench_MK2.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Benches/EmberTinkertableMK2.png",
@@ -53,7 +53,7 @@
           }
         },
         "Tier3": {
-          "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
+          "CustomModel": "Blocks/Benches/EmberTinkerbench_MK3.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Benches/EmberTinkertableMK3.png",
@@ -70,8 +70,8 @@
             }
           }
         },
-		"Tier4": {
-          "CustomModel": "Blocks/Benches/EmberTinkerbench.blockymodel",
+        "Tier4": {
+          "CustomModel": "Blocks/Benches/EmberTinkerbench_MK4.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Benches/EmberTinkertableMK4.png",
@@ -87,7 +87,7 @@
               }
             }
           }
-        }		
+        }
       }
     },
     "Gathering": {
@@ -243,7 +243,7 @@
     }
   },
   "Scale": 1,
-  "Model": "Blocks/Benches/EmberTinkerbench.blockymodel",
+  "Model": "Blocks/Benches/EmberTinkerbench_MK1.blockymodel",
   "Texture": "Blocks/Benches/EmberTinkertableMK1.png",
   "Container": {
     "GlobalFilter": "AllowAll"
