@@ -10,3 +10,5 @@ Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Fuel
 
 Blocks.DexPack_SPC.EmberTinkerbench.name = Ember Tinkerbench
 Blocks.DexPack_SPC.EmberTinkerbench.description = Workbench for crafting fuels and all sorts of other wonderful things!
+Blocks.DexPack_SPC.EmberPress.name = Emberpress
+Blocks.DexPack_SPC.EmberPress.description = Processes materials under extreme heat and pressure.

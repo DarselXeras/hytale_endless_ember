@@ -10,3 +10,5 @@ Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Brennstoff
 
 Blocks.DexPack_SPC.EmberTinkerbench.name = Ember Tinkerbench
 Blocks.DexPack_SPC.EmberTinkerbench.description = Werkbank zum Fertigen von Brennstoffen und Allerlei anderer wundervoller Dinge!
+Blocks.DexPack_SPC.EmberPress.name = Glutpresse
+Blocks.DexPack_SPC.EmberPress.description = Verarbeitet Materialien unter extremer Hitze und Druck.

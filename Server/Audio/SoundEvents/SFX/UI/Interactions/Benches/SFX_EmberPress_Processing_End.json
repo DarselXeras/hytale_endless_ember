@@ -1,0 +1,11 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/UI/Crafting/EmberPress/press_down.ogg"
+      ]
+    }
+  ],
+  "Volume": -0.02,
+  "Parent": "SFX_Attn_Quiet"
+}

@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Bench_Salvage.name",
-    "Description": "server.items.Bench_Salvage.description"
+    "Name": "DarselXMods.Blocks.DexPack_SPC.EmberPress.name",
+    "Description": "DarselXMods.Blocks.DexPack_SPC.EmberPress.description"
   },
   "Icon": "Icons/ItemsGenerated/EmberPress_Icon.png",
   "Categories": [
@@ -64,7 +64,7 @@
       "OutputSlotsCount": 6,
       "LocalOpenSoundEventId": "SFX_Furnace_Bench_Open",
       "LocalCloseSoundEventId": "SFX_Furnace_Bench_Close",
-      "CompletedSoundEventId": "SFX_Furnace_Bench_Processing_Complete",
+      "CompletedSoundEventId": "SFX_EmberPress_Processing_End",
       "EndSoundEventId": "SFX_Furnace_Bench_Processing_End",
       "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
       "Id": "EmberPress"
@@ -74,31 +74,58 @@
       "Definitions": {
         "Processing": {
           "Looping": true,
-          "Light": {
-            "Color": "#B72"
-          },
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Benches/Salvage_Texture.png",
+              "Texture": "Blocks/Benches/Ember_press_texture.png",
               "Weight": 1
             }
           ],
-          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
-          "CustomModelAnimation": "Blocks/Benches/Salvage_Processing.blockyanim"
+          "AmbientSoundEventId": "SFX_EmberPress_Bench_Processing",
+          "CustomModelAnimation": "Blocks/Benches/EmberPressProgression.blockyanim",
+          "Particles": [
+            {
+              "SystemId": "Campfire_New_Cartoon",
+              "Scale": 0.45,
+              "PositionOffset": {
+                "Y": 0.08,
+                "Z": 0.49
+              }
+            },
+            {
+              "SystemId": "Campfire_New_Cartoon",
+              "Scale": 0.45,
+              "PositionOffset": {
+                "Y": 0.08,
+                "Z": -0.49
+              }
+            }
+          ]
         },
         "ProcessCompleted": {
-          "Light": {
-            "Color": "#B72"
-          },
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Benches/Salvage_Texture.png",
+              "Texture": "Blocks/Benches/Ember_press_texture.png",
               "Weight": 1
             }
           ],
-          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
-          "Looping": true,
-          "CustomModelAnimation": "Blocks/Benches/Salvage_Processing.blockyanim"
+          "Particles": [
+            {
+              "SystemId": "Campfire_New_Cartoon",
+              "Scale": 0.35,
+              "PositionOffset": {
+                "Y": 0.08,
+                "Z": 0.49
+              }
+            },
+            {
+              "SystemId": "Potion_Morph_Burst",
+              "Scale": 0.44,
+              "PositionOffset": {
+                "Y": 0.1,
+                "Z": 0.49
+              }
+            }
+          ]
         }
       }
     },
@@ -107,7 +134,7 @@
         "GatherType": "Benches"
       }
     },
-    "HitboxType": "Bench_Salvage",
+    "HitboxType": "Bench_EmberPress",
     "BlockParticleSetId": "Stone",
     "Support": {
       "Down": [
