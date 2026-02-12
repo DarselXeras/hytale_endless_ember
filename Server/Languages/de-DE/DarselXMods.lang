@@ -12,3 +12,5 @@ Blocks.DexPack_SPC.EmberTinkerbench.name = Ember Tinkerbench
 Blocks.DexPack_SPC.EmberTinkerbench.description = Werkbank zum Fertigen von Brennstoffen und Allerlei anderer wundervoller Dinge!
 Blocks.DexPack_SPC.EmberPress.name = Glutpresse
 Blocks.DexPack_SPC.EmberPress.description = Verarbeitet Materialien unter extremer Hitze und Druck.
+Items.DexPack_SPC.PressedCoalRod.name = Gepresster Karbonstab
+Items.DexPack_SPC.PressedCoalRod.description = Zu einem Stab stark zusammengepresste Holzkohle. Hoher Brennwert und sehr hart.

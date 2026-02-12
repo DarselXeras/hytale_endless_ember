@@ -63,12 +63,12 @@
         "Quantity": 10
       },
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Linen",
-        "Quantity": 2
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Charcoal",
-        "Quantity": 5
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 2
       }
     ],
     "Output": [

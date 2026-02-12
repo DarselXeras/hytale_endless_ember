@@ -63,16 +63,12 @@
         "Quantity": 65
       },
       {
-        "ItemId": "Ingredient_Charcoal",
-        "Quantity": 12
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 6
       },
       {
         "ItemId": "Ingredient_Fabric_Scrap_Linen",
-        "Quantity": 3
-      },
-      {
-        "ItemId": "Endless_Ember_MK2",
-        "Quantity": 1
+        "Quantity": 4
       }
     ],
     "Output": [

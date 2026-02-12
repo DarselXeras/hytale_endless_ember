@@ -1,0 +1,85 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.PressedCoalRod.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.PressedCoalRod.description"
+  },
+  "Icon": "Icons/ItemsGenerated/pressed_coal_rod_item_icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/pressed_coal_rod_item.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/carbon_rod.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Rubble",
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {},
+      "Harvest": {}
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Stone",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "CubeShadingMode": "Standard"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    }
+  ],
+  "FuelQuality": 18,
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "Model": "Items/pressed_coal_rod_item.blockymodel",
+  "Texture": "Items/carbon_rod.png",
+  "Quality": "Common",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 5
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Pressed_Coal_Rod"
+    },
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "EmberPress"
+      }
+    ],
+    "TimeSeconds": 20,
+    "KnowledgeRequired": false
+  },
+  "MaxStack": 64
+}

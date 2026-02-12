@@ -67,16 +67,12 @@
         "Quantity": 2
       },
       {
-        "ItemId": "Ingredient_Charcoal",
-        "Quantity": 100
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 44
       },
       {
         "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
         "Quantity": 10
-      },
-      {
-        "ItemId": "Endless_Ember_MK3",
-        "Quantity": 4
       }
     ],
     "Output": [
