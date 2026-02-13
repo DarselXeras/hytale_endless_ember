@@ -74,6 +74,9 @@
       "Definitions": {
         "Processing": {
           "Looping": true,
+          "Light": {
+            "Color": "#6a3416"
+          },
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Benches/Ember_press_texture.png",
