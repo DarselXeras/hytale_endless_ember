@@ -13,6 +13,7 @@
   "Website": "https://www.curseforge.com/hytale/mods/dx-endles-ember",
   "Dependencies": {},
   "OptionalDependencies": {},
+  "Main": "org.darselx.endlessember.EndlessEmberPlugin",
   "LoadBefore": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,

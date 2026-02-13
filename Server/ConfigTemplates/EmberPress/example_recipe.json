@@ -1,0 +1,24 @@
+{
+  "Id": "Custom_EmberPress_WoodToCharcoal",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 2
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "EmberPress"
+      }
+    ],
+    "TimeSeconds": 3
+  }
+}
