@@ -4,7 +4,7 @@
     "Input": [
       {
         "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
+        "Quantity": 1
       }
     ],
     "Output": [
@@ -19,6 +19,6 @@
         "Id": "EmberPress"
       }
     ],
-    "TimeSeconds": 3
+    "TimeSeconds": 10
   }
 }

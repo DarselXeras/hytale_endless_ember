@@ -43,7 +43,7 @@ public class EmberPressRecipeConfig {
                     "Id": "EmberPress"
                   }
                 ],
-                "TimeSeconds": 3
+                "TimeSeconds": 10
               }
             }
             """;

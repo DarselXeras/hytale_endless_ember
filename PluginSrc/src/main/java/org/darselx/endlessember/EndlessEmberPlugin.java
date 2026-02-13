@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
 
 public class EndlessEmberPlugin extends JavaPlugin {
     private static final String RECIPES_FOLDER = "EmberPressRecipes";
-    private static final String EXAMPLE_FILE = "example_recipe.json";
+    private static final String EXAMPLE_FILE = "emberpress_wood_trunk_to_charcoal.json";
     private Path recipeDir;
 
     private static final String EXAMPLE_JSON = """
@@ -32,7 +32,7 @@ public class EndlessEmberPlugin extends JavaPlugin {
                 "Input": [
                   {
                     "ResourceTypeId": "Wood_Trunk",
-                    "Quantity": 2
+                    "Quantity": 1
                   }
                 ],
                 "Output": [
@@ -47,7 +47,7 @@ public class EndlessEmberPlugin extends JavaPlugin {
                     "Id": "EmberPress"
                   }
                 ],
-                "TimeSeconds": 3
+                "TimeSeconds": 10
               }
             }
             """;
@@ -124,7 +124,7 @@ public class EndlessEmberPlugin extends JavaPlugin {
 
     private ParsedRecipe parseRecipeJson(String json, String fallbackId) {
         String id = extractString(json, "Id", fallbackId);
-        float timeSeconds = extractFloat(json, "TimeSeconds", 3.0f);
+        float timeSeconds = extractFloat(json, "TimeSeconds", 10.0f);
 
         MaterialQuantity[] input = new MaterialQuantity[]{
                 new MaterialQuantity(
