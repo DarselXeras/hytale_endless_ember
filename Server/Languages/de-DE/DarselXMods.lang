@@ -1,12 +1,14 @@
-Items.DexPack_SPC.EndlessEmber.MK1.name = Super Zündi MK1
+﻿Items.DexPack_SPC.EndlessEmber.MK1.name = Super ZÃ¼ndi MK1
 Items.DexPack_SPC.EndlessEmber.MK1.description = Brenndauer: 60 Sekunden
-Items.DexPack_SPC.EndlessEmber.MK2.name = Super Zündi MK2
+Items.DexPack_SPC.EndlessEmber.MK2.name = Super ZÃ¼ndi MK2
 Items.DexPack_SPC.EndlessEmber.MK2.description = Brenndauer: 180 Sekunden
-Items.DexPack_SPC.EndlessEmber.MK3.name = Super Zündi MK3
+Items.DexPack_SPC.EndlessEmber.MK3.name = Super ZÃ¼ndi MK3
 Items.DexPack_SPC.EndlessEmber.MK3.description = Brenndauer: 360 Sekunden
-Items.DexPack_SPC.EndlessEmber.MKI.name = Legendärer Megazündi
-Items.DexPack_SPC.EndlessEmber.MKI.description = Brennt jetzt nicht wirklich für immer, aber für eine schon ganz schön lange Zeit! Nein, also jetzt mal im Ernst, das Ding brennt in etwa eine Stunde!
+Items.DexPack_SPC.EndlessEmber.MKI.name = LegendÃ¤rer MegazÃ¼ndi
+Items.DexPack_SPC.EndlessEmber.MKI.description = Brennt jetzt nicht wirklich fÃ¼r immer, aber fÃ¼r eine schon ganz schÃ¶n lange Zeit! Nein, also jetzt mal im Ernst, das Ding brennt in etwa eine Stunde!
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Brennstoff
+Items.DexPack_SPC.Ingredient.MineralPowder.name = Mineralienpulver
+Items.DexPack_SPC.Ingredient.MineralPowder.description = Feines Pulver aus Kupfer- und Eisenerz als Basis für magische Erdmischungen.
 
 Blocks.DexPack_SPC.EmberTinkerbench.name = Ember Tinkerbench
 Blocks.DexPack_SPC.EmberTinkerbench.description = Werkbank zum Fertigen von Brennstoffen und Allerlei anderer wundervoller Dinge!
@@ -18,3 +20,4 @@ Blocks.DexPack_SPC.MineralSoil.name = Mineralische Erde
 Blocks.DexPack_SPC.MineralSoil.description = Spezieller Boden, der zur Kultivierung magischer Erzpflanzen benutzt wird.
 Blocks.DexPack_SPC.MineralCultivatedSoil.name = Mineralische Erde
 Blocks.DexPack_SPC.MineralCultivatedSoil.description = Spezieller Boden, der zur Kultivierung magischer Erzpflanzen benutzt wird.
+

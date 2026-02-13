@@ -1,4 +1,4 @@
-Items.DexPack_SPC.EndlessEmber.MK1.name = Endless Ember MK1
+﻿Items.DexPack_SPC.EndlessEmber.MK1.name = Endless Ember MK1
 Items.DexPack_SPC.EndlessEmber.MK1.description = Burn time: 60 seconds
 Items.DexPack_SPC.EndlessEmber.MK2.name = Endless Ember MK2
 Items.DexPack_SPC.EndlessEmber.MK2.description = Burn time: 180 seconds
@@ -7,6 +7,8 @@ Items.DexPack_SPC.EndlessEmber.MK3.description = Burn time: 360 seconds
 Items.DexPack_SPC.EndlessEmber.MKI.name = Infinite Ember
 Items.DexPack_SPC.EndlessEmber.MKI.description = It doesn't really burn forever, but it does burn for an incredibly long time! No, just kidding, that stuff burns for about an hour!
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Fuel
+Items.DexPack_SPC.Ingredient.MineralPowder.name = Mineral Blend Powder
+Items.DexPack_SPC.Ingredient.MineralPowder.description = Fine powder made from copper and iron ore, used as a base for magical soil blends.
 
 Blocks.DexPack_SPC.EmberTinkerbench.name = Ember Tinkerbench
 Blocks.DexPack_SPC.EmberTinkerbench.description = Workbench for crafting fuels and all sorts of other wonderful things!
@@ -18,3 +20,4 @@ Blocks.DexPack_SPC.MineralSoil.name = Mineral Soil
 Blocks.DexPack_SPC.MineralSoil.description = Special soil used for cultivating magical ore plants.
 Blocks.DexPack_SPC.MineralCultivatedSoil.name = Mineral Soil
 Blocks.DexPack_SPC.MineralCultivatedSoil.description = Special soil used for cultivating magical ore plants.
+

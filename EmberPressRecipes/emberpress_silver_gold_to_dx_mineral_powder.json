@@ -1,0 +1,29 @@
+{
+  "Id": "Custom_EmberPress_SilverGold_To_MineralPowder",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ore_Silver",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ore_Gold",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ingredient_Powder_DX_Mineral",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "EmberPress"
+      }
+    ],
+    "TimeSeconds": 12
+  }
+}
+
