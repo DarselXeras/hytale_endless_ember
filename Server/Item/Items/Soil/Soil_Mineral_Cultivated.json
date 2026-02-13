@@ -1,0 +1,53 @@
+{
+  "TranslationProperties": {
+    "Name": "Blocks.DexPack_SPC.MineralCultivatedSoil.name",
+    "Description": "Blocks.DexPack_SPC.MineralCultivatedSoil.description"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/mineral_soil_icon.png",
+  "Categories": [
+    "Blocks.Soils"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "ResourceTypes": [
+    {
+      "Id": "Soils"
+    }
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "BlockParticleSetId": "Dirt",
+    "Textures": [
+      {
+        "Down": "BlockTextures/mineral_soil_sides.png",
+        "Sides": "BlockTextures/mineral_soil_sides.png",
+        "Up": "BlockTextures/mineral_soil_top.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#8B6B3F",
+    "BlockSoundSetId": "Dirt",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ],
+    "Family": [
+      "Dirt"
+    ],
+    "SubType": [
+      "MineralCultivated"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft"
+}

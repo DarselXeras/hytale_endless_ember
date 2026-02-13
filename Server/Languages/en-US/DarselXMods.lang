@@ -14,3 +14,5 @@ Blocks.DexPack_SPC.EmberPress.name = Emberpress
 Blocks.DexPack_SPC.EmberPress.description = Processes materials under extreme heat and pressure.
 Items.DexPack_SPC.PressedCoalRod.name = Pressed coal rod
 Items.DexPack_SPC.PressedCoalRod.description = Charcoal compressed into a dense rod. High calorific value and very hard.
+Blocks.DexPack_SPC.MineralCultivatedSoil.name = Mineral Soil
+Blocks.DexPack_SPC.MineralCultivatedSoil.description = Special soil used for cultivating magical ore plants.

@@ -14,3 +14,5 @@ Blocks.DexPack_SPC.EmberPress.name = Glutpresse
 Blocks.DexPack_SPC.EmberPress.description = Verarbeitet Materialien unter extremer Hitze und Druck.
 Items.DexPack_SPC.PressedCoalRod.name = Gepresster Karbonstab
 Items.DexPack_SPC.PressedCoalRod.description = Zu einem Stab stark zusammengepresste Holzkohle. Hoher Brennwert und sehr hart.
+Blocks.DexPack_SPC.MineralCultivatedSoil.name = Mineralische Erde
+Blocks.DexPack_SPC.MineralCultivatedSoil.description = Spezieller Boden, der zur Kultivierung magischer Erzpflanzen benutzt wird.
