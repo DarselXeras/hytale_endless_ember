@@ -92,7 +92,7 @@
         "RequiredTierLevel": 4
       }
     ],
-    "TimeSeconds": 25,
+    "TimeSeconds": 12.5,
     "RequiredMemoriesLevel": 4,
     "KnowledgeRequired": false
   },

@@ -88,7 +88,7 @@
         "RequiredTierLevel": 2
       }
     ],
-    "TimeSeconds": 10,
+    "TimeSeconds": 5,
     "RequiredMemoriesLevel": 2,
     "KnowledgeRequired": false
   },
