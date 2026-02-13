@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "Blocks.DexPack_SPC.MineralCultivatedSoil.name",
-    "Description": "Blocks.DexPack_SPC.MineralCultivatedSoil.description"
+    "Name": "DarselXMods.Blocks.DexPack_SPC.MineralSoil.name",
+    "Description": "DarselXMods.Blocks.DexPack_SPC.MineralSoil.description"
   },
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/mineral_soil_icon.png",
