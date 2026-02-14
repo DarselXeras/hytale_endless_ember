@@ -1,0 +1,24 @@
+{
+  "Id": "Custom_EmberPress_OrePrism_To_PrismaChunks",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ore_Prism",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ingredient_Prisma_Chunk_Pile",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "EmberPress"
+      }
+    ],
+    "TimeSeconds": 21
+  }
+}
