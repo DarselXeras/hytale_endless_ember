@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.PrismaChunkPile.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.PrismaChunkPile.description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Ingredients/OreNuggets.blockymodel",
+  "Texture": "Resources/Ingredients/prisma_chunks_texture.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.75,
+    "Translation": [
+      0,
+      -8.0
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Prisma_Chunk_Pile.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true,
+  "MaxStack": 64,
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Resources/Ingredients/OreNuggets.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ingredients/prisma_chunks_texture.png"
+      }
+    ],
+    "CustomModelScale": 1.2,
+    "RequiresAlphaBlending": true,
+    "Material": "Solid",
+    "Light": {
+      "Color": "#000",
+      "Radius": 0
+    }
+  },
+  "Scale": 1
+}
