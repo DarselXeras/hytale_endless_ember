@@ -218,30 +218,7 @@
   },
   "MaxStack": 1,
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Interactions": {
-    "Pick": {
-      "Settings": {
-        "Adventure": {
-          "Cooldown": {
-            "Id": "BlockInteraction",
-            "Cooldown": 0.35
-          }
-        },
-        "Creative": {
-          "Cooldown": {
-            "Id": "BlockInteraction_Creative",
-            "Cooldown": 0.35,
-            "ClickBypass": true
-          }
-        }
-      },
-      "Interactions": [
-        {
-          "Type": "WorkbenchPick"
-        }
-      ]
-    }
-  },
+  "Interactions": {},
   "Scale": 1,
   "Model": "Blocks/Benches/EmberTinkerbench_MK1.blockymodel",
   "Texture": "Blocks/Benches/EmberTinkertableMK1.png",
