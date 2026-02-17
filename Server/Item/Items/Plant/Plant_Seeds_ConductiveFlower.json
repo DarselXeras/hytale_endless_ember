@@ -1,0 +1,28 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.ConductiveFlower.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.ConductiveFlower.description"
+  },
+  "Quality": "Common",
+  "Categories": [
+    "Blocks.Plants"
+  ],
+  "Model": "Resources/Plants/SeedBag.blockymodel",
+  "Texture": "Resources/Plants/SeedBag_Textures/ConductiveFlower.png",
+  "PlayerAnimationsId": "Item",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_ConductiveBlossom_Eternal.png",
+  "IconProperties": {
+    "Scale": 0.715,
+    "Translation": [0, -14.3],
+    "Rotation": [17, 45, 17]
+  },
+  "Tags": {
+    "Type": ["Plant"],
+    "Family": ["Seeds"]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true,
+  "MaxStack": 64
+}
