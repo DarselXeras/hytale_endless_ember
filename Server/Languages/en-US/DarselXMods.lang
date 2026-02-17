@@ -40,3 +40,8 @@ Blocks.DexPack_SPC.MineralSoil.name = Mineral Soil
 Blocks.DexPack_SPC.MineralSoil.description = Special soil used for cultivating magical ore plants.
 Blocks.DexPack_SPC.MineralCultivatedSoil.name = Mineral Soil
 Blocks.DexPack_SPC.MineralCultivatedSoil.description = Special soil used for cultivating magical ore plants.
+
+Items.DexPack_SPC.Seedbag.ConductiveFlower.name = Conductive Blossom Seeds
+Items.DexPack_SPC.Seedbag.ConductiveFlower.description = Seeds of a conductive ore blossom. Thrives on mineral soil.
+Items.DexPack_SPC.Crop.ConductiveBlossom.name = Conductive Blossom
+Items.DexPack_SPC.Crop.ConductiveBlossom.description = A crackling ore flower charged with latent energy.

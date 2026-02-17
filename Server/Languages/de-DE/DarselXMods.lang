@@ -41,3 +41,8 @@ Blocks.DexPack_SPC.MineralSoil.description = Spezieller Boden, der zur Kultivier
 Blocks.DexPack_SPC.MineralCultivatedSoil.name = Mineralische Erde
 Blocks.DexPack_SPC.MineralCultivatedSoil.description = Spezieller Boden, der zur Kultivierung magischer Erzpflanzen benutzt wird.
 
+Items.DexPack_SPC.Seedbag.ConductiveFlower.name = Samenbeutel Leitblüte
+Items.DexPack_SPC.Seedbag.ConductiveFlower.description = Samen einer leitfähigen Erzpflanze. Gedeiht auf mineralischer Erde.
+Items.DexPack_SPC.Crop.ConductiveBlossom.name = Leitblüte
+Items.DexPack_SPC.Crop.ConductiveBlossom.description = Eine knisternde Erzblüte voller latenter Energie.
+

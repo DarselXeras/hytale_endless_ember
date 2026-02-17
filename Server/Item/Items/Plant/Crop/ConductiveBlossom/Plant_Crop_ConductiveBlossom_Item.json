@@ -1,0 +1,13 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.ConductiveBlossom.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Crop.ConductiveBlossom.description"
+  },
+  "Parent": "Template_Crop_Item",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_ConductiveBlossom_Eternal.png",
+  "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+  "Model": "Resources/Plants/ConductiveBlossom/OreBlossom_05.blockymodel",
+  "Scale": 1.1,
+  "Quality": "Uncommon",
+  "DropOnDeath": true
+}
