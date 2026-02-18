@@ -93,33 +93,33 @@
                                                                        "BlockSoundSetId":  "Plant",
                                                                        "ParticleColor":  "#80cdee"
                                                                    },
-                                                        "Stage5":  {
-                                                                       "CustomModel":  "Resources/Plants/ConductiveBlossom/OreBlossom_05.blockymodel",
-                                                                       "CustomModelTexture":  [
-                                                                                                  {
-                                                                                                      "Texture":  "Resources/Plants/ConductiveBlossom/conductive_flower.png",
-                                                                                                      "Weight":  1
-                                                                                                  }
-                                                                                              ],
-                                                                       "CustomModelScale":  0.5,
-                                                                       "Effect":  [
-                                                                                      "WindFractal"
-                                                                                  ],
-                                                                       "InteractionHint":  "server.interactionHints.harvest",
-                                                                       "Gathering":  {
-                                                                                         "Soft":  {
-                                                                                                      "IsWeaponBreakable":  false,
-                                                                                                      "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage5"
-                                                                                                  },
-                                                                                         "Harvest":  {
-                                                                                                         "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage5_Harvest"
-                                                                                                     }
-                                                                                     },
-                                                                       "BlockParticleSetId":  "Grass",
-                                                                       "BlockSoundSetId":  "Plant",
-                                                                       "HitboxType":  "Plant_Small",
-                                                                       "ParticleColor":  "#8bd7f5"
-                                                                   }
+                                                        "StageFinal":  {
+                                                                           "CustomModel":  "Resources/Plants/ConductiveBlossom/OreBlossom_05.blockymodel",
+                                                                           "CustomModelTexture":  [
+                                                                                                      {
+                                                                                                          "Texture":  "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+                                                                                                          "Weight":  1
+                                                                                                      }
+                                                                                                  ],
+                                                                           "CustomModelScale":  0.5,
+                                                                           "Effect":  [
+                                                                                          "WindFractal"
+                                                                                      ],
+                                                                           "InteractionHint":  "server.interactionHints.harvest",
+                                                                           "Gathering":  {
+                                                                                             "Soft":  {
+                                                                                                          "IsWeaponBreakable":  false,
+                                                                                                          "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage5"
+                                                                                                      },
+                                                                                             "Harvest":  {
+                                                                                                             "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage5_Harvest"
+                                                                                                         }
+                                                                                         },
+                                                                           "BlockParticleSetId":  "Grass",
+                                                                           "BlockSoundSetId":  "Plant",
+                                                                           "HitboxType":  "Plant_Small",
+                                                                           "ParticleColor":  "#8bd7f5"
+                                                                       }
                                                     }
                                 },
                       "Farming":  {
@@ -172,7 +172,7 @@
                                                                      {
                                                                          "Type":  "BlockState",
                                                                          "SoundEventId":  "SFX_Crops_Grow_Stage_Complete",
-                                                                         "State":  "Stage5"
+                                                                         "State":  "StageFinal"
                                                                      }
                                                                  ],
                                                      "Harvested":  [
@@ -215,7 +215,7 @@
                                                                        {
                                                                            "Type":  "BlockState",
                                                                            "SoundEventId":  "SFX_Crops_Grow_Stage_Complete",
-                                                                           "State":  "Stage5"
+                                                                           "State":  "StageFinal"
                                                                        }
                                                                    ]
                                                  },

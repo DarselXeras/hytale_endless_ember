@@ -45,3 +45,6 @@ Items.DexPack_SPC.Seedbag.ConductiveFlower.name = Conductive Blossom Seeds
 Items.DexPack_SPC.Seedbag.ConductiveFlower.description = Seeds of a conductive ore blossom. Thrives on mineral soil.
 Items.DexPack_SPC.Crop.ConductiveBlossom.name = Conductive Blossom
 Items.DexPack_SPC.Crop.ConductiveBlossom.description = A crackling ore flower charged with latent energy.
+
+Items.DexPack_SPC.Ingredient.ConductiveBlossomPollen.name = Conductive Blossom Pollen
+Items.DexPack_SPC.Ingredient.ConductiveBlossomPollen.description = Fine pollen from a conductive ore blossom.
