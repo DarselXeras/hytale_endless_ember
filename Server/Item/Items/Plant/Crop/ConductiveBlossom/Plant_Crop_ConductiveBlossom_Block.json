@@ -127,16 +127,16 @@
         "Default": [
           {
             "Duration": {
-              "Min": 66667,
-              "Max": 66667
+              "Min": 20000,
+              "Max": 20000
             },
             "Type": "BlockState",
             "State": "default"
           },
           {
             "Duration": {
-              "Min": 133333,
-              "Max": 133333
+              "Min": 40000,
+              "Max": 40000
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
@@ -144,8 +144,8 @@
           },
           {
             "Duration": {
-              "Min": 133333,
-              "Max": 133333
+              "Min": 40000,
+              "Max": 40000
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
@@ -153,8 +153,8 @@
           },
           {
             "Duration": {
-              "Min": 133333,
-              "Max": 133333
+              "Min": 40000,
+              "Max": 40000
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
@@ -162,8 +162,8 @@
           },
           {
             "Duration": {
-              "Min": 133334,
-              "Max": 133334
+              "Min": 40000,
+              "Max": 40000
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
@@ -178,8 +178,8 @@
         "Harvested": [
           {
             "Duration": {
-              "Min": 135000,
-              "Max": 135000
+              "Min": 37500,
+              "Max": 37500
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
@@ -187,8 +187,8 @@
           },
           {
             "Duration": {
-              "Min": 135000,
-              "Max": 135000
+              "Min": 37500,
+              "Max": 37500
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
@@ -196,8 +196,8 @@
           },
           {
             "Duration": {
-              "Min": 135000,
-              "Max": 135000
+              "Min": 37500,
+              "Max": 37500
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
@@ -205,8 +205,8 @@
           },
           {
             "Duration": {
-              "Min": 135000,
-              "Max": 135000
+              "Min": 37500,
+              "Max": 37500
             },
             "Type": "BlockState",
             "SoundEventId": "SFX_Crops_Grow",
