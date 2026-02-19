@@ -1,240 +1,240 @@
 {
-    "TranslationProperties":  {
-                                  "Name":  "DarselXMods.Items.DexPack_SPC.Crop.ConductiveBlossom.name"
-                              },
-    "Parent":  "Template_Crop_Block",
-    "BlockType":  {
-                      "RandomRotation":  "YawStep90",
-                      "CustomModelTexture":  [
-                                                 {
-                                                     "Texture":  "Resources/Plants/Seeds_Textures/ConductiveBlossom.png",
-                                                     "Weight":  1
-                                                 }
-                                             ],
-                      "State":  {
-                                    "Definitions":  {
-                                                        "Stage1":  {
-                                                                       "CustomModel":  "Resources/Plants/ConductiveBlossom/OreBlossom_01.blockymodel",
-                                                                       "CustomModelTexture":  [
-                                                                                                  {
-                                                                                                      "Texture":  "Resources/Plants/ConductiveBlossom/conductive_flower.png",
-                                                                                                      "Weight":  1
-                                                                                                  }
-                                                                                              ],
-                                                                       "CustomModelScale":  0.5,
-                                                                       "HitboxType":  "Plant_Small",
-                                                                       "Gathering":  {
-                                                                                         "Soft":  {
-                                                                                                      "IsWeaponBreakable":  false,
-                                                                                                      "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage1"
-                                                                                                  }
-                                                                                     },
-                                                                       "BlockParticleSetId":  "Grass",
-                                                                       "BlockSoundSetId":  "Plant",
-                                                                       "ParticleColor":  "#5db1d8"
-                                                                   },
-                                                        "Stage2":  {
-                                                                       "CustomModel":  "Resources/Plants/ConductiveBlossom/OreBlossom_02.blockymodel",
-                                                                       "CustomModelTexture":  [
-                                                                                                  {
-                                                                                                      "Texture":  "Resources/Plants/ConductiveBlossom/conductive_flower.png",
-                                                                                                      "Weight":  1
-                                                                                                  }
-                                                                                              ],
-                                                                       "CustomModelScale":  0.5,
-                                                                       "HitboxType":  "Plant_Large",
-                                                                       "Gathering":  {
-                                                                                         "Soft":  {
-                                                                                                      "IsWeaponBreakable":  false,
-                                                                                                      "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage2"
-                                                                                                  }
-                                                                                     },
-                                                                       "BlockParticleSetId":  "Grass",
-                                                                       "BlockSoundSetId":  "Plant",
-                                                                       "ParticleColor":  "#6abce0"
-                                                                   },
-                                                        "Stage3":  {
-                                                                       "CustomModel":  "Resources/Plants/ConductiveBlossom/OreBlossom_03.blockymodel",
-                                                                       "CustomModelTexture":  [
-                                                                                                  {
-                                                                                                      "Texture":  "Resources/Plants/ConductiveBlossom/conductive_flower.png",
-                                                                                                      "Weight":  1
-                                                                                                  }
-                                                                                              ],
-                                                                       "CustomModelScale":  0.5,
-                                                                       "HitboxType":  "Plant_Small",
-                                                                       "Gathering":  {
-                                                                                         "Soft":  {
-                                                                                                      "IsWeaponBreakable":  false,
-                                                                                                      "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage3"
-                                                                                                  }
-                                                                                     },
-                                                                       "BlockParticleSetId":  "Grass",
-                                                                       "BlockSoundSetId":  "Plant",
-                                                                       "ParticleColor":  "#74c5e6"
-                                                                   },
-                                                        "Stage4":  {
-                                                                       "CustomModel":  "Resources/Plants/ConductiveBlossom/OreBlossom_04.blockymodel",
-                                                                       "CustomModelTexture":  [
-                                                                                                  {
-                                                                                                      "Texture":  "Resources/Plants/ConductiveBlossom/conductive_flower.png",
-                                                                                                      "Weight":  1
-                                                                                                  }
-                                                                                              ],
-                                                                       "CustomModelScale":  0.5,
-                                                                       "HitboxType":  "Plant_Small",
-                                                                       "Gathering":  {
-                                                                                         "Soft":  {
-                                                                                                      "IsWeaponBreakable":  false,
-                                                                                                      "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage4"
-                                                                                                  }
-                                                                                     },
-                                                                       "BlockParticleSetId":  "Grass",
-                                                                       "BlockSoundSetId":  "Plant",
-                                                                       "ParticleColor":  "#80cdee"
-                                                                   },
-                                                        "StageFinal":  {
-                                                                           "CustomModel":  "Resources/Plants/ConductiveBlossom/OreBlossom_05.blockymodel",
-                                                                           "CustomModelTexture":  [
-                                                                                                      {
-                                                                                                          "Texture":  "Resources/Plants/ConductiveBlossom/conductive_flower.png",
-                                                                                                          "Weight":  1
-                                                                                                      }
-                                                                                                  ],
-                                                                           "CustomModelScale":  0.5,
-                                                                           "Effect":  [
-                                                                                          "WindFractal"
-                                                                                      ],
-                                                                           "InteractionHint":  "server.interactionHints.harvest",
-                                                                           "Gathering":  {
-                                                                                             "Soft":  {
-                                                                                                          "IsWeaponBreakable":  false,
-                                                                                                          "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage5"
-                                                                                                      },
-                                                                                             "Harvest":  {
-                                                                                                             "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Stage5_Harvest"
-                                                                                                         }
-                                                                                         },
-                                                                           "BlockParticleSetId":  "Grass",
-                                                                           "BlockSoundSetId":  "Plant",
-                                                                           "HitboxType":  "Plant_Small",
-                                                                           "ParticleColor":  "#8bd7f5"
-                                                                       }
-                                                    }
-                                },
-                      "Farming":  {
-                                      "Stages":  {
-                                                     "Default":  [
-                                                                     {
-                                                                         "Duration":  {
-                                                                                          "Min":  66667,
-                                                                                          "Max":  66667
-                                                                                      },
-                                                                         "Type":  "BlockState",
-                                                                         "State":  "default"
-                                                                     },
-                                                                     {
-                                                                         "Duration":  {
-                                                                                          "Min":  133333,
-                                                                                          "Max":  133333
-                                                                                      },
-                                                                         "Type":  "BlockState",
-                                                                         "SoundEventId":  "SFX_Crops_Grow",
-                                                                         "State":  "Stage1"
-                                                                     },
-                                                                     {
-                                                                         "Duration":  {
-                                                                                          "Min":  133333,
-                                                                                          "Max":  133333
-                                                                                      },
-                                                                         "Type":  "BlockState",
-                                                                         "SoundEventId":  "SFX_Crops_Grow",
-                                                                         "State":  "Stage2"
-                                                                     },
-                                                                     {
-                                                                         "Duration":  {
-                                                                                          "Min":  133333,
-                                                                                          "Max":  133333
-                                                                                      },
-                                                                         "Type":  "BlockState",
-                                                                         "SoundEventId":  "SFX_Crops_Grow",
-                                                                         "State":  "Stage3"
-                                                                     },
-                                                                     {
-                                                                         "Duration":  {
-                                                                                          "Min":  133334,
-                                                                                          "Max":  133334
-                                                                                      },
-                                                                         "Type":  "BlockState",
-                                                                         "SoundEventId":  "SFX_Crops_Grow",
-                                                                         "State":  "Stage4"
-                                                                     },
-                                                                     {
-                                                                         "Type":  "BlockState",
-                                                                         "SoundEventId":  "SFX_Crops_Grow_Stage_Complete",
-                                                                         "State":  "StageFinal"
-                                                                     }
-                                                                 ],
-                                                     "Harvested":  [
-                                                                       {
-                                                                           "Duration":  {
-                                                                                            "Min":  135000,
-                                                                                            "Max":  135000
-                                                                                        },
-                                                                           "Type":  "BlockState",
-                                                                           "SoundEventId":  "SFX_Crops_Grow",
-                                                                           "State":  "Stage1"
-                                                                       },
-                                                                       {
-                                                                           "Duration":  {
-                                                                                            "Min":  135000,
-                                                                                            "Max":  135000
-                                                                                        },
-                                                                           "Type":  "BlockState",
-                                                                           "SoundEventId":  "SFX_Crops_Grow",
-                                                                           "State":  "Stage2"
-                                                                       },
-                                                                       {
-                                                                           "Duration":  {
-                                                                                            "Min":  135000,
-                                                                                            "Max":  135000
-                                                                                        },
-                                                                           "Type":  "BlockState",
-                                                                           "SoundEventId":  "SFX_Crops_Grow",
-                                                                           "State":  "Stage3"
-                                                                       },
-                                                                       {
-                                                                           "Duration":  {
-                                                                                            "Min":  135000,
-                                                                                            "Max":  135000
-                                                                                        },
-                                                                           "Type":  "BlockState",
-                                                                           "SoundEventId":  "SFX_Crops_Grow",
-                                                                           "State":  "Stage4"
-                                                                       },
-                                                                       {
-                                                                           "Type":  "BlockState",
-                                                                           "SoundEventId":  "SFX_Crops_Grow_Stage_Complete",
-                                                                           "State":  "StageFinal"
-                                                                       }
-                                                                   ]
-                                                 },
-                                      "StartingStageSet":  "Default",
-                                      "ActiveGrowthModifiers":  [
-                                                                    "Fertilizer",
-                                                                    "Water",
-                                                                    "LightLevel"
-                                                                ],
-                                      "StageSetAfterHarvest":  "Harvested"
-                                  },
-                      "Gathering":  {
-                                        "Soft":  {
-                                                     "IsWeaponBreakable":  false,
-                                                     "DropList":  "Drops_Plant_Crop_ConductiveBlossom_Block"
-                                                 }
-                                    },
-                      "CustomModelScale":  0.75,
-                      "ParticleColor":  "#6cbfe2"
-                  },
-    "Icon":  "Icons/ItemsGenerated/Plant_Seeds_ConductiveBlossom_Eternal.png"
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.ConductiveBlossom.name"
+  },
+  "Parent": "Template_Crop_Block",
+  "BlockType": {
+    "RandomRotation": "YawStep90",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Seeds_Textures/ConductiveBlossom.png",
+        "Weight": 1
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "Stage1": {
+          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_01.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Small",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_ConductiveBlossom_Stage1"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#5db1d8"
+        },
+        "Stage2": {
+          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_02.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Large",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_ConductiveBlossom_Stage2"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#6abce0"
+        },
+        "Stage3": {
+          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_03.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Small",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_ConductiveBlossom_Stage3"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#74c5e6"
+        },
+        "Stage4": {
+          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_04.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Small",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_ConductiveBlossom_Stage4"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#80cdee"
+        },
+        "StageFinal": {
+          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_05.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "Effect": [
+            "WindFractal"
+          ],
+          "InteractionHint": "server.interactionHints.harvest",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_ConductiveBlossom_Stage5"
+            },
+            "Harvest": {
+              "DropList": "Drops_Plant_Crop_ConductiveBlossom_Stage5_Harvest"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "HitboxType": "Plant_Small",
+          "ParticleColor": "#8bd7f5"
+        }
+      }
+    },
+    "Farming": {
+      "Stages": {
+        "Default": [
+          {
+            "Duration": {
+              "Min": 66667,
+              "Max": 66667
+            },
+            "Type": "BlockState",
+            "State": "default"
+          },
+          {
+            "Duration": {
+              "Min": 133333,
+              "Max": 133333
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 133333,
+              "Max": 133333
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Duration": {
+              "Min": 133333,
+              "Max": 133333
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage3"
+          },
+          {
+            "Duration": {
+              "Min": 133334,
+              "Max": 133334
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage4"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ],
+        "Harvested": [
+          {
+            "Duration": {
+              "Min": 135000,
+              "Max": 135000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 135000,
+              "Max": 135000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Duration": {
+              "Min": 135000,
+              "Max": 135000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage3"
+          },
+          {
+            "Duration": {
+              "Min": 135000,
+              "Max": 135000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage4"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ]
+      },
+      "StartingStageSet": "Default",
+      "ActiveGrowthModifiers": [
+        "Fertilizer",
+        "Water",
+        "LightLevel"
+      ],
+      "StageSetAfterHarvest": "Harvested"
+    },
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false,
+        "DropList": "Drops_Plant_Crop_ConductiveBlossom_Block"
+      }
+    },
+    "CustomModelScale": 0.75,
+    "ParticleColor": "#6cbfe2"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_ConductiveBlossom_Eternal.png"
 }

@@ -1,14 +1,8 @@
 {
   "Container": {
-    "Type": "Multiple",
-    "Containers": [
-      {
-        "Type": "Single",
-        "Weight": 100.0,
-        "Item": {
-          "ItemId": "Plant_Seeds_ConductiveFlower"
-        }
-      }
-    ]
+    "Type": "Single",
+    "Item": {
+      "ItemId": "Plant_Seeds_ConductiveFlower"
+    }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "Type": "BlockCondition",
+  "Matchers": [
+    {
+      "Block": {
+        "Id": "Soil_Mineral_Cultivated"
+      },
+      "Face": "Up"
+    }
+  ],
+  "Next": {
+    "Type": "Replace",
+    "Var": "SeedId",
+    "DefaultValue": {
+      "Interactions": [
+        "Seed_Place"
+      ]
+    }
+  }
+}

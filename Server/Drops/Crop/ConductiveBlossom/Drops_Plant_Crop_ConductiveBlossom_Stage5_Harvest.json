@@ -6,18 +6,10 @@
         "Type": "Single",
         "Item": {
           "ItemId": "Ingredient_ConductiveBlossom_Pollen",
-          "QuantityMin": 2,
-          "QuantityMax": 4
-        }
-      },
-      {
-        "Type": "Single",
-        "Weight": 35.0,
-        "Item": {
-          "ItemId": "Plant_Seeds_ConductiveFlower",
           "QuantityMin": 1,
           "QuantityMax": 1
-        }
+        },
+        "Weight": 100
       }
     ]
   }

@@ -4,7 +4,10 @@
     "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.ConductiveFlower.description"
   },
   "Parent": "Template_Seeds",
-  "Quality": "Common",
+  "Quality": "Rare",
+  "Interactions": {
+    "Secondary": "Seed_Condition_ConductiveBlossom"
+  },
   "InteractionVars": {
     "SeedId": {
       "Interactions": [
