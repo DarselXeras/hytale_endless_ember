@@ -5,9 +5,6 @@
   },
   "Parent": "Template_Seeds",
   "Quality": "Rare",
-  "Interactions": {
-    "Secondary": "Seed_Condition_ConductiveBlossom"
-  },
   "InteractionVars": {
     "SeedId": {
       "Interactions": [
