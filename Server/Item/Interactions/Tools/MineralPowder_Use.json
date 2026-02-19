@@ -1,0 +1,33 @@
+{
+  "Type": "ChangeBlock",
+  "RunTime": 0.2,
+  "Changes": {
+    "Soil_Dirt": "Soil_Mineral_Cultivated",
+    "Soil_Dirt_Dry": "Soil_Mineral_Cultivated",
+    "Soil_Dirt_Tilled": "Soil_Mineral_Cultivated",
+
+    "Soil_Grass": "Soil_Mineral_Cultivated",
+    "Soil_Grass_Deep": "Soil_Mineral_Cultivated",
+    "Soil_Grass_Dry": "Soil_Mineral_Cultivated",
+    "Soil_Grass_Full": "Soil_Mineral_Cultivated",
+    "Soil_Grass_Sunny": "Soil_Mineral_Cultivated",
+    "Soil_Grass_Wet": "Soil_Mineral_Cultivated",
+
+    "Soil_Mud": "Soil_Mineral_Cultivated",
+    "Soil_Mud_Dry": "Soil_Mineral_Cultivated",
+    "Soil_Leaves": "Soil_Mineral_Cultivated",
+    "Soil_Needles": "Soil_Mineral_Cultivated"
+  },
+  "WorldSoundEventId": "SFX_Hoe_T1_Till",
+  "Effects": {
+    "ItemAnimationId": "Till"
+  },
+  "Next": {
+    "Type": "ModifyInventory",
+    "AdjustHeldItemDurability": -1,
+    "BrokenItem": "Empty"
+  },
+  "Failed": {
+    "Type": "Simple"
+  }
+}
