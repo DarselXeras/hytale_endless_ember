@@ -31,5 +31,40 @@
       45,
       17
     ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Copper_Chunk_Pile",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Powder_DX_Mineral",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_ConductiveFlower",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Plant_Seeds_ConductiveFlower"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_EmberGardening"
+        ]
+      }
+    ],
+    "TimeSeconds": 18,
+    "KnowledgeRequired": false
   }
 }
