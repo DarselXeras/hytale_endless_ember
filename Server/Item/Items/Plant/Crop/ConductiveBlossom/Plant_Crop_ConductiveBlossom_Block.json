@@ -14,7 +14,7 @@
     "State": {
       "Definitions": {
         "Stage1": {
-          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_01.blockymodel",
+          "CustomModel": "Resources/Plants/OreBlossom_01.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
@@ -34,7 +34,7 @@
           "ParticleColor": "#5db1d8"
         },
         "Stage2": {
-          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_02.blockymodel",
+          "CustomModel": "Resources/Plants/OreBlossom_02.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
@@ -54,7 +54,7 @@
           "ParticleColor": "#6abce0"
         },
         "Stage3": {
-          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_03.blockymodel",
+          "CustomModel": "Resources/Plants/OreBlossom_03.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
@@ -74,7 +74,7 @@
           "ParticleColor": "#74c5e6"
         },
         "Stage4": {
-          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_04.blockymodel",
+          "CustomModel": "Resources/Plants/OreBlossom_04.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
@@ -94,7 +94,7 @@
           "ParticleColor": "#80cdee"
         },
         "StageFinal": {
-          "CustomModel": "Resources/Plants/ConductiveBlossom/OreBlossom_05.blockymodel",
+          "CustomModel": "Resources/Plants/OreBlossom_05.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
