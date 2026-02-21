@@ -37,6 +37,41 @@
   },
   "DropOnDeath": true,
   "MaxStack": 1,
-  "MaxDurability": 6,
-  "DurabilityLossOnDeath": false
+  "MaxDurability": 5,
+  "DurabilityLossOnDeath": false,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Copper_Chunk_Pile",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Iron_Chunk_Pile",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Silver_Chunk_Pile",
+        "Quantity": 5
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ingredient_Powder_DX_Mineral",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ingredient_Powder_DX_Mineral"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_EmberGardening"
+        ]
+      }
+    ],
+    "TimeSeconds": 10,
+    "KnowledgeRequired": false
+  }
 }
