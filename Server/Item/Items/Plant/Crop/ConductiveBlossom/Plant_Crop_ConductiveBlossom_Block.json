@@ -105,6 +105,43 @@
           "Effect": [
             "WindFractal"
           ],
+          "Particles": [
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb",
+              "Color": "#8bd7f5",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb2",
+              "Color": "#8bd7f5",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb3",
+              "Color": "#8bd7f5",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb4",
+              "Color": "#8bd7f5",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb5",
+              "Color": "#8bd7f5",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            }
+          ],
           "InteractionHint": "server.interactionHints.harvest",
           "Gathering": {
             "Soft": {
@@ -118,6 +155,10 @@
           "BlockParticleSetId": "Grass",
           "BlockSoundSetId": "Plant",
           "HitboxType": "Plant_Small",
+          "Light": {
+            "Color": "#6b2800",
+            "Radius": 1
+          },
           "ParticleColor": "#8bd7f5"
         }
       }
