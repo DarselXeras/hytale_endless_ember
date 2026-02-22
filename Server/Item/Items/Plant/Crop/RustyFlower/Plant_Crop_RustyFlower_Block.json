@@ -1,0 +1,281 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.RustyBlossom.name"
+  },
+  "Parent": "Template_Crop_Block",
+  "BlockType": {
+    "RandomRotation": "YawStep90",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Seeds_Textures/ConductiveBlossom.png",
+        "Weight": 1
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "Stage1": {
+          "CustomModel": "Resources/Plants/OreBlossom_01.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/RustyFlower/rusty_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Small",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_RustyFlower_Stage1"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#83756d"
+        },
+        "Stage2": {
+          "CustomModel": "Resources/Plants/OreBlossom_02.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/RustyFlower/rusty_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Large",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_RustyFlower_Stage2"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#83756d"
+        },
+        "Stage3": {
+          "CustomModel": "Resources/Plants/OreBlossom_03.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/RustyFlower/rusty_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Small",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_RustyFlower_Stage3"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#83756d"
+        },
+        "Stage4": {
+          "CustomModel": "Resources/Plants/OreBlossom_04.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/RustyFlower/rusty_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "HitboxType": "Plant_Small",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_RustyFlower_Stage4"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#83756d"
+        },
+        "StageFinal": {
+          "CustomModel": "Resources/Plants/OreBlossom_05.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Plants/RustyFlower/rusty_flower.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.5,
+          "Effect": [
+            "WindFractal"
+          ],
+          "Particles": [
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb",
+              "Color": "#83756d",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb2",
+              "Color": "#83756d",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb3",
+              "Color": "#83756d",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb4",
+              "Color": "#83756d",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            },
+            {
+              "SystemId": "Block_Gem_Sparks",
+              "TargetNodeName": "bulb5",
+              "Color": "#83756d",
+              "Scale": 0.18,
+              "DetachedFromModel": false
+            }
+          ],
+          "InteractionHint": "server.interactionHints.harvest",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_RustyFlower_Stage5"
+            },
+            "Harvest": {
+              "DropList": "Drops_Plant_Crop_RustyFlower_Stage5_Harvest"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "HitboxType": "Plant_Small",
+          "Light": {
+            "Color": "#443228",
+            "Radius": 1
+          },
+          "ParticleColor": "#8bd7f5"
+        }
+      }
+    },
+    "Farming": {
+      "Stages": {
+        "Default": [
+          {
+            "Duration": {
+              "Min": 20000,
+              "Max": 20000
+            },
+            "Type": "BlockState",
+            "State": "default"
+          },
+          {
+            "Duration": {
+              "Min": 40000,
+              "Max": 40000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 40000,
+              "Max": 40000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Duration": {
+              "Min": 40000,
+              "Max": 40000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage3"
+          },
+          {
+            "Duration": {
+              "Min": 40000,
+              "Max": 40000
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage4"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ],
+        "Harvested": [
+          {
+            "Duration": {
+              "Min": 37500,
+              "Max": 37500
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 37500,
+              "Max": 37500
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Duration": {
+              "Min": 37500,
+              "Max": 37500
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage3"
+          },
+          {
+            "Duration": {
+              "Min": 37500,
+              "Max": 37500
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage4"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ]
+      },
+      "StartingStageSet": "Default",
+      "ActiveGrowthModifiers": [
+        "Fertilizer",
+        "Water",
+        "LightLevel"
+      ],
+      "StageSetAfterHarvest": "Harvested"
+    },
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false,
+        "DropList": "Drops_Plant_Crop_ConductiveBlossom_Block"
+      }
+    },
+    "CustomModelScale": 0.75,
+    "ParticleColor": "#6cbfe2"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_RustyFlower_Eternal.png"
+}

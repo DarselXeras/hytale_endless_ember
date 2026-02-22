@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.RustyFlower.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.RustyFlower.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Rare",
+  "Interactions": {
+    "Secondary": "Seed_Condition_RustyBlossom"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Plant_Crop_RustyFlower_Block"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Plants/SeedBag_Textures/RustyFlower.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_RustyFlower_Eternal.png",
+  "IconProperties": {
+    "Scale": 0.715,
+    "Translation": [
+      0,
+      -14.3
+    ],
+    "Rotation": [
+      17,
+      45,
+      17
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Iron_Chunk_Pile",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Powder_DX_Mineral",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_RustyFlower",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Plant_Seeds_RustyFlower"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_EmberGardening"
+        ]
+      }
+    ],
+    "TimeSeconds": 18,
+    "KnowledgeRequired": false
+  }
+}
+
+

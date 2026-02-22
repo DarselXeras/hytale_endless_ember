@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyBlossomPollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyBlossomPollen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/RustyFlowerPollen_Icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": true,
+  "Model": "Items/conductive_blossom_pollen.blockymodel",
+  "Texture": "Resources/Plants/RustyFlower/rusty_flower.png",
+  "Quality": "Common",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "MaxStack": 64
+}
