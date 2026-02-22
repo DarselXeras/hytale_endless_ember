@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyBlossomPollen.name",
-    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyBlossomPollen.description"
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyFlowerPollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyFlowerPollen.description"
   },
   "Icon": "Icons/ItemsGenerated/RustyFlowerPollen_Icon.png",
   "Categories": [

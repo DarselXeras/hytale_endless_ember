@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Crop.RustyBlossom.name"
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.RustyFlower.name"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

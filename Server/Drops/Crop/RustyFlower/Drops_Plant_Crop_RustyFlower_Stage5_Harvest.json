@@ -5,7 +5,7 @@
       {
         "Type": "Single",
         "Item": {
-          "ItemId": "Ingredient_RustyBlossom_Pollen",
+          "ItemId": "Ingredient_RustyFlower_Pollen",
           "QuantityMin": 1,
           "QuantityMax": 1
         },
