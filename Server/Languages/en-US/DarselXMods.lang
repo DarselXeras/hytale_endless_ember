@@ -63,3 +63,5 @@ Items.DexPack_SPC.ThoriumChunkPile.description = A pile of roughly crushed thori
 Items.DexPack_SPC.ThoriumChunkPile.name = Pile of Thorium Chunks
 Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name = Ember Gardening
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Fuel
+Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.name = Advanced mineral powder
+Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.description = Highly concentrated mineral powder for very mineral-rich soil.

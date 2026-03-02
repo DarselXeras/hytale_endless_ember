@@ -63,3 +63,5 @@ Items.DexPack_SPC.ThoriumChunkPile.description = Ein Haufen grober Thoriumklumpe
 Items.DexPack_SPC.ThoriumChunkPile.name = Haufen Thoriumklumpen
 Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name = Glut Gärtnerei
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Brennstoff
+Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.name = Fortgeschrittenes Mineralienpulver
+Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.description = Hochkonzentriertes Mineralienpulver für sehr mineralreiche Erde.

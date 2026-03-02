@@ -63,3 +63,5 @@ Items.DexPack_SPC.ThoriumChunkPile.description = Un tas de gros morceaux de thor
 Items.DexPack_SPC.ThoriumChunkPile.name = Tas de morceaux de thorium
 Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name = Jardinerie de braises
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = combustible
+Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.name = Poudre minérale avancée
+Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.description = Poudre minérale hautement concentrée pour une terre très riche en minéraux.

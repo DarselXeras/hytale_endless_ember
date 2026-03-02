@@ -4,7 +4,7 @@
     "Description": "DarselXMods.Blocks.DexPack_SPC.AdvancedMineralSoil.description"
   },
   "ItemLevel": 10,
-  "Icon": "Icons/ItemsGenerated/mineral_soil_icon.png",
+  "Icon": "Icons/ItemsGenerated/mineral_soil_icon_2.png",
   "Categories": [
     "Blocks.Soils"
   ],

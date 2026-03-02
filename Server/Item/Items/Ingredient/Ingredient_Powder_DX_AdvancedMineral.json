@@ -1,15 +1,15 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.MineralPowder.name",
-    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.MineralPowder.description"
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.description"
   },
   "Categories": [
     "Items.Tools"
   ],
   "Model": "Resources/Ingredients/Mineral_Powder_Bag.blockymodel",
   "Texture": "Resources/Ingredients/Mineral_Powder_Bag_Texture.png",
-  "Quality": "Uncommon",
-  "ItemLevel": 10,
+  "Quality": "Rare",
+  "ItemLevel": 20,
   "PlayerAnimationsId": "Item",
   "IconProperties": {
     "Scale": 0.7,
@@ -25,7 +25,7 @@
   },
   "Icon": "Icons/ItemsGenerated/Ingredient_Powder_DX_Mineral.png",
   "Interactions": {
-    "Secondary": "MineralPowder_Use"
+    "Secondary": "AdvancedMineralPowder_Use"
   },
   "Tags": {
     "Type": [
@@ -42,26 +42,26 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Copper_Chunk_Pile",
-        "Quantity": 5
+        "ItemId": "Ingredient_Thorium_Chunk_Pile",
+        "Quantity": 10
       },
       {
-        "ItemId": "Ingredient_Iron_Chunk_Pile",
-        "Quantity": 5
+        "ItemId": "Ingredient_Cobalt_Chunk_Pile",
+        "Quantity": 8
       },
       {
-        "ItemId": "Ingredient_Silver_Chunk_Pile",
-        "Quantity": 5
+        "ItemId": "Ingredient_Gold_Chunk_Pile",
+        "Quantity": 8
       }
     ],
     "Output": [
       {
-        "ItemId": "Ingredient_Powder_DX_Mineral",
+        "ItemId": "Ingredient_Powder_DX_AdvancedMineral",
         "Quantity": 1
       }
     ],
     "PrimaryOutput": {
-      "ItemId": "Ingredient_Powder_DX_Mineral"
+      "ItemId": "Ingredient_Powder_DX_AdvancedMineral"
     },
     "BenchRequirement": [
       {
@@ -71,7 +71,7 @@
         ]
       }
     ],
-    "TimeSeconds": 10,
+    "TimeSeconds": 14,
     "KnowledgeRequired": false
   }
 }
