@@ -1,0 +1,18 @@
+{
+  "QualityValue": 1000,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipCreative.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipCreativeArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotCreaative.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotCreaative.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotCreaative.png",
+  "TextColor": "#ff00ff",
+  "LocalizationKey": "DarselXMods.ItemQuality.General.Qualities.Creative",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "HideFromSearch": true,
+  "ItemEntityConfig": {
+    "ParticleColor": "#ff00ff",
+    "ShowItemParticles": true,
+    "ParticleSystemId": "Drop_Epic"
+  }
+}

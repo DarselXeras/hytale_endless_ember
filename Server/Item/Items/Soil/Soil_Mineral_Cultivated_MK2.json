@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Blocks.DexPack_SPC.AdvancedMineralSoil.name",
+    "Description": "DarselXMods.Blocks.DexPack_SPC.AdvancedMineralSoil.description"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/mineral_soil_icon.png",
+  "Categories": [
+    "Blocks.Soils"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "ResourceTypes": [
+    {
+      "Id": "Soils"
+    }
+  ],
+  "BlockType": {
+    "RandomRotation": "YawStep1",
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "BlockParticleSetId": "Dirt",
+    "Textures": [
+      {
+        "Down": "BlockTextures/mineral_soil_sides.png",
+        "Sides": "BlockTextures/mineral_soil_sides.png",
+        "Up": "BlockTextures/mineral_soil_2_top.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#3f658b",
+    "BlockSoundSetId": "Dirt",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ],
+    "Family": [
+      "Dirt"
+    ],
+    "SubType": [
+      "AdvancedMineralCultivated"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "MaxStack": 1
+}

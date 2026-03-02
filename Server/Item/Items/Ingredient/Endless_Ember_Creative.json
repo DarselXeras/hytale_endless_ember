@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.EndlessEmber.Creative.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.EndlessEmber.Creative.description"
+  },
+  "Icon": "Icons/ItemsGenerated/eemki_creative_icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "RequiredGameMode": "Creative",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/endless_ember_item.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/eemki_creative_texture.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Rubble",
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {},
+      "Harvest": {}
+    },
+    "BlockParticleSetId": "Crystal",
+    "BlockSoundSetId": "Brazier",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "CubeShadingMode": "Standard",
+    "ParticleColor": "#ff0000"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    }
+  ],
+  "FuelQuality": 31000000,
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "DropOnDeath": true,
+  "Model": "Items/endless_ember_item.blockymodel",
+  "Texture": "Items/eemki_creative_texture.png",
+  "Quality": "Creative",
+  "Scale": 1,
+  "ItemLevel": 5,
+  "MaxStack": 1,
+  "ItemEntity": {
+    "ParticleColor": "#fe0000",
+    "ShowItemParticles": true
+  }
+}
