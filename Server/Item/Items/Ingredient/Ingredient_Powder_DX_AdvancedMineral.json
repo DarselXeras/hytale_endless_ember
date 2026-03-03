@@ -47,11 +47,11 @@
       },
       {
         "ItemId": "Ingredient_Cobalt_Chunk_Pile",
-        "Quantity": 8
+        "Quantity": 10
       },
       {
         "ItemId": "Ingredient_Gold_Chunk_Pile",
-        "Quantity": 8
+        "Quantity": 10
       }
     ],
     "Output": [

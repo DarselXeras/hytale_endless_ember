@@ -1,25 +1,25 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.ConductiveFlower.name",
-    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.ConductiveFlower.description"
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.BlueStarFlower.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.BlueStarFlower.description"
   },
   "Parent": "Template_Seeds",
-  "Quality": "Uncommon",
+  "Quality": "Rare",
   "Interactions": {
-    "Secondary": "Seed_Condition_ConductiveBlossom"
+    "Secondary": "Seed_Condition_BlueStarFlower"
   },
   "InteractionVars": {
     "SeedId": {
       "Interactions": [
         {
           "Parent": "Seed_Place",
-          "BlockTypeToPlace": "Plant_Crop_ConductiveBlossom_Block"
+          "BlockTypeToPlace": "Plant_Crop_BlueStarFlower_Block"
         }
       ]
     }
   },
-  "Texture": "Resources/Plants/SeedBag_Textures/ConductiveFlower.png",
-  "Icon": "Icons/ItemsGenerated/Plant_Seeds_ConductiveBlossom_Eternal.png",
+  "Texture": "Resources/Plants/SeedBag_Textures/BlueStarFlower.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_BlueStarFlower_Eternal.png",
   "IconProperties": {
     "Scale": 0.715,
     "Translation": [
@@ -35,26 +35,26 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Copper_Chunk_Pile",
-        "Quantity": 20
+        "ItemId": "Ingredient_Cobalt_Chunk_Pile",
+        "Quantity": 25
       },
       {
-        "ItemId": "Ingredient_Powder_DX_Mineral",
+        "ItemId": "Ingredient_Powder_DX_AdvancedMineral",
         "Quantity": 1
       },
       {
         "ItemId": "Ingredient_Life_Essence_Concentrated",
-        "Quantity": 1
+        "Quantity": 2
       }
     ],
     "Output": [
       {
-        "ItemId": "Plant_Seeds_ConductiveFlower",
+        "ItemId": "Plant_Seeds_BlueStarFlower",
         "Quantity": 1
       }
     ],
     "PrimaryOutput": {
-      "ItemId": "Plant_Seeds_ConductiveFlower"
+      "ItemId": "Plant_Seeds_BlueStarFlower"
     },
     "BenchRequirement": [
       {

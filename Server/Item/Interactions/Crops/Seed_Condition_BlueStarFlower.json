@@ -3,14 +3,9 @@
   "Matchers": [
     {
       "Block": {
-        "Id": "Soil_Mineral_Cultivated"
+        "Id": "Soil_Mineral_Cultivated_MK2"
       },
       "Face": "Up"
-    },
-    {
-      "Block": {
-        "Id": "Soil_Mineral_Cultivated_MK2"
-      }
     }
   ],
   "Next": {

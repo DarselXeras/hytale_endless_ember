@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.BlueStarFlowerPollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.BlueStarFlowerPollen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/BlueStarFlowerPollen_Icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": true,
+  "Model": "Items/conductive_blossom_pollen.blockymodel",
+  "Texture": "Resources/Plants/BlueStarFlower/blue_staar_flower.png",
+  "Quality": "Common",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "MaxStack": 64
+}

@@ -4,7 +4,7 @@
     "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.MirrorFlower.description"
   },
   "Parent": "Template_Seeds",
-  "Quality": "Rare",
+  "Quality": "Uncommon",
   "Interactions": {
     "Secondary": "Seed_Condition_MirrorFlower"
   },

@@ -6,6 +6,11 @@
         "Id": "Soil_Mineral_Cultivated"
       },
       "Face": "Up"
+    },
+    {
+      "Block": {
+        "Id": "Soil_Mineral_Cultivated_MK2"
+      }
     }
   ],
   "Next": {
