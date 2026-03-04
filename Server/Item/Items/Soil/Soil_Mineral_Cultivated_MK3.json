@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Blocks.DexPack_SPC.AdvancedMineralSoil.name",
-    "Description": "DarselXMods.Blocks.DexPack_SPC.AdvancedMineralSoil.description"
+    "Name": "DarselXMods.Blocks.DexPack_SPC.PremiumMineralSoil.name",
+    "Description": "DarselXMods.Blocks.DexPack_SPC.PremiumMineralSoil.description"
   },
   "ItemLevel": 10,
-  "Icon": "Icons/ItemsGenerated/mineral_soil_icon_2.png",
+  "Icon": "Icons/ItemsGenerated/mineral_soil_icon_3.png",
   "Categories": [
     "Blocks.Soils"
   ],
@@ -31,7 +31,7 @@
       {
         "Down": "BlockTextures/mineral_soil_sides.png",
         "Sides": "BlockTextures/mineral_soil_sides.png",
-        "Up": "BlockTextures/mineral_soil_2_top.png",
+        "Up": "BlockTextures/mineral_soil_3_top.png",
         "Weight": 1
       }
     ],
