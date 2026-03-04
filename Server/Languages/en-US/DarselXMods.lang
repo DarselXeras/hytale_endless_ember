@@ -77,3 +77,10 @@ Items.DexPack_SPC.Seedbag.GlitterThistle.name = Glitter Thistle seed bag
 Items.DexPack_SPC.Seedbag.GlitterThistle.description = Seeds of a glittering thistle. Thrives only on cultivated MK2 mineral soil.
 Items.DexPack_SPC.Ingredient.GlitterThistlePollen.name = Glitter Thistle pollen
 Items.DexPack_SPC.Ingredient.GlitterThistlePollen.description = Fine glittering pollen from the Glitter Thistle with a golden sheen.
+
+Items.DexPack_SPC.Crop.AurumBloom.name = Aurum Bloom
+Items.DexPack_SPC.Crop.AurumBloom.description = A rare gold-shimmering ore blossom with a warm sparkle.
+Items.DexPack_SPC.Seedbag.AurumBloom.name = Aurum Bloom seed bag
+Items.DexPack_SPC.Seedbag.AurumBloom.description = Seeds of the Aurum Bloom. Thrives only on cultivated MK2 mineral soil.
+Items.DexPack_SPC.Ingredient.AurumBloomPollen.name = Aurum Bloom pollen
+Items.DexPack_SPC.Ingredient.AurumBloomPollen.description = Fine golden pollen from the Aurum Bloom.

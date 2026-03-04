@@ -77,3 +77,10 @@ Items.DexPack_SPC.Seedbag.GlitterThistle.name = Sachet de graines Chardon scinti
 Items.DexPack_SPC.Seedbag.GlitterThistle.description = Graines d'un chardon étincelant. Pousse uniquement sur un sol minéral cultivé MK2.
 Items.DexPack_SPC.Ingredient.GlitterThistlePollen.name = Pollen de chardon scintillant
 Items.DexPack_SPC.Ingredient.GlitterThistlePollen.description = Pollen fin et scintillant du chardon, avec un éclat doré.
+
+Items.DexPack_SPC.Crop.AurumBloom.name = Fleur d'Aurum
+Items.DexPack_SPC.Crop.AurumBloom.description = Une fleur de minerai rare au scintillement doré et chaleureux.
+Items.DexPack_SPC.Seedbag.AurumBloom.name = Sachet de graines Fleur d'Aurum
+Items.DexPack_SPC.Seedbag.AurumBloom.description = Graines de la Fleur d'Aurum. Pousse uniquement sur un sol minéral cultivé MK2.
+Items.DexPack_SPC.Ingredient.AurumBloomPollen.name = Pollen de Fleur d'Aurum
+Items.DexPack_SPC.Ingredient.AurumBloomPollen.description = Pollen fin et doré de la Fleur d'Aurum.

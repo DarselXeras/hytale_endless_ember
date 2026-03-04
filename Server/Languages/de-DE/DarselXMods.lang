@@ -77,3 +77,10 @@ Items.DexPack_SPC.Seedbag.GlitterThistle.name = Samenbeutel Schimmerdistel
 Items.DexPack_SPC.Seedbag.GlitterThistle.description = Samen einer funkelnden Distel. Gedeiht nur auf kultivierter MK2-Mineralerde.
 Items.DexPack_SPC.Ingredient.GlitterThistlePollen.name = Schimmerdistelpollen
 Items.DexPack_SPC.Ingredient.GlitterThistlePollen.description = Feiner, glitzernder Pollen der Schimmerdistel mit goldenem Schimmer.
+
+Items.DexPack_SPC.Crop.AurumBloom.name = Aurumblüte
+Items.DexPack_SPC.Crop.AurumBloom.description = Eine seltene, goldschimmernde Erzblüte mit warmem Funkeln.
+Items.DexPack_SPC.Seedbag.AurumBloom.name = Samenbeutel Aurumblüte
+Items.DexPack_SPC.Seedbag.AurumBloom.description = Samen der Aurumblüte. Gedeiht nur auf kultivierter MK2-Mineralerde.
+Items.DexPack_SPC.Ingredient.AurumBloomPollen.name = Aurumblütenpollen
+Items.DexPack_SPC.Ingredient.AurumBloomPollen.description = Feiner goldener Pollen der Aurumblüte.
