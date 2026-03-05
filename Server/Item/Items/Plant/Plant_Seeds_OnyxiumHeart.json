@@ -56,7 +56,8 @@
     "PrimaryOutput": {
       "ItemId": "Plant_Seeds_OnyxiumHeart"
     },
-    "TimeSeconds": 22,
-    "KnowledgeRequired": false
+    "TimeSeconds": 30,
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 4
   }
 }

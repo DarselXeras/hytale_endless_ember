@@ -60,10 +60,12 @@
         "Id": "Ember_Tinkerbench",
         "Categories": [
           "Ember_Tinkerbench_EmberGardening"
-        ]
+        ],
+        "RequiredTierLevel": 3
       }
     ],
     "TimeSeconds": 14,
-    "KnowledgeRequired": false
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 4
   }
 }
