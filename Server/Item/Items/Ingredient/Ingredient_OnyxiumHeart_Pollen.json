@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.OnyxiumHeartPollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.OnyxiumHeartPollen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/onyxium_heart_pollen.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": true,
+  "Model": "Items/conductive_blossom_pollen.blockymodel",
+  "Texture": "Resources/Plants/OnyxiumHeart/onyxium_heart.png",
+  "Quality": "Rare",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "MaxStack": 100
+}

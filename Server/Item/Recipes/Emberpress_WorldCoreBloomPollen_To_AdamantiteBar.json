@@ -1,0 +1,23 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_WorldCoreBloom_Pollen",
+      "Quantity": 5
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Adamantite"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Onyxium_Chunk_Pile"
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "EmberPress"
+    }
+  ],
+  "TimeSeconds": 35
+}

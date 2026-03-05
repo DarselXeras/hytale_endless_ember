@@ -1,0 +1,16 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Ingredient_MysticalMountainEye_Pollen",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        },
+        "Weight": 100
+      }
+    ]
+  }
+}

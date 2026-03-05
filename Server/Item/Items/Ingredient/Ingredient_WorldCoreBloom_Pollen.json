@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.WorldCoreBloomPollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.WorldCoreBloomPollen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/WorldCoreBloomPollen_Icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": true,
+  "Model": "Items/conductive_blossom_pollen.blockymodel",
+  "Texture": "Resources/Plants/WorldCoreBloom/world_core_bloom.png",
+  "Quality": "Rare",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "MaxStack": 100
+}

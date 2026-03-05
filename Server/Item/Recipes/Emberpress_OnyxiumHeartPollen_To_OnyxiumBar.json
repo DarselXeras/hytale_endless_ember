@@ -1,17 +1,17 @@
 {
   "Input": [
     {
-      "ItemId": "Ingredient_GlitterThistle_Pollen",
+      "ItemId": "Ingredient_OnyxiumHeart_Pollen",
       "Quantity": 5
     }
   ],
   "Output": [
     {
-      "ItemId": "Ingredient_Bar_Gold"
+      "ItemId": "Ingredient_Bar_Onyxium"
     }
   ],
   "PrimaryOutput": {
-    "ItemId": "Ingredient_Bar_Gold"
+    "ItemId": "Ingredient_Onyxium_Chunk_Pile"
   },
   "BenchRequirement": [
     {
@@ -19,5 +19,5 @@
       "Id": "EmberPress"
     }
   ],
-  "TimeSeconds": 30
+  "TimeSeconds": 35
 }

@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.MysticalMountainEyePollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.MysticalMountainEyePollen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/MysticMountainEyePollen_Icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": true,
+  "Model": "Items/conductive_blossom_pollen.blockymodel",
+  "Texture": "Resources/Plants/MysticalMountainEye/mystic_mountain_eye.png",
+  "Quality": "Rare",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "MaxStack": 100
+}

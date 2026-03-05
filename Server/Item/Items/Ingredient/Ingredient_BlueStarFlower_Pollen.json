@@ -16,8 +16,8 @@
   "DropOnDeath": true,
   "Model": "Items/conductive_blossom_pollen.blockymodel",
   "Texture": "Resources/Plants/BlueStarFlower/blue_staar_flower.png",
-  "Quality": "Common",
+  "Quality": "Uncommon",
   "Scale": 1,
   "ItemLevel": 1,
-  "MaxStack": 64
+  "MaxStack": 100
 }

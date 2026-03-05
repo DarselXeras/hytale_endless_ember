@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.MysticalMountainEye.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.MysticalMountainEye.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Creative",
+  "Interactions": {
+    "Secondary": "Seed_Condition_MysticalMountainEye"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Plant_Crop_MysticalMountainEye_Block"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Plants/SeedBag_Textures/MysticalMountainEye.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_MyticalMountainEye_Eternal.png",
+  "IconProperties": {
+    "Scale": 0.715,
+    "Translation": [
+      0,
+      -14.3
+    ],
+    "Rotation": [
+      17,
+      45,
+      17
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Mithril_Chunk_Pile",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Powder_DX_PremiumMineral",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 3
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_MysticalMountainEye",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Plant_Seeds_MysticalMountainEye"
+    },
+    "TimeSeconds": 22,
+    "KnowledgeRequired": false
+  }
+}

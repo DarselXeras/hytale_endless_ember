@@ -25,7 +25,7 @@
   },
   "Icon": "Icons/ItemsGenerated/Ingredient_Powder_DX_Mineral.png",
   "Interactions": {
-    "Secondary": "AdvancedMineralPowder_Use"
+    "Secondary": "PremiumMineralPowder_Use"
   },
   "Tags": {
     "Type": [
@@ -43,25 +43,17 @@
     "Input": [
       {
         "ItemId": "Ingredient_Adamandite_Chunk_Pile",
-        "Quantity": 10
-      },
-      {
-        "ItemId": "Ingredient_Mithril_Chunk_Pile",
-        "Quantity": 10
-      },
-      {
-        "ItemId": "Ingredient_Onyxium_Chunk_Pile",
-        "Quantity": 10
+        "Quantity": 30
       }
     ],
     "Output": [
       {
-        "ItemId": "Ingredient_Powder_DX_AdvancedMineral",
+        "ItemId": "Ingredient_Powder_DX_PremiumMineral",
         "Quantity": 1
       }
     ],
     "PrimaryOutput": {
-      "ItemId": "Ingredient_Powder_DX_AdvancedMineral"
+      "ItemId": "Ingredient_Powder_DX_PremiumMineral"
     },
     "BenchRequirement": [
       {
