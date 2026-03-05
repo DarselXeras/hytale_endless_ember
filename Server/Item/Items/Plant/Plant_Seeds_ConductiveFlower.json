@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.ConductiveFlower.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.ConductiveFlower.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Uncommon",
+  "Interactions": {
+    "Secondary": "Seed_Condition_ConductiveBlossom"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Plant_Crop_ConductiveBlossom_Block"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Plants/SeedBag_Textures/ConductiveFlower.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_ConductiveBlossom_Eternal.png",
+  "IconProperties": {
+    "Scale": 0.715,
+    "Translation": [
+      0,
+      -14.3
+    ],
+    "Rotation": [
+      17,
+      45,
+      17
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Copper_Chunk_Pile",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Powder_DX_Mineral",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_ConductiveFlower",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Plant_Seeds_ConductiveFlower"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_EmberGardening"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "TimeSeconds": 5,
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 2
+  }
+}

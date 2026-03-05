@@ -103,6 +103,11 @@
           "Id": "Ember_Tinkerbench_Fuel",
           "Name": "DarselXMods.Items.Ember_Tinkerbench.Bench.Categories.Fuel.name",
           "Icon": "Icons/CraftingCategories/EndlessEmber/fuel.png"
+        },
+        {
+          "Id": "Ember_Tinkerbench_EmberGardening",
+          "Name": "DarselXMods.Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/ember_gardening.png"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",

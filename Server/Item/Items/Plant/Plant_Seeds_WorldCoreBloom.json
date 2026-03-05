@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.WorldCoreBloom.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.WorldCoreBloom.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Epic",
+  "Interactions": {
+    "Secondary": "Seed_Condition_WorldCoreBloom"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Plant_Crop_WorldCoreBloom_Block"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Plants/SeedBag_Textures/WorldCoreBloom.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_WorldCoreBloom_Eternal.png",
+  "IconProperties": {
+    "Scale": 0.715,
+    "Translation": [
+      0,
+      -14.3
+    ],
+    "Rotation": [
+      17,
+      45,
+      17
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Adamandite_Chunk_Pile",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Powder_DX_PremiumMineral",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 3
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_WorldCoreBloom",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Plant_Seeds_WorldCoreBloom"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_EmberGardening"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "TimeSeconds": 30,
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 4
+  }
+}

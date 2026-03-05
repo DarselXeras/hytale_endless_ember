@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.OnyxiumHeart.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.OnyxiumHeart.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Creative",
+  "Interactions": {
+    "Secondary": "Seed_Condition_OnyxiumHeart"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Plant_Crop_OnyxiumHeart_Block"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Plants/SeedBag_Textures/OnyxiumHeart.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_OnyxiumHeart_Eternal.png",
+  "IconProperties": {
+    "Scale": 0.715,
+    "Translation": [
+      0,
+      -14.3
+    ],
+    "Rotation": [
+      17,
+      45,
+      17
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Onyxium_Chunk_Pile",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Powder_DX_PremiumMineral",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 3
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_OnyxiumHeart",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Plant_Seeds_OnyxiumHeart"
+    },
+    "TimeSeconds": 30,
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 4
+  }
+}

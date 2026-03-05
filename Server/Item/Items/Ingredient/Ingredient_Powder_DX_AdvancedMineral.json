@@ -1,0 +1,79 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.AdvancedMineralPowder.description"
+  },
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Model": "Resources/Ingredients/Mineral_Powder_Bag.blockymodel",
+  "Texture": "Resources/Ingredients/Mineral_Powder_Bag_Texture.png",
+  "Quality": "Rare",
+  "ItemLevel": 20,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Translation": [
+      0.6,
+      -9.6
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Powder_DX_Mineral.png",
+  "Interactions": {
+    "Secondary": "AdvancedMineralPowder_Use"
+  },
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true,
+  "MaxStack": 1,
+  "MaxDurability": 5,
+  "DurabilityLossOnDeath": false,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Thorium_Chunk_Pile",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Cobalt_Chunk_Pile",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Gold_Chunk_Pile",
+        "Quantity": 10
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ingredient_Powder_DX_AdvancedMineral",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ingredient_Powder_DX_AdvancedMineral"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_EmberGardening"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 14,
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 3
+  }
+}

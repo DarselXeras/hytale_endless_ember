@@ -1,0 +1,23 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_MysticalMountainEye_Pollen",
+      "Quantity": 5
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Mithril"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Mithril"
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "EmberPress"
+    }
+  ],
+  "TimeSeconds": 35
+}

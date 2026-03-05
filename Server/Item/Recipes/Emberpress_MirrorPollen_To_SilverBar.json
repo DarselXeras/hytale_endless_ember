@@ -1,0 +1,23 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_MirrorFlower_Pollen",
+      "Quantity": 5
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Silver"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Silver"
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "EmberPress"
+    }
+  ],
+  "TimeSeconds": 30
+}

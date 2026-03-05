@@ -1,0 +1,15 @@
+{
+  "Input": [
+    { "ItemId": "Ingredient_AurumBloom_Pollen", "Quantity": 5 }
+  ],
+  "Output": [
+    { "ItemId": "Ingredient_Bar_Gold" }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Gold"
+  },
+  "BenchRequirement": [
+    { "Type": "Processing", "Id": "EmberPress" }
+  ],
+  "TimeSeconds": 30
+}

@@ -1,0 +1,23 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_RustyFlower_Pollen",
+      "Quantity": 5
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Iron"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Copper"
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "EmberPress"
+    }
+  ],
+  "TimeSeconds": 30
+}

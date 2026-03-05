@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.ConductiveBlossomPollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.ConductiveBlossomPollen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/OreBlossomPollen_Icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": true,
+  "Model": "Items/conductive_blossom_pollen.blockymodel",
+  "Texture": "Resources/Plants/ConductiveBlossom/conductive_flower.png",
+  "Quality": "Common",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "MaxStack": 100
+}

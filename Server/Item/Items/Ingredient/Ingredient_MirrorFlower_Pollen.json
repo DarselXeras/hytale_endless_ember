@@ -1,0 +1,23 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.MirrorFlowerPollen.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.MirrorFlowerPollen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/MirrorFlowerPollen_Icon.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "DropOnDeath": true,
+  "Model": "Items/conductive_blossom_pollen.blockymodel",
+  "Texture": "Resources/Plants/MirrorFlower/mirror_flower.png",
+  "Quality": "Common",
+  "Scale": 1,
+  "ItemLevel": 1,
+  "MaxStack": 100
+}

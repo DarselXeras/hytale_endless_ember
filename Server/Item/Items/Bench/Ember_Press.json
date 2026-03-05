@@ -61,13 +61,50 @@
         ],
         "PerFuelItemsConsumed": 2
       },
-      "OutputSlotsCount": 6,
+      "OutputSlotsCount": 2,
       "LocalOpenSoundEventId": "SFX_Furnace_Bench_Open",
       "LocalCloseSoundEventId": "SFX_Furnace_Bench_Close",
       "CompletedSoundEventId": "SFX_EmberPress_Processing_End",
       "EndSoundEventId": "SFX_Furnace_Bench_Processing_End",
       "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
-      "Id": "EmberPress"
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "EmberPress",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Iron",
+                "Quantity": 12
+              },
+              {
+                "ItemId": "Pressed_Coal_Rod",
+                "Quantity": 4
+              },
+              {
+                "ItemId": "Ingredient_Charcoal",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Ingredient_Life_Essence",
+                "Quantity": 8
+              },
+              {
+                "ItemId": "Ingredient_Powder_Boom",
+                "Quantity": 4
+              }
+            ],
+            "TimeSeconds": 15
+          },
+          "CraftingTimeReductionModifier": 0.0
+        },
+        {
+          "CraftingTimeReductionModifier": 0.1,
+          "ExtraInputSlot": 1,
+          "ExtraOutputSlot": 2
+        }
+      ]
     },
     "State": {
       "Id": "processingBench",
