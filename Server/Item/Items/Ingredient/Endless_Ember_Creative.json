@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Items.DexPack_SPC.EndlessEmber.Creative.name",
     "Description": "DarselXMods.Items.DexPack_SPC.EndlessEmber.Creative.description"
   },
-  "Icon": "Icons/ItemsGenerated/eemki_creative_icon.png",
+  "Icon": "Icons/ItemsGenerated/Endless_Ember_Creative.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -62,5 +62,17 @@
   "ItemEntity": {
     "ParticleColor": "#fe0000",
     "ShowItemParticles": true
+  },
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -9
+    ]
   }
 }

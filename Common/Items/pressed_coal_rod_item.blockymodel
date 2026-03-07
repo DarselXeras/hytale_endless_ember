@@ -40,7 +40,7 @@
             "angle": 0
           },
           "bottom": {
-            "offset": {"x": 53, "y": 19},
+            "offset": {"x": 29, "y": 14},
             "mirror": {"x": true, "y": false},
             "angle": 0
           }

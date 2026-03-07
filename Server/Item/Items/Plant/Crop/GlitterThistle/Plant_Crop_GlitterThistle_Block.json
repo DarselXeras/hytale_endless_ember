@@ -277,5 +277,17 @@
     "CustomModelScale": 0.75,
     "ParticleColor": "#ffd86b"
   },
-  "Icon": "Icons/ItemsGenerated/Plant_Seeds_GlitterThistle_Eternal.png"
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_GlitterThistle_Block.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      1
+    ]
+  }
 }

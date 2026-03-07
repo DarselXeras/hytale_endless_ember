@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Items.DexPack_SPC.EndlessEmber.MK1.name",
     "Description": "DarselXMods.Items.DexPack_SPC.EndlessEmber.MK1.description"
   },
-  "Icon": "Icons/ItemsGenerated/eemk1_icon.png",
+  "Icon": "Icons/ItemsGenerated/Endless_Ember_MK1.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -92,5 +92,17 @@
     "RequiredMemoriesLevel": 1,
     "KnowledgeRequired": false
   },
-  "MaxStack": 25
+  "MaxStack": 25,
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -9
+    ]
+  }
 }

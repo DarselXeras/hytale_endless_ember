@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyFlowerPollen.name",
     "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.RustyFlowerPollen.description"
   },
-  "Icon": "Icons/ItemsGenerated/RustyFlowerPollen_Icon.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_RustyFlower_Pollen.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -19,5 +19,17 @@
   "Quality": "Common",
   "Scale": 1,
   "ItemLevel": 1,
-  "MaxStack": 100
+  "MaxStack": 100,
+  "IconProperties": {
+    "Scale": 1.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  }
 }

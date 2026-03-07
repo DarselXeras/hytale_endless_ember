@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Blocks.DexPack_SPC.EmberTinkerbench.name",
     "Description": "DarselXMods.Blocks.DexPack_SPC.EmberTinkerbench.description"
   },
-  "Icon": "Icons/ItemsGenerated/EmberTinkerbench_icon.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Tinkerbench.png",
   "Categories": [
     "Furniture.Benches"
   ],
@@ -205,15 +205,15 @@
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.37,
-    "Translation": [
-      11.4,
-      -15
-    ],
+    "Scale": 0.4,
     "Rotation": [
       22.5,
       45,
       22.5
+    ],
+    "Translation": [
+      11,
+      -12
     ]
   },
   "Tags": {

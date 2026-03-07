@@ -4,7 +4,7 @@
     "Description": "DarselXMods.Blocks.DexPack_SPC.PremiumMineralSoil.description"
   },
   "ItemLevel": 10,
-  "Icon": "Icons/ItemsGenerated/mineral_soil_icon_3.png",
+  "Icon": "Icons/ItemsGenerated/Soil_Mineral_Cultivated_MK3.png",
   "Categories": [
     "Blocks.Soils"
   ],
@@ -51,5 +51,17 @@
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Soft",
-  "MaxStack": 50
+  "MaxStack": 50,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
 }
