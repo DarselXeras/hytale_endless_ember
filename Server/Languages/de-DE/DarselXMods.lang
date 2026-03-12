@@ -105,3 +105,5 @@ Items.DexPack_SPC.ThoriumChunkPile.description = Ein Haufen grober Thoriumklumpe
 Items.DexPack_SPC.ThoriumChunkPile.name = Haufen Thoriumklumpen
 Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name = Glut Gärtnerei
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Brennstoff
+Items.Tools.Sickle.SilverSickle.description = Eine einfache Sichel aus Holz und Silber gefertigt. Sie scheint recht robust zu sein.
+Items.Tools.Sickle.SilverSickle.name = Silbersichel
