@@ -7,7 +7,6 @@
   "Categories": [
     "Items.Ingredients"
   ],
-  "RequiredGameMode": "Creative",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -28,7 +27,7 @@
       "Harvest": {}
     },
     "BlockParticleSetId": "Crystal",
-    "BlockSoundSetId": "Brazier",
+    "BlockSoundSetId": "Stone",
     "Support": {
       "Down": [
         {

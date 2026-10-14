@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Crop.MirrorFlower.name"
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.MirrorFlower.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Crop.MirrorFlower.description"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

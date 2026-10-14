@@ -243,63 +243,43 @@ public class EndlessEmberPlugin extends JavaPlugin {
     }
 
     private void registerCreativeOnlyInventoryGuard() {
-        try {
-            Class<?> eventClass = Class.forName("com.hypixel.hytale.server.core.event.events.entity.LivingEntityInventoryChangeEvent");
-            Object eventRegistry = this.getClass().getMethod("getEventRegistry").invoke(this);
-            java.util.function.Consumer<Object> handler = this::onInventoryChangeReflective;
-
-            for (var m : eventRegistry.getClass().getMethods()) {
-                if (!m.getName().equals("registerGlobal")) continue;
-                Class<?>[] p = m.getParameterTypes();
-                if (p.length != 2) continue;
-                if (!Class.class.isAssignableFrom(p[0])) continue;
-                if (!java.util.function.Consumer.class.isAssignableFrom(p[1])) continue;
-                m.invoke(eventRegistry, eventClass, handler);
-                getLogger().at(Level.INFO).log("Endless Ember: Creative-only inventory guard enabled for " + CREATIVE_ONLY_ITEM_ID);
-                return;
-            }
-
-            getLogger().at(Level.WARNING).log("Endless Ember: could not hook inventory guard (registerGlobal overload not found).");
-        } catch (Throwable t) {
-            getLogger().at(Level.WARNING).log("Endless Ember: failed to enable inventory guard: " + t.getMessage());
-        }
+        getEntityStoreRegistry().registerSystem(new CreativeEmberInventoryGuard());
+        getLogger().at(Level.INFO).log("Endless Ember: Creative-only inventory guard enabled for " + CREATIVE_ONLY_ITEM_ID);
     }
 
-    private void onInventoryChangeReflective(Object event) {
-        try {
-            Object entity = event.getClass().getMethod("getEntity").invoke(event);
-            if (entity == null) return;
+    private static final class CreativeEmberInventoryGuard extends
+            com.hypixel.hytale.component.system.EntityEventSystem<
+                    com.hypixel.hytale.server.core.universe.world.storage.EntityStore,
+                    com.hypixel.hytale.server.core.event.events.ecs.InventoryChangeEvent> {
+        CreativeEmberInventoryGuard() {
+            super(com.hypixel.hytale.server.core.event.events.ecs.InventoryChangeEvent.class);
+        }
 
-            // Only handle players; avoid hard dependency on Player class at compile time.
-            Class<?> playerClass = Class.forName("com.hypixel.hytale.server.core.entity.entities.Player");
-            if (!playerClass.isInstance(entity)) return;
+        @Override
+        public com.hypixel.hytale.component.query.Query<
+                com.hypixel.hytale.server.core.universe.world.storage.EntityStore> getQuery() {
+            return com.hypixel.hytale.server.core.entity.entities.Player.getComponentType();
+        }
 
-            Object gameMode = entity.getClass().getMethod("getGameMode").invoke(entity);
-            if (gameMode != null && "Creative".equals(String.valueOf(gameMode))) return;
-
-            Object inventory = entity.getClass().getMethod("getInventory").invoke(entity);
-            Object combined = inventory.getClass().getMethod("getCombinedHotbarFirst").invoke(inventory);
-            short capacity = ((Number) combined.getClass().getMethod("getCapacity").invoke(combined)).shortValue();
-
-            Class<?> itemStackClass = Class.forName("com.hypixel.hytale.server.core.inventory.ItemStack");
-            var isEmptyMethod = itemStackClass.getMethod("isEmpty", itemStackClass);
-            var getItemIdMethod = itemStackClass.getMethod("getItemId");
-
-            for (short slot = 0; slot < capacity; slot++) {
-                Object stack = combined.getClass().getMethod("getItemStack", short.class).invoke(combined, slot);
-                boolean empty = (Boolean) isEmptyMethod.invoke(null, stack);
-                if (empty) continue;
-
-                String itemId = (String) getItemIdMethod.invoke(stack);
-                if (CREATIVE_ONLY_ITEM_ID.equals(itemId)) {
-                    combined.getClass().getMethod("removeItemStackFromSlot", short.class).invoke(combined, slot);
+        @Override
+        public void handle(int index,
+                com.hypixel.hytale.component.ArchetypeChunk<com.hypixel.hytale.server.core.universe.world.storage.EntityStore> chunk,
+                com.hypixel.hytale.component.Store<com.hypixel.hytale.server.core.universe.world.storage.EntityStore> store,
+                com.hypixel.hytale.component.CommandBuffer<com.hypixel.hytale.server.core.universe.world.storage.EntityStore> commandBuffer,
+                com.hypixel.hytale.server.core.event.events.ecs.InventoryChangeEvent event) {
+            var player = chunk.getComponent(index,
+                    com.hypixel.hytale.server.core.entity.entities.Player.getComponentType());
+            if (player == null || player.getGameMode() == com.hypixel.hytale.protocol.GameMode.Creative) return;
+            var container = event.getItemContainer();
+            for (short slot = 0; slot < container.getCapacity(); slot++) {
+                var stack = container.getItemStack(slot);
+                if (!com.hypixel.hytale.server.core.inventory.ItemStack.isEmpty(stack)
+                        && CREATIVE_ONLY_ITEM_ID.equals(stack.getItemId())) {
+                    container.removeItemStackFromSlot(slot);
                 }
             }
-        } catch (Throwable ignored) {
-            // Silent by design to avoid log spam on high-frequency inventory updates.
         }
     }
-
     private String stripExtension(String filename) {
         int i = filename.lastIndexOf('.');
         return i > 0 ? filename.substring(0, i) : filename;

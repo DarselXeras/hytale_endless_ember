@@ -25,7 +25,6 @@
       "Color": "#000"
     },
     "State": {
-      "Id": "crafting",
       "Definitions": {
         "CraftCompleted": {
           "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
@@ -44,9 +43,12 @@
           ],
           "HitboxType": "Bench_Workbench",
           "State": {
-            "Id": "crafting",
             "Definitions": {
               "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim",
+                "Looping": true
+              },
+              "CraftCompletedInstant": {
                 "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim"
               }
             }
@@ -62,9 +64,12 @@
           ],
           "HitboxType": "Bench_Workbench",
           "State": {
-            "Id": "crafting",
             "Definitions": {
               "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim",
+                "Looping": true
+              },
+              "CraftCompletedInstant": {
                 "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
               }
             }
@@ -80,9 +85,12 @@
           ],
           "HitboxType": "Bench_Workbench",
           "State": {
-            "Id": "crafting",
             "Definitions": {
               "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim",
+                "Looping": true
+              },
+              "CraftCompletedInstant": {
                 "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
               }
             }
@@ -191,6 +199,11 @@
         }
       ]
     },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
     "BlockParticleSetId": "Stone",
     "ParticleColor": "#3e5c5c",
     "Support": {
@@ -223,16 +236,10 @@
   },
   "MaxStack": 1,
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Interactions": {},
-  "Scale": 1,
-  "Model": "Blocks/Benches/EmberTinkerbench_MK1.blockymodel",
-  "Texture": "Blocks/Benches/EmberTinkertableMK1.png",
-  "Container": {
-    "GlobalFilter": "AllowAll"
-  },
   "Recipe": {
     "BenchRequirement": [
       {
+        "Type": "Crafting",
         "Id": "Workbench",
         "Categories": [
           "Workbench_Crafting"
@@ -246,7 +253,6 @@
       },
       {
         "ResourceTypeId": "Rock",
-        "ItemTag": "",
         "Quantity": 10
       },
       {
@@ -262,63 +268,11 @@
         "Quantity": 25
       }
     ],
-    "PrimaryOutput": {
-      "ItemId": "Ember_Tinkerbench"
-    },
     "Output": [
       {
-        "ItemId": "Ember_Tinkerbench",
-        "Quantity": 1
+        "ItemId": "Ember_Tinkerbench"
       }
     ],
-    "State": {
-      "Id": "crafting",
-      "Definitions": {
-        "CraftCompleted": {
-          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
-          "Looping": true
-        },
-        "CraftCompletedInstant": {
-          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
-        },
-        "Tier2": {
-          "CustomModel": "Blocks/Benches/Workbench2.blockymodel",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Benches/Workbench2_Texture.png",
-              "Weight": 1
-            }
-          ],
-          "HitboxType": "Bench_Workbench2",
-          "State": {
-            "Id": "crafting",
-            "Definitions": {
-              "CraftCompleted": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim"
-              }
-            }
-          }
-        },
-        "Tier3": {
-          "CustomModel": "Blocks/Benches/Workbench3.blockymodel",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Benches/Workbench3_Texture.png",
-              "Weight": 1
-            }
-          ],
-          "HitboxType": "Bench_Workbench3",
-          "State": {
-            "Id": "crafting",
-            "Definitions": {
-              "CraftCompleted": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
-              }
-            }
-          }
-        }
-      }
-    },
     "TimeSeconds": 10,
     "KnowledgeRequired": false
   }

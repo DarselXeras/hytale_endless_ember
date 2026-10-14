@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Crop.AurumBloom.name"
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.AurumBloom.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Crop.AurumBloom.description"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Crop.WorldCoreBloom.name"
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.WorldCoreBloom.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Crop.WorldCoreBloom.description"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

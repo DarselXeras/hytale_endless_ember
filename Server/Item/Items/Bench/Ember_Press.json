@@ -67,8 +67,6 @@
       "CompletedSoundEventId": "SFX_EmberPress_Processing_End",
       "EndSoundEventId": "SFX_Furnace_Bench_Processing_End",
       "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
-      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
-      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Id": "EmberPress",
       "TierLevels": [
         {
@@ -106,8 +104,13 @@
         }
       ]
     },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {},
+        "ProcessingBenchBlock": {}
+      }
+    },
     "State": {
-      "Id": "processingBench",
       "Definitions": {
         "Processing": {
           "Looping": true,

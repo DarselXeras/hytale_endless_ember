@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Crop.OnyxiumHeart.name"
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.OnyxiumHeart.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Crop.OnyxiumHeart.description"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

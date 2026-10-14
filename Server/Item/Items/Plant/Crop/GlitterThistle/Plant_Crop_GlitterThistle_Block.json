@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Crop.GlitterThistle.name"
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.GlitterThistle.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Crop.GlitterThistle.description"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

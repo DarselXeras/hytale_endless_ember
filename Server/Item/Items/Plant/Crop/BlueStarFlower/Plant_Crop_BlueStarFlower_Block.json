@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "DarselXMods.Items.DexPack_SPC.Crop.BlueStarFlower.name"
+    "Name": "DarselXMods.Items.DexPack_SPC.Crop.BlueStarFlower.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Crop.BlueStarFlower.description"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

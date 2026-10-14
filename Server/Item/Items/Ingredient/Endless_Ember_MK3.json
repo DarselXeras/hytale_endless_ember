@@ -27,7 +27,7 @@
       "Harvest": {}
     },
     "BlockParticleSetId": "Dust",
-    "BlockSoundSetId": "Brazier",
+    "BlockSoundSetId": "Stone",
     "Support": {
       "Down": [
         {
