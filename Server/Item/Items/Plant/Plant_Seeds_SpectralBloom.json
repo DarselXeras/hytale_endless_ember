@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.Seedbag.SpectralBloom.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.Seedbag.SpectralBloom.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Epic",
+  "Interactions": {
+    "Secondary": "Seed_Condition_SpectralBloom"
+  },
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Plant_Crop_SpectralBloom_Block"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Plants/SeedBag_Textures/SpectralBloom.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_SpectralBloom.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      11,
+      29,
+      14
+    ],
+    "Translation": [
+      1,
+      -11
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Prisma_Chunk_Pile",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Powder_DX_PremiumMineral",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 3
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_SpectralBloom",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Plant_Seeds_SpectralBloom"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_EmberGardening"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "TimeSeconds": 30,
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 4
+  }
+}

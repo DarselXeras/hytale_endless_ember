@@ -1,0 +1,24 @@
+{
+    "Input":  [
+                  {
+                      "ItemId":  "Ingredient_SpectralBloom_Pollen",
+                      "Quantity":  5
+                  }
+              ],
+    "Output":  [
+                   {
+                       "ItemId":  "Ingredient_Bar_Prisma",
+                       "Quantity":  1
+                   }
+               ],
+    "PrimaryOutput":  {
+                          "ItemId":  "Ingredient_Bar_Prisma"
+                      },
+    "BenchRequirement":  [
+                             {
+                                 "Type":  "Processing",
+                                 "Id":  "EmberPress"
+                             }
+                         ],
+    "TimeSeconds":  35
+}
