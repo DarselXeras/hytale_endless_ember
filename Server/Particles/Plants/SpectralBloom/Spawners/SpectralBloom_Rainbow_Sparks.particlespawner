@@ -1,0 +1,218 @@
+{
+    "RenderMode":  "BlendAdd",
+    "EmitOffset":  {
+                       "Y":  {
+                                 "Min":  0.04,
+                                 "Max":  0.9
+                             },
+                       "Z":  {
+                                 "Min":  -0.4,
+                                 "Max":  0.4
+                             },
+                       "X":  {
+                                 "Min":  -0.4,
+                                 "Max":  0.4
+                             }
+                   },
+    "ParticleRotationInfluence":  "Billboard",
+    "LinearFiltering":  true,
+    "LightInfluence":  0.0,
+    "ParticleRotateWithSpawner":  false,
+    "TrailSpawnerPositionMultiplier":  1,
+    "TrailSpawnerRotationMultiplier":  1,
+    "MaxConcurrentParticles":  4,
+    "ParticleLifeSpan":  {
+                             "Min":  14,
+                             "Max":  24
+                         },
+    "SpawnRate":  {
+                      "Min":  0.35,
+                      "Max":  0.8
+                  },
+    "InitialVelocity":  {
+                            "Speed":  {
+                                          "Min":  0.12,
+                                          "Max":  0.5
+                                      },
+                            "Yaw":  {
+                                        "Min":  0,
+                                        "Max":  360
+                                    },
+                            "Pitch":  {
+                                          "Min":  70,
+                                          "Max":  90
+                                      }
+                        },
+    "TotalParticles":  {
+                           "Min":  -1,
+                           "Max":  -1
+                       },
+    "Particle":  {
+                     "Texture":  "Particles/Textures/Basic/Glow_Star.png",
+                     "FrameSize":  {
+                                       "Width":  32,
+                                       "Height":  32
+                                   },
+                     "ScaleRatioConstraint":  "OneToOne",
+                     "Animation":  {
+                                       "0":  {
+                                                 "Color":  "#ff3030",
+                                                 "Opacity":  0,
+                                                 "Scale":  {
+                                                               "Y":  {
+                                                                         "Min":  1.5,
+                                                                         "Max":  1.5
+                                                                     },
+                                                               "X":  {
+                                                                         "Min":  1.5,
+                                                                         "Max":  1.5
+                                                                     }
+                                                           }
+                                             },
+                                       "3":  {
+                                                 "Color":  "#ff3030",
+                                                 "Opacity":  0.65,
+                                                 "Scale":  {
+                                                               "Y":  {
+                                                                         "Min":  1.5,
+                                                                         "Max":  1.5
+                                                                     },
+                                                               "X":  {
+                                                                         "Min":  1.5,
+                                                                         "Max":  1.5
+                                                                     }
+                                                           }
+                                             },
+                                       "16":  {
+                                                  "Color":  "#ff8c20",
+                                                  "Opacity":  0.65,
+                                                  "Scale":  {
+                                                                "Y":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      },
+                                                                "X":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      }
+                                                            }
+                                              },
+                                       "32":  {
+                                                  "Color":  "#ffe030",
+                                                  "Opacity":  0.65,
+                                                  "Scale":  {
+                                                                "Y":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      },
+                                                                "X":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      }
+                                                            }
+                                              },
+                                       "48":  {
+                                                  "Color":  "#40ef55",
+                                                  "Opacity":  0.65,
+                                                  "Scale":  {
+                                                                "Y":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      },
+                                                                "X":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      }
+                                                            }
+                                              },
+                                       "64":  {
+                                                  "Color":  "#30dfff",
+                                                  "Opacity":  0.65,
+                                                  "Scale":  {
+                                                                "Y":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      },
+                                                                "X":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      }
+                                                            }
+                                              },
+                                       "80":  {
+                                                  "Color":  "#5060ff",
+                                                  "Opacity":  0.65,
+                                                  "Scale":  {
+                                                                "Y":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      },
+                                                                "X":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      }
+                                                            }
+                                              },
+                                       "94":  {
+                                                  "Color":  "#df40ff",
+                                                  "Opacity":  0.65,
+                                                  "Scale":  {
+                                                                "Y":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      },
+                                                                "X":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      }
+                                                            }
+                                              },
+                                       "97":  {
+                                                  "Color":  "#ff3030",
+                                                  "Opacity":  0.65,
+                                                  "Scale":  {
+                                                                "Y":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      },
+                                                                "X":  {
+                                                                          "Min":  1.5,
+                                                                          "Max":  1.5
+                                                                      }
+                                                            }
+                                              },
+                                       "100":  {
+                                                   "Color":  "#ff3030",
+                                                   "Opacity":  0,
+                                                   "Scale":  {
+                                                                 "Y":  {
+                                                                           "Min":  1.5,
+                                                                           "Max":  1.5
+                                                                       },
+                                                                 "X":  {
+                                                                           "Min":  1.5,
+                                                                           "Max":  1.5
+                                                                       }
+                                                             }
+                                               }
+                                   },
+                     "InitialAnimationFrame":  {
+                                                   "Scale":  {
+                                                                 "Y":  {
+                                                                           "Min":  0.18,
+                                                                           "Max":  0.5
+                                                                       },
+                                                                 "X":  {
+                                                                           "Min":  0.18,
+                                                                           "Max":  0.5
+                                                                       }
+                                                             },
+                                                   "Opacity":  1,
+                                                   "Color":  "#ffffff",
+                                                   "FrameIndex":  {
+                                                                      "Min":  0,
+                                                                      "Max":  0
+                                                                  }
+                                               }
+                 }
+}

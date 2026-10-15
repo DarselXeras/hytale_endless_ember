@@ -15,7 +15,7 @@
                       "State":  {
                                     "Definitions":  {
                                                         "Stage1":  {
-                                                                       "CustomModel":  "Resources/Plants/OreBlossom_01.blockymodel",
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_01_spec.blockymodel",
                                                                        "CustomModelTexture":  [
                                                                                                   {
                                                                                                       "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
@@ -35,7 +35,7 @@
                                                                        "ParticleColor":  "#68e8ff"
                                                                    },
                                                         "Stage2":  {
-                                                                       "CustomModel":  "Resources/Plants/OreBlossom_02.blockymodel",
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_02_spec.blockymodel",
                                                                        "CustomModelTexture":  [
                                                                                                   {
                                                                                                       "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
@@ -55,7 +55,7 @@
                                                                        "ParticleColor":  "#b58cff"
                                                                    },
                                                         "Stage3":  {
-                                                                       "CustomModel":  "Resources/Plants/OreBlossom_03.blockymodel",
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_03_spec.blockymodel",
                                                                        "CustomModelTexture":  [
                                                                                                   {
                                                                                                       "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
@@ -75,7 +75,7 @@
                                                                        "ParticleColor":  "#ff82d5"
                                                                    },
                                                         "Stage4":  {
-                                                                       "CustomModel":  "Resources/Plants/OreBlossom_04.blockymodel",
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_04_spec.blockymodel",
                                                                        "CustomModelTexture":  [
                                                                                                   {
                                                                                                       "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
@@ -95,7 +95,7 @@
                                                                        "ParticleColor":  "#ffd26f"
                                                                    },
                                                         "StageFinal":  {
-                                                                           "CustomModel":  "Resources/Plants/OreBlossom_05_Mid.blockymodel",
+                                                                           "CustomModel":  "Resources/Plants/OreBlossom_05_Mid_spec.blockymodel",
                                                                            "CustomModelTexture":  [
                                                                                                       {
                                                                                                           "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
@@ -108,39 +108,59 @@
                                                                                       ],
                                                                            "Particles":  [
                                                                                              {
-                                                                                                 "SystemId":  "Block_Gem_Sparks",
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow",
                                                                                                  "TargetNodeName":  "bulb",
-                                                                                                 "Color":  "#68e8ff",
-                                                                                                 "Scale":  0.18,
-                                                                                                 "DetachedFromModel":  false
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
                                                                                              },
                                                                                              {
-                                                                                                 "SystemId":  "Block_Gem_Sparks",
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_2",
                                                                                                  "TargetNodeName":  "bulb2",
-                                                                                                 "Color":  "#b58cff",
-                                                                                                 "Scale":  0.18,
-                                                                                                 "DetachedFromModel":  false
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
                                                                                              },
                                                                                              {
-                                                                                                 "SystemId":  "Block_Gem_Sparks",
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_3",
                                                                                                  "TargetNodeName":  "bulb3",
-                                                                                                 "Color":  "#ff82d5",
-                                                                                                 "Scale":  0.18,
-                                                                                                 "DetachedFromModel":  false
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
                                                                                              },
                                                                                              {
-                                                                                                 "SystemId":  "Block_Gem_Sparks",
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_4",
                                                                                                  "TargetNodeName":  "bulb4",
-                                                                                                 "Color":  "#ffd26f",
-                                                                                                 "Scale":  0.18,
-                                                                                                 "DetachedFromModel":  false
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
                                                                                              },
                                                                                              {
-                                                                                                 "SystemId":  "Block_Gem_Sparks",
-                                                                                                 "TargetNodeName":  "bulb5",
-                                                                                                 "Color":  "#83ffd5",
-                                                                                                 "Scale":  0.18,
-                                                                                                 "DetachedFromModel":  false
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_5",
+                                                                                                 "TargetNodeName":  "bulb6",
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
                                                                                              }
                                                                                          ],
                                                                            "InteractionHint":  "server.interactionHints.harvest",

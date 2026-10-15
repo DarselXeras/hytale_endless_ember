@@ -1,0 +1,16 @@
+{
+    "Spawners":  [
+                     {
+                         "FixedRotation":  true,
+                         "PositionOffset":  {
+                                                "Y":  0,
+                                                "Z":  0,
+                                                "X":  0
+                                            },
+                         "SpawnerId":  "SpectralBloom_Rainbow_Sparks",
+                         "StartDelay":  2.3
+                     }
+                 ],
+    "BoundingRadius":  4,
+    "CullDistance":  20
+}
