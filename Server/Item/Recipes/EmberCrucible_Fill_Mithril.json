@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Fluid_Capsule_Empty",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Bar_Mithril",
+      "Quantity": 100
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Fluid_Capsule_Mithril",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Fluid_Capsule_Mithril",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Ember_Crucible"
+    }
+  ],
+  "TimeSeconds": 112
+}

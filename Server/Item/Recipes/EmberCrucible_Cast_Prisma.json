@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Fluid_Capsule_Prisma",
+      "Quantity": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Prisma",
+      "Quantity": 100
+    },
+    {
+      "ItemId": "Fluid_Capsule_Empty",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Prisma",
+    "Quantity": 100
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Ember_Crucible"
+    }
+  ],
+  "TimeSeconds": 16
+}

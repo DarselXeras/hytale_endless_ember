@@ -1,0 +1,17 @@
+{
+  "Interactions": [
+    {
+      "Type": "ChangeState",
+      "Changes": {
+        "default": "R45",
+        "R45": "R90",
+        "R90": "R135",
+        "R135": "R180",
+        "R180": "R225",
+        "R225": "R270",
+        "R270": "R315",
+        "R315": "default"
+      }
+    }
+  ]
+}

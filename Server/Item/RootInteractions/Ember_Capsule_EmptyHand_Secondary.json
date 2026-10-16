@@ -1,0 +1,12 @@
+{
+  "Cooldown": {
+    "Id": "EmberCapsuleRotate",
+    "Cooldown": 0.25,
+    "ClickBypass": true
+  },
+  "Interactions": [
+    {
+      "Type": "UseBlock"
+    }
+  ]
+}
