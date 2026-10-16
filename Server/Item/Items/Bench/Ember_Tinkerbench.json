@@ -27,11 +27,11 @@
     "State": {
       "Definitions": {
         "CraftCompleted": {
-          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
+          "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK1.blockyanim",
           "Looping": true
         },
         "CraftCompletedInstant": {
-          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
+          "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK1.blockyanim"
         },
         "Tier2": {
           "CustomModel": "Blocks/Benches/EmberTinkerbench_MK2.blockymodel",
@@ -45,11 +45,11 @@
           "State": {
             "Definitions": {
               "CraftCompleted": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim",
+                "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK2.blockyanim",
                 "Looping": true
               },
               "CraftCompletedInstant": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench2_Crafting.blockyanim"
+                "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK2.blockyanim"
               }
             }
           }
@@ -66,11 +66,11 @@
           "State": {
             "Definitions": {
               "CraftCompleted": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim",
+                "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK3.blockyanim",
                 "Looping": true
               },
               "CraftCompletedInstant": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
+                "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK3.blockyanim"
               }
             }
           }
@@ -87,11 +87,11 @@
           "State": {
             "Definitions": {
               "CraftCompleted": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim",
+                "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK4.blockyanim",
                 "Looping": true
               },
               "CraftCompletedInstant": {
-                "CustomModelAnimation": "Blocks/Benches/Workbench3_Crafting.blockyanim"
+                "CustomModelAnimation": "Blocks/Benches/EndlessEmber/Tinkerbench_Crafting_MK4.blockyanim"
               }
             }
           }
