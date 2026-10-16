@@ -19,17 +19,17 @@
     }
   },
   "Texture": "Resources/Plants/SeedBag_Textures/BlueStarFlower.png",
-  "Icon": "Icons/ItemsGenerated/Plant_Seeds_BlueStarFlower_Eternal.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_BlueStarFlower.png",
   "IconProperties": {
-    "Scale": 0.715,
-    "Translation": [
-      0,
-      -14.3
-    ],
+    "Scale": 1.1,
     "Rotation": [
-      17,
-      45,
-      17
+      11,
+      29,
+      14
+    ],
+    "Translation": [
+      1,
+      -11
     ]
   },
   "Recipe": {

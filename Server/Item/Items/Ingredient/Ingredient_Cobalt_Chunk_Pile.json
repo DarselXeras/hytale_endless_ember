@@ -12,15 +12,15 @@
   "ItemLevel": 10,
   "PlayerAnimationsId": "Item",
   "IconProperties": {
-    "Scale": 0.75,
-    "Translation": [
-      0,
-      -8.0
-    ],
+    "Scale": 2.5,
     "Rotation": [
       22.5,
       45,
       22.5
+    ],
+    "Translation": [
+      0,
+      -1
     ]
   },
   "Icon": "Icons/ItemsGenerated/Ingredient_Cobalt_Chunk_Pile.png",

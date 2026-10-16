@@ -1,79 +1,79 @@
 {
-    "TranslationProperties":  {
-                                  "Name":  "DarselXMods.Items.DexPack_SPC.SilverChunkPile.name",
-                                  "Description":  "DarselXMods.Items.DexPack_SPC.SilverChunkPile.description"
-                              },
-    "Categories":  [
-                       "Items.Ingredients"
-                   ],
-    "Model":  "Resources/Ingredients/OreNuggets.blockymodel",
-    "Texture":  "Resources/Ingredients/silver_chunks_texture.png",
-    "Quality":  "Common",
-    "ItemLevel":  10,
-    "PlayerAnimationsId":  "Item",
-    "IconProperties":  {
-                           "Scale":  0.75,
-                           "Translation":  [
-                                               0,
-                                               -8.0
-                                           ],
-                           "Rotation":  [
-                                            22.5,
-                                            45,
-                                            22.5
-                                        ]
-                       },
-    "Icon":  "Icons/ItemsGenerated/Ingredient_Silver_Chunk_Pile.png",
-    "Tags":  {
-                 "Type":  [
-                              "Ingredient"
-                          ]
-             },
-    "ItemEntity":  {
-                       "ParticleSystemId":  null
-                   },
-    "DropOnDeath":  true,
-    "MaxStack":  64,
-    "BlockType":  {
-                      "DrawType":  "Model",
-                      "CustomModel":  "Resources/Ingredients/OreNuggets.blockymodel",
-                      "CustomModelTexture":  [
-                                                 {
-                                                     "Texture":  "Resources/Ingredients/silver_chunks_texture.png"
-                                                 }
-                                             ],
-                      "CustomModelScale":  1.2,
-                      "RequiresAlphaBlending":  true,
-                      "Material":  "Solid",
-                      "Light":  {
-                                    "Color":  "#000",
-                                    "Radius":  0
-                                }
-                  },
-    "Scale":  1,
-    "Recipe":  {
-                   "Input":  [
-                                 {
-                                     "Quantity":  1,
-                                     "ItemId":  "Ore_Silver"
-                                 }
-                             ],
-                   "Output":  [
-                                  {
-                                      "Quantity":  5,
-                                      "ItemId":  "Ingredient_Silver_Chunk_Pile"
-                                  }
-                              ],
-                   "PrimaryOutput":  {
-                                         "ItemId":  "Ingredient_Silver_Chunk_Pile"
-                                     },
-                   "BenchRequirement":  [
-                                            {
-                                                "Id":  "EmberPress",
-                                                "Type":  "Processing"
-                                            }
-                                        ],
-                   "TimeSeconds":  12,
-                   "KnowledgeRequired":  false
-               }
+  "TranslationProperties": {
+    "Name": "DarselXMods.Items.DexPack_SPC.SilverChunkPile.name",
+    "Description": "DarselXMods.Items.DexPack_SPC.SilverChunkPile.description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Ingredients/OreNuggets.blockymodel",
+  "Texture": "Resources/Ingredients/silver_chunks_texture.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 2.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -1
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Silver_Chunk_Pile.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true,
+  "MaxStack": 64,
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Resources/Ingredients/OreNuggets.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ingredients/silver_chunks_texture.png"
+      }
+    ],
+    "CustomModelScale": 1.2,
+    "RequiresAlphaBlending": true,
+    "Material": "Solid",
+    "Light": {
+      "Color": "#000",
+      "Radius": 0
+    }
+  },
+  "Scale": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Ore_Silver"
+      }
+    ],
+    "Output": [
+      {
+        "Quantity": 5,
+        "ItemId": "Ingredient_Silver_Chunk_Pile"
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ingredient_Silver_Chunk_Pile"
+    },
+    "BenchRequirement": [
+      {
+        "Id": "EmberPress",
+        "Type": "Processing"
+      }
+    ],
+    "TimeSeconds": 12,
+    "KnowledgeRequired": false
+  }
 }

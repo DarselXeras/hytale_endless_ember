@@ -13,17 +13,17 @@
   "PlayerAnimationsId": "Item",
   "IconProperties": {
     "Scale": 0.7,
-    "Translation": [
-      0.6,
-      -9.6
-    ],
     "Rotation": [
       22.5,
       45,
       22.5
+    ],
+    "Translation": [
+      0.6,
+      -9.6
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Ingredient_Powder_DX_Mineral.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Powder_DX_AdvancedMineral.png",
   "Interactions": {
     "Secondary": "AdvancedMineralPowder_Use"
   },

@@ -1,0 +1,522 @@
+[2026/10/14 18:57:21   WARN]          [AssetModule|P] Not running asset watcher because --disable-file-watcher was set
+[2026/10/14 18:57:22   WARN]          [AssetModule|P] Skipping pack at DarselX_Endless Ember: missing or invalid manifest.json
+[2026/10/14 18:57:26   WARN]    [CommonAssetModule|P] Duplicated Asset Count: 724
+[2026/10/14 18:57:26   WARN]    [CommonAssetModule|P] Duplicated Asset Count: 734
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeWalls' for file '/Server/ScriptedBrushes/Archive/templeWalls.json' has incorrect format! Expected: 'TempleWalls'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeRandom' for file '/Server/ScriptedBrushes/Archive/templeRandom.json' has incorrect format! Expected: 'TempleRandom'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templePillars' for file '/Server/ScriptedBrushes/Archive/templePillars.json' has incorrect format! Expected: 'TemplePillars'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeFloor' for file '/Server/ScriptedBrushes/Archive/templeFloor.json' has incorrect format! Expected: 'TempleFloor'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeDestruction' for file '/Server/ScriptedBrushes/Archive/templeDestruction.json' has incorrect format! Expected: 'TempleDestruction'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'keepDestruction' for file '/Server/ScriptedBrushes/Archive/keepDestruction.json' has incorrect format! Expected: 'KeepDestruction'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'moltenBall' for file '/Server/ScriptedBrushes/Archive/moltenBall.json' has incorrect format! Expected: 'MoltenBall'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'MountainBrush_old' for file '/Server/ScriptedBrushes/Archive/MountainBrush_old.json' has incorrect format! Expected: 'MountainBrush_Old'
+[2026/10/14 18:57:29   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'BoulderBrush_old' for file '/Server/ScriptedBrushes/Archive/BoulderBrush_old.json' has incorrect format! Expected: 'BoulderBrush_Old'
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Void_Barrier_Impact' file /Server/Particles/Environment/Dungeon_Goblin/Void_Barrier/Spawners/Dungeon_Goblin_Void_Barrier_Impact.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Sun_Shafts_Large' file /Server/Particles/Environment/Dungeon_Goblin/Sun_Shafts/Spawners/Large/Dungeon_Goblin_Sun_Shafts_Large.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Sun_Shafts_Large_Upper' file /Server/Particles/Environment/Dungeon_Goblin/Sun_Shafts/Spawners/Large/Dungeon_Goblin_Sun_Shafts_Large_Upper.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Reveal_Thin' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Reveal_Thin.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Reveal' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Reveal.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Reveal_Small' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Reveal_Small.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Red_Large' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Red_Large.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Red' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Red.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Impact' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Impact.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Undead_Encounter_Spawner' file /Server/TriggerVolumes/Effects/Undead_Encounter_Spawner.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Asset key 'sample_bounce_pad' for file '/Server/TriggerVolumes/Effects/sample_bounce_pad.json' has incorrect format! Expected: 'Sample_Bounce_Pad'
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Goblin_Gobliterator_Cannon_Projectile_Volume' file /Server/TriggerVolumes/Effects/Goblin_Gobliterator_Cannon_Projectile_Volume.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Conditions.0.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'sample_bounce_pad' file /Server/TriggerVolumes/Effects/sample_bounce_pad.json: Effects.0.Type, Effects.1.Type, Effects.2.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Dungeon_Cauldron_Goo_Volume' file /Server/TriggerVolumes/Effects/Dungeon_Cauldron_Goo_Volume.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'BarrelDamageVolume' file /Server/TriggerVolumes/Effects/BarrelDamageVolume.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Dungeon_Checkpoint' file /Server/TriggerVolumes/Effects/Dungeon_Checkpoint.json: Conditions.0.Type, Conditions.1.Type, Conditions.2.Type, Conditions.3.Type, Conditions.4.Type, Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type, Effects.6.Type, Effects.7.Type, Effects.8.Type, Effects.9.Type, Effects.10.Type, Effects.11.Type, Effects.12.Type, Effects.13.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Goblin_Gobliterator_Cannon_Projectile_Volume_HM' file /Server/TriggerVolumes/Effects/Goblin_Gobliterator_Cannon_Projectile_Volume_HM.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Conditions.0.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Health_Pack_Volume' file /Server/TriggerVolumes/Effects/Health_Pack_Volume.json: Conditions.0.Type, Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type, Effects.6.Type, Effects.7.Type, Effects.8.Type, Effects.9.Type, Effects.10.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Objective_Outpost_Undead' file /Server/TriggerVolumes/Effects/Objective_Outpost_Undead.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type
+[2026/10/14 18:57:29   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Coffer_Goblin' file /Server/TriggerVolumes/Effects/Coffer_Goblin.json: Conditions.0.Type, Conditions.1.Type, Conditions.2.Type, Conditions.3.Type, Conditions.4.Type, Conditions.5.Type, Conditions.6.Type, Conditions.7.Type, Conditions.8.Type, Conditions.9.Type, Conditions.10.Type, Conditions.11.Type, Conditions.12.Type, Conditions.13.Type, Conditions.14.Type, Conditions.15.Type, Conditions.16.Type, Conditions.17.Type, Conditions.18.Type, Conditions.19.Type, Conditions.20.Type, Conditions.21.Type, Conditions.22.Type, Conditions.23.Type, Conditions.24.Type, Conditions.25.Type, Conditions.26.Type, Conditions.27.Type, Conditions.28.Type, Conditions.29.Type, Conditions.30.Type, Conditions.31.Type, Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type, Effects.6.Type, Effects.7.Type, Effects.8.Type, Effects.9.Type, Effects.10.Type, Effects.11.Type, Effects.12.Type, Effects.13.Type, Effects.14.Type, Effects.15.Type, Effects.16.Type, Effects.17.Type, Effects.18.Type, Effects.19.Type, Effects.20.Type, Effects.21.Type, Effects.22.Type, Effects.23.Type, Effects.24.Type, Effects.25.Type, Effects.26.Type, Effects.27.Type, Effects.28.Type, Effects.29.Type, Effects.30.Type, Effects.31.Type, Effects.32.Type, Effects.33.Type, Effects.34.Type, Effects.35.Type, Effects.36.Type, Effects.37.Type, Effects.38.Type, Effects.39.Type, Effects.40.Type, Effects.41.Type, Effects.42.Type, Effects.43.Type, Effects.44.Type, Effects.45.Type, Effects.46.Type, Effects.47.Type, Effects.48.Type, Effects.49.Type, Effects.50.Type, Effects.51.Type, Effects.52.Type, Effects.53.Type, Effects.54.Type, Effects.55.Type, Effects.56.Type, Effects.57.Type, Effects.58.Type, Effects.59.Type, Effects.60.Type, Effects.61.Type, Effects.62.Type, Effects.63.Type, Effects.64.Type, Effects.65.Type, Effects.66.Type, Effects.67.Type, Effects.68.Type, Effects.69.Type, Effects.70.Type, Effects.71.Type, Effects.72.Type, Effects.73.Type, Effects.74.Type, Effects.75.Type, Effects.76.Type
+[2026/10/14 18:57:29   WARN]               [HytaleGenerator] Duplicate export name for asset: Volcanic1_Swamp_Bushes_Jungles_Pattern
+[2026/10/14 18:57:29   WARN]               [HytaleGenerator] Duplicate export name for asset: Desert1_Boulders_Scanner
+[2026/10/14 18:57:29   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Fir_red' for file '/Server/PrefabList/Trees_Fir_red.json' has incorrect format! Expected: 'Trees_Fir_Red'
+[2026/10/14 18:57:29   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Burnt_dead' for file '/Server/PrefabList/Trees_Burnt_dead.json' has incorrect format! Expected: 'Trees_Burnt_Dead'
+[2026/10/14 18:57:29   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted_Giant' for file '/Server/PrefabList/Trees_Ash_twisted_Giant.json' has incorrect format! Expected: 'Trees_Ash_Twisted_Giant'
+[2026/10/14 18:57:29   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted_Large' for file '/Server/PrefabList/Trees_Ash_twisted_Large.json' has incorrect format! Expected: 'Trees_Ash_Twisted_Large'
+[2026/10/14 18:57:29   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted' for file '/Server/PrefabList/Trees_Ash_twisted.json' has incorrect format! Expected: 'Trees_Ash_Twisted'
+[2026/10/14 18:57:29   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_swamp_dead' for file '/Server/PrefabList/Trees_Ash_swamp_dead.json' has incorrect format! Expected: 'Trees_Ash_Swamp_Dead'
+[2026/10/14 18:57:29   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_swamp' for file '/Server/PrefabList/Trees_Ash_swamp.json' has incorrect format! Expected: 'Trees_Ash_Swamp'
+[2026/10/14 18:57:29 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29   WARN] [AssetStore|GraphGeneratorAsset] Unused key(s) in 'Plains1_Trork_Camp' file /Server/HytaleGenerator/GraphGenerators/Plains1_Trork_Camp.json: IsSingleInstance
+[2026/10/14 18:57:29   WARN] [AssetStore|GraphGeneratorAsset] Unused key(s) in 'Plains1_Caves' file /Server/HytaleGenerator/GraphGenerators/Plains1_Caves.json: IsSingleInstance
+[2026/10/14 18:57:29   WARN] [AssetStore|GraphGeneratorAsset] Unused key(s) in 'Portal_Goblin_Graph_Cave' file /Server/HytaleGenerator/GraphGenerators/Portal_Goblin_Graph_Cave.json: IsSingleInstance
+[2026/10/14 18:57:29   WARN]          [AssetStore|StageAsset] Unused key(s) in 'Goblin_Breach_Perpetual_Stage3' file /Server/WorldEvent/Stage/Goblin/Breach/Perpetual/Goblin_Breach_Perpetual_Stage3.json: Forks.0.Actions.1.Volume.Effects.0.Type, Forks.0.Actions.1.Volume.Effects.1.Type, Forks.0.Actions.3.Volume.Rules.0.Type, Forks.0.Actions.3.Volume.Rules.1.Type
+[2026/10/14 18:57:29   WARN]          [AssetStore|StageAsset] Unused key(s) in 'Goblin_Breach_First_Stage3' file /Server/WorldEvent/Stage/Goblin/Breach/First/Goblin_Breach_First_Stage3.json: Forks.0.Actions.1.Volume.Effects.0.Type, Forks.0.Actions.1.Volume.Effects.1.Type, Forks.0.Actions.3.Volume.Rules.0.Type, Forks.0.Actions.3.Volume.Rules.1.Type
+[2026/10/14 18:57:29   WARN]               [MacroCommandBase] Could not parse default argument value for argument: 'world' on Macro Command: 'settimeandgohome'.
+No such world "Default".
+No such world "Default".
+[2026/10/14 18:57:29   WARN]            [AssetStore|ModelVFX] Asset key 'test' for file '/Server/Entity/ModelVFX/test.json' has incorrect format! Expected: 'Test'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Light_Statue'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Spider_Cocoon'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Wood_Softwood_Planks'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Feran_Bed'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Kweebec_Window'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Scarak_Window'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'VFX_Dungeon_Goblin_Electric_Fence'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'GoblinLab_Fence'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Hard'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Coop_Chicken'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_In'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_Out'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thin'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thick'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thin'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thick'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Broken_Repairables'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Ancient_Gateway_Repaired'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Crude_Bed'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Crystal_Void_Block'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Grass'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt_Poisoned'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Mud'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Power_Switch_Unpowered'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Barrier'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Pile'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Skulls'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Gravel_Sand'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Clay'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Marble'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Chalk'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash_Pile_Large'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Beef_Raw'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Pork_Raw'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Fish_Raw'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Standard'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/14 18:57:29   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Bench_Trough'
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/14 18:57:29 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Taiga1_Rewood_Trees_Mask
+[2026/10/14 18:57:29 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Plains1_Oak' file /Server/HytaleGenerator/Biomes/Plains1/Plains1_Oak.json: Props.2.PropDistribution.PropDistributions.7.PropDistribution.Positions.Positions.Distributor.OffsetX, Props.2.PropDistribution.PropDistributions.7.PropDistribution.Positions.Positions.Distributor.OffsetY, Props.2.PropDistribution.PropDistributions.7.PropDistribution.Positions.Positions.Distributor.OffsetZ
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Portal_Goblin_Biome' file /Server/HytaleGenerator/Biomes/Portal_Goblin/Portal_Goblin_Biome.json: Props.0.PropDistribution.PropDistributions.2.PropDistribution.Positions.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.2.PropDistribution.Positions.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.2.PropDistribution.Positions.Positions.Positions.OffsetZ, Props.0.PropDistribution.PropDistributions.3.Positions.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.3.Positions.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.3.Positions.Positions.Positions.OffsetZ, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.OffsetZ, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.0.OffsetX, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.0.OffsetY, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.0.OffsetZ, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.1.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.1.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.1.Positions.Positions.OffsetZ, Props.1.PropDistribution.PropDistributions.3.PropDistribution.Positions.Positions.Positions.Positions.Positions.Positions.FieldFunction.Inputs.0.Inputs.0.Inputs.0.Positions.OffsetX, Props.1.PropDistribution.PropDistributions.3.PropDistribution.Positions.Positions.Positions.Positions.Positions.Positions.FieldFunction.Inputs.0.Inputs.0.Inputs.0.Positions.OffsetY, Props.1.PropDistribution.PropDistributions.3.PropDistribution.Positions.Positions.Positions.Positions.Positions.Positions.FieldFunction.Inputs.0.Inputs.0.Inputs.0.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.10.PropDistribution.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.10.PropDistribution.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.10.PropDistribution.Positions.Positions.Positions.OffsetZ
+[2026/10/14 18:57:29 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Peak
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Plains1_Hills' file /Server/HytaleGenerator/Biomes/Plains1/Plains1_Hills.json: Props.2.PropDistribution.PropDistributions.1.PropDistributions.0.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.0.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.0.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.1.PropDistributions.1.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.1.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.1.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.1.PropDistributions.2.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.2.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.2.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.1.PropDistributions.3.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.3.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.3.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.3.PropDistribution.PropDistributions.1.PropDistribution.Positions.Positions.Positions.FieldFunction.Positions.OffsetX, Props.3.PropDistribution.PropDistributions.1.PropDistribution.Positions.Positions.Positions.FieldFunction.Positions.OffsetY, Props.3.PropDistribution.PropDistributions.1.PropDistribution.Positions.Positions.Positions.FieldFunction.Positions.OffsetZ
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Selective_Tags' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Selective_Tags.json: Terrain.Density.GraphGenerator.IsSingleInstance
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Roots' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Roots.json: Terrain.Density.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Road_Layout' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Road_Layout.json: MaterialProvider.Solid.Queue.0.FieldFunction.Inputs.0.Inputs.0.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_River' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_River.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.TransitionSteepness, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.TransitionPoint, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.PrintStats, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.StatsPrintInterval, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.StatsLabel, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheCellSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheCapacity
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Erosion' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Erosion.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Desert1_Oasis' file /Server/HytaleGenerator/Biomes/Desert1/Desert1_Oasis.json: Props.2.Positions.Positions.OffsetX, Props.2.Positions.Positions.OffsetY, Props.2.Positions.Positions.OffsetZ, Props.3.Positions.Positions.OffsetX, Props.3.Positions.Positions.OffsetY, Props.3.Positions.Positions.OffsetZ, Props.4.Positions.Positions.OffsetX, Props.4.Positions.Positions.OffsetY, Props.4.Positions.Positions.OffsetZ, Props.5.Positions.Positions.OffsetX, Props.5.Positions.Positions.OffsetY, Props.5.Positions.Positions.OffsetZ, Props.6.Positions.Positions.OffsetX, Props.6.Positions.Positions.OffsetY, Props.6.Positions.Positions.OffsetZ
+[2026/10/14 18:57:29   WARN]                [HytaleGenerator] Duplicate export name for asset: Desert1_Rivers_Cliffs
+[2026/10/14 18:57:29   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Plains1_River' file /Server/HytaleGenerator/Biomes/Plains1/Plains1_River.json: Props.2.PropDistribution.PropDistributions.0.PropDistribution.Positions.Positions.Distributor.OffsetX, Props.2.PropDistribution.PropDistributions.0.PropDistribution.Positions.Positions.Distributor.OffsetY, Props.2.PropDistribution.PropDistributions.0.PropDistribution.Positions.Positions.Distributor.OffsetZ
+[2026/10/14 18:57:29   WARN]        [AssetStore|EntityEffect] Unused key(s) in 'Ability_ChargedShot_Charge_1' file /Server/Entity/Effects/Abilities/Ability_ChargedShot_Charge_1.json: Interactions
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Flamethrower_Primary_Burn_Damage_Next
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Stamina_Bar_Flash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Stamina_Broken_Check_Next
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_On_Hit_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_On_Hit_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_On_Hit_Interactions_2
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_On_Hit_Interactions_3
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_On_Hit_Interactions_4
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_On_Hit_Interactions_5
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_On_Hit_Interactions_6
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Block_Break_Adventure_Next
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Block_Break_Adventure_Failed
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *DamageEntityParent_Hit_Interrupt_On_Hit_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Shortbow_Secondary_Guard_Bash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Shortbow_Secondary_Guard_Bash_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Crossbow_Secondary_Guard_Bash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Crossbow_Secondary_Guard_Bash_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Shield_Secondary_Guard_Bash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Shield_Secondary_Guard_Bash_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Sword_Secondary_Guard_Bash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Sword_Secondary_Guard_Bash_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Crossbow_Shot_Standard_Projectile_Next
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Common_Guard_Shove_Animation_Next
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Daggers_Secondary_Guard_Bash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Daggers_Secondary_Guard_Bash_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Stick_Attack_Next_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Stick_Attack_Next_0.8
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Mace_Secondary_Guard_Bash_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Weapon_Mace_Secondary_Guard_Bash_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_2
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_3
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_4
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_5
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_6
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_7
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_8
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_9
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_10
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_11
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_HM_Interactions_12
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Bow_Two_Handed_Ability2_Arrow_Shoot_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Bow_Two_Handed_Ability2_Arrow_Shoot_Interactions_1
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Cannon_Rocket_Barrage_HM_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Cannon_Rocket_Barrage_HM_Interactions_2
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Cannon_Rocket_Barrage_HM_Interactions_3
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Cannon_Rocket_Barrage_HM_Interactions_4
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Daggers_Stab_Flurry_Left_Next
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Daggers_Stab_Flurry_Right_Next
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_0
+[2026/10/14 18:57:29   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_3
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_4
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_5
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_6
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_7
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_8
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Gobliterator_Explosive_Barrel_Fuse_Interactions_9
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Shortbow_Volley_Shoot_Inner_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Spin_Selector_R1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Spin_Selector_L1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Simple_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Cannon_Rocket_Barrage_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Cannon_Rocket_Barrage_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *Goblin_Gobliterator_Cannon_Rocket_Barrage_Interactions_3
+[2026/10/14 18:57:30   WARN]         [AssetStore|Interaction] Unused key(s) in '*Weapon_Sword_Signature_Vortexstrike_Spin_Selector_Next': Next
+[2026/10/14 18:57:30   WARN]         [AssetStore|Interaction] Unused key(s) in '*Weapon_Daggers_Primary_Pounce_Stab_Selector_Next': Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **DamageEntityParent_Hit_Interrupt_On_Hit_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Secondary_Guard_Bash_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Shortbow_Secondary_Guard_Bash_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Sword_Secondary_Guard_Bash_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Shield_Secondary_Guard_Bash_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Crossbow_Secondary_Guard_Bash_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Stick_Attack_Next_0_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Stick_Attack_Next_0.8_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Secondary_Guard_Bash_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Hit_Interrupt_Finish_Protected_Attack_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Hit_Interrupt_Finish_Protected_Attack_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Right_Charged_Selector_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Left_Charged_StaminaCondition_Next_Next_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Left_Charged_StaminaCondition_Next_Next_0.167
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Block_Break_Failed_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Battleaxe_Primary_Downstrike_StaminaCondition_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Primary_Pounce_Sweep_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Primary_Pounce_Sweep_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Common_Guard_Shove_Selector_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Drill_Block_Break_Failed_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Drill_Block_Break_Failed_Failed
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Up_Left_Charged_Selector_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Crossbow_Damage_Combo_Projectile_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Consume_Charge_Food_T2_Inner_Next_2.5_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Consume_Charge_Food_T1_Inner_Next_2.5_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Right_Charged_StaminaCondition_Next_Next_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Right_Charged_StaminaCondition_Next_Next_0.167
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Primary_Pounce_StaminaCondition_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Primary_Pounce_Stab_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Primary_Pounce_Stab_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Stick_Fire_Spawn_Trap_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Stick_Fire_Spawn_Trap_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Stick_Fire_Spawn_Trap_Failed_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Sword_Primary_Thrust_StaminaCondition_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Left_Charged_Selector_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Consume_Charge_Durability_Interactions_1_Next_3.0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Consume_Charge_Durability_Interactions_1_Failed
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Up_Left_Charged_StaminaCondition_Next_Next_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Up_Left_Charged_StaminaCondition_Next_Next_0.167
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Ability_ChargedShot_Release_None_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Ability_ChargedShot_Fire_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Ability_ChargedShot_Fire_2_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Ability_ChargedShot_Fire_3_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Ability_ChargedShot_Fire_4_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction **Consume_Charge_Food_T3_Inner_Next_2.5_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Block_Break_Failed_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***DamageEntityParent_Hit_Interrupt_On_Hit_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Common_Guard_Shove_Selector_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Daggers_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T3_Inner_Next_2.5_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T3_Inner_Next_2.5_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T3_Inner_Next_2.5_Next_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Shortbow_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Primary_Swing_Up_Left_Charged_Next_1.667_Interactions_2_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Primary_Swing_Right_Charged_Next_1.667_Interactions_2_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Sword_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Shield_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T1_Inner_Next_2.5_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T1_Inner_Next_2.5_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T1_Inner_Next_2.5_Next_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Primary_Swing_Left_Charged_Next_1.667_Interactions_2_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_3
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Failed_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Crossbow_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T2_Inner_Next_2.5_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T2_Inner_Next_2.5_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Food_T2_Inner_Next_2.5_Next_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Ability_ChargedShot_Release_None_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Ability_ChargedShot_Fire_1_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Ability_ChargedShot_Fire_2_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Ability_ChargedShot_Fire_3_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Ability_ChargedShot_Fire_4_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Battleaxe_Primary_Downstrike_Next_0.572_Interactions_2_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Daggers_Primary_Pounce_Next_0.4_Interactions_1_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ***Weapon_Sword_Primary_Thrust_Next_0.565_Interactions_2_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****DamageEntityParent_Hit_Interrupt_On_Hit_Interactions_1_Next_Next_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1_Next_Interactions_2
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Mace_Primary_Swing_Up_Left_Charged_Next_1.667_Interactions_2_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Mace_Primary_Swing_Right_Charged_Next_1.667_Interactions_2_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Mace_Primary_Swing_Left_Charged_Next_1.667_Interactions_2_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Battleaxe_Primary_Downstrike_Next_0.572_Interactions_2_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Battleaxe_Primary_Downstrike_Next_0.572_Interactions_2_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Sword_Primary_Thrust_Next_0.565_Interactions_2_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Sword_Primary_Thrust_Next_0.565_Interactions_2_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Daggers_Primary_Pounce_Next_0.4_Interactions_1_Next_Interactions_0
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Weapon_Daggers_Primary_Pounce_Next_0.4_Interactions_1_Next_Interactions_1
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Ability_ChargedShot_Release_None_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Ability_ChargedShot_Fire_1_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Ability_ChargedShot_Fire_2_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Ability_ChargedShot_Fire_3_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction ****Ability_ChargedShot_Fire_4_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *****Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1_Next_Interactions_2_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *****Ability_ChargedShot_Release_None_Next_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *****Ability_ChargedShot_Fire_1_Next_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *****Ability_ChargedShot_Fire_2_Next_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *****Ability_ChargedShot_Fire_3_Next_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]                         [Hytale] Missing interaction *****Ability_ChargedShot_Fire_4_Next_Next_Next_Next_Next
+[2026/10/14 18:57:30   WARN]     [AssetStore|RootInteraction] Unused key(s) in '*Projectile_Config_Hookshot_Interactions_ProjectileHit': Interrupting
+[2026/10/14 18:57:30   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Ice_Ball_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/10/14 18:57:30   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Scarak_Seeker_Spitball_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/10/14 18:57:30   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Ice_Bolt_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/10/14 18:57:30   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Scarak_Seeker_Spitball_Interactions_ProjectileHit_Interactions_0': Entity
+[2026/10/14 18:57:30   WARN]     [AssetStore|RootInteraction] Unused key(s) in '***Goblin_Feastmaster_Vomit_Cone_Interactions_ProjectileMiss_Interactions_0_ForkInteractions': Type, Selector
+[2026/10/14 18:57:30   WARN]     [AssetStore|RootInteraction] Unused key(s) in '***Goblin_Feastmaster_Vomit_Cone_Interactions_ProjectileHit_Interactions_0_ForkInteractions': Type, Selector
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Light_Statue'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Spider_Cocoon'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Wood_Softwood_Planks'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Feran_Bed'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Kweebec_Window'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Scarak_Window'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'VFX_Dungeon_Goblin_Electric_Fence'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'GoblinLab_Fence'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Hard'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Coop_Chicken'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_In'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_Out'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thin'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thick'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thin'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thick'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Broken_Repairables'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Ancient_Gateway_Repaired'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Crude_Bed'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Crystal_Void_Block'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Grass'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt_Poisoned'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Mud'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Power_Switch_Unpowered'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Barrier'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Pile'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Skulls'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Gravel_Sand'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Clay'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Marble'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Chalk'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash_Pile_Large'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Beef_Raw'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Pork_Raw'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Fish_Raw'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Standard'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/14 18:57:30   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Bench_Trough'
+[2026/10/14 18:57:31   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Scrap_Lightbulb_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/10/14 18:57:31   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Flame_InteractionVars_Fireball_Impact_2_Interactions_0': EntityStatsOnHit
+[2026/10/14 18:57:31   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Flame_InteractionVars_Fireball_Impact_3_Interactions_0': EntityStatsOnHit
+[2026/10/14 18:57:31   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Shield_Copper_InteractionVars_Guard_Bash_Interactions_0': Effects, StatModifiers
+[2026/10/14 18:57:31   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Voidcrystal_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Deco_Bucket (BlockType) for *Deco_Bucket_State_Filled_Mosshorn_Milk
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Deco_Tankard (BlockType) for *Deco_Tankard_State_Filled_Water
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Deco_Bucket (BlockType) for *Deco_Bucket_State_Filled_Water
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Deco_Bucket (BlockType) for *Deco_Bucket_State_Filled_Milk
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Container_Bucket (BlockType) for *Container_Bucket_State_Filled_Water
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Template_Tool_Watering_Can (BlockType) for *Template_Tool_Watering_Can_State_Filled_Water
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Container_Bucket (BlockType) for *Container_Bucket_State_Filled_Mosshorn_Milk
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Deco_Mug (BlockType) for *Deco_Mug_State_Filled_Water
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Container_Bucket (BlockType) for *Container_Bucket_State_Filled_Milk
+[2026/10/14 18:57:31   WARN]                [AssetStore|Item] Failed to find inherited parent asset Tool_Watering_Can (BlockType) for *Tool_Watering_Can_State_Filled_Water
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Light_Statue'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Spider_Cocoon'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Wood_Softwood_Planks'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Feran_Bed'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Kweebec_Window'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Scarak_Window'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'VFX_Dungeon_Goblin_Electric_Fence'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'GoblinLab_Fence'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Hard'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Coop_Chicken'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_In'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_Out'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thin'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thick'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thin'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thick'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Broken_Repairables'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Ancient_Gateway_Repaired'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Crude_Bed'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Crystal_Void_Block'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Grass'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt_Poisoned'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Mud'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Power_Switch_Unpowered'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Barrier'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Pile'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Skulls'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Gravel_Sand'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Clay'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Marble'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Chalk'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash_Pile_Large'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Beef_Raw'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Pork_Raw'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Fish_Raw'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Standard'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/14 18:57:31   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Bench_Trough'
+[2026/10/14 18:57:31   WARN]           [AssetStore|BlockType] Unused key(s) in 'Plant_Crop_Mushroom_Boomshroom_Small': ExplosionConfig.Particles.0.ParticleColor
+[2026/10/14 18:57:31   WARN]           [AssetStore|BlockType] Unused key(s) in '*Metal_Orbis_Copper_Roof_Shallow_State_Definitions_Inverted_Corner_Left': Textures.0.Texture
+[2026/10/14 18:57:31   WARN]           [AssetStore|BlockType] Unused key(s) in '*Metal_Orbis_Copper_Roof_Shallow_State_Definitions_Inverted_Corner_Right': Textures.0.Texture
+[2026/10/14 18:57:32   WARN]        [AssetStore|DensityAsset] Unused key(s) in 'Portal_Goblin_Graph_Cave' file /Server/HytaleGenerator/Density/Portal_Goblin_Graph_Cave.json: Inputs.0.Inputs.0.Inputs.0.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/14 18:57:32   WARN]                [AssetStore|Item] Unused key(s) in 'Endless_Ember_Creative' file /Server/Item/Items/Ingredient/Endless_Ember_Creative.json: RequiredGameMode
+[2026/10/14 18:57:32   WARN]           [AssetStore|BlockType] Unused key(s) in 'Ember_Press': State.Id
+[2026/10/14 18:57:32   WARN]                          [NPC|P] Replacing asset 'Test_Patrol_Path' of file '/Server/NPC/Roles/_Core/Tests_Development/Test_Patrol_Path.json' with other file '/Server/NPC/Roles/_Core/Tests/Paths/Test_Patrol_Path.json'
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Sleep does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Alerted does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Laydown does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Wake does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Elite!
+[2026/10/14 18:57:35   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Moo does not exist for model Bison_Calf!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Lizard_Sand!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Kweebec_Rootling!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Trillodon!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Hurt does not exist for model Void_Tentacle!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Yawn does not exist for model Skeleton_Archer!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation ScratchButt does not exist for model Skeleton_Archer!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation KickGround does not exist for model Skeleton_Archer!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Hedera!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Goblin_Duke!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Sleep does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Laydown does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Wake does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Hatworm!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Spark_Living!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Idle does not exist for model Tuluk_Fisherman!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Sleep does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Laydown does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Wake does not exist for model Wraith_Lantern!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Elite!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Moo does not exist for model Bison_Calf!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Lizard_Sand!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Kweebec_Rootling!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Trillodon!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Hurt does not exist for model Void_Tentacle!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Yawn does not exist for model Skeleton_Archer!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation ScratchButt does not exist for model Skeleton_Archer!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation KickGround does not exist for model Skeleton_Archer!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Hedera!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Goblin_Duke!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Sleep does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Alerted does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Laydown does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Wake does not exist for model Slug_Magma!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Hatworm!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Eat does not exist for model Spark_Living!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Idle does not exist for model Tuluk_Fisherman!
+[2026/10/14 18:57:36   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/14 18:57:36   WARN]                         [Hytale] Failed to validate asset!
+ExtraInfo
+Key: Instance
+Results:
+	WARNING: This field is deprecated and will be removed in the future!
+

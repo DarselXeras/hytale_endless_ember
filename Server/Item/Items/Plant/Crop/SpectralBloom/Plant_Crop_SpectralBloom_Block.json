@@ -1,0 +1,314 @@
+{
+    "TranslationProperties":  {
+                                  "Name":  "DarselXMods.Items.DexPack_SPC.Crop.SpectralBloom.name",
+                                  "Description":  "DarselXMods.Items.DexPack_SPC.Crop.SpectralBloom.description"
+                              },
+    "Parent":  "Template_Crop_Block",
+    "BlockType":  {
+                      "RandomRotation":  "YawStep90",
+                      "CustomModelTexture":  [
+                                                 {
+                                                     "Texture":  "Resources/Plants/Seeds_Textures/ConductiveBlossom.png",
+                                                     "Weight":  1
+                                                 }
+                                             ],
+                      "State":  {
+                                    "Definitions":  {
+                                                        "Stage1":  {
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_01_spec.blockymodel",
+                                                                       "CustomModelTexture":  [
+                                                                                                  {
+                                                                                                      "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
+                                                                                                      "Weight":  1
+                                                                                                  }
+                                                                                              ],
+                                                                       "CustomModelScale":  0.5,
+                                                                       "HitboxType":  "Plant_Small",
+                                                                       "Gathering":  {
+                                                                                         "Soft":  {
+                                                                                                      "IsWeaponBreakable":  false,
+                                                                                                      "DropList":  "Drops_Plant_Crop_SpectralBloom_Stage1"
+                                                                                                  }
+                                                                                     },
+                                                                       "BlockParticleSetId":  "Grass",
+                                                                       "BlockSoundSetId":  "Plant",
+                                                                       "ParticleColor":  "#68e8ff"
+                                                                   },
+                                                        "Stage2":  {
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_02_spec.blockymodel",
+                                                                       "CustomModelTexture":  [
+                                                                                                  {
+                                                                                                      "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
+                                                                                                      "Weight":  1
+                                                                                                  }
+                                                                                              ],
+                                                                       "CustomModelScale":  0.5,
+                                                                       "HitboxType":  "Plant_Large",
+                                                                       "Gathering":  {
+                                                                                         "Soft":  {
+                                                                                                      "IsWeaponBreakable":  false,
+                                                                                                      "DropList":  "Drops_Plant_Crop_SpectralBloom_Stage2"
+                                                                                                  }
+                                                                                     },
+                                                                       "BlockParticleSetId":  "Grass",
+                                                                       "BlockSoundSetId":  "Plant",
+                                                                       "ParticleColor":  "#b58cff"
+                                                                   },
+                                                        "Stage3":  {
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_03_spec.blockymodel",
+                                                                       "CustomModelTexture":  [
+                                                                                                  {
+                                                                                                      "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
+                                                                                                      "Weight":  1
+                                                                                                  }
+                                                                                              ],
+                                                                       "CustomModelScale":  0.5,
+                                                                       "HitboxType":  "Plant_Small",
+                                                                       "Gathering":  {
+                                                                                         "Soft":  {
+                                                                                                      "IsWeaponBreakable":  false,
+                                                                                                      "DropList":  "Drops_Plant_Crop_SpectralBloom_Stage3"
+                                                                                                  }
+                                                                                     },
+                                                                       "BlockParticleSetId":  "Grass",
+                                                                       "BlockSoundSetId":  "Plant",
+                                                                       "ParticleColor":  "#ff82d5"
+                                                                   },
+                                                        "Stage4":  {
+                                                                       "CustomModel":  "Resources/Plants/OreBlossom_04_spec.blockymodel",
+                                                                       "CustomModelTexture":  [
+                                                                                                  {
+                                                                                                      "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
+                                                                                                      "Weight":  1
+                                                                                                  }
+                                                                                              ],
+                                                                       "CustomModelScale":  0.5,
+                                                                       "HitboxType":  "Plant_Small",
+                                                                       "Gathering":  {
+                                                                                         "Soft":  {
+                                                                                                      "IsWeaponBreakable":  false,
+                                                                                                      "DropList":  "Drops_Plant_Crop_SpectralBloom_Stage4"
+                                                                                                  }
+                                                                                     },
+                                                                       "BlockParticleSetId":  "Grass",
+                                                                       "BlockSoundSetId":  "Plant",
+                                                                       "ParticleColor":  "#ffd26f"
+                                                                   },
+                                                        "StageFinal":  {
+                                                                           "CustomModel":  "Resources/Plants/OreBlossom_05_Mid_spec.blockymodel",
+                                                                           "CustomModelTexture":  [
+                                                                                                      {
+                                                                                                          "Texture":  "Resources/Plants/SpectralBloom/spectral_bloom.png",
+                                                                                                          "Weight":  1
+                                                                                                      }
+                                                                                                  ],
+                                                                           "CustomModelScale":  0.5,
+                                                                           "Effect":  [
+                                                                                          "WindFractal"
+                                                                                      ],
+                                                                           "Particles":  [
+                                                                                             {
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow",
+                                                                                                 "TargetNodeName":  "bulb",
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
+                                                                                             },
+                                                                                             {
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_2",
+                                                                                                 "TargetNodeName":  "bulb2",
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
+                                                                                             },
+                                                                                             {
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_3",
+                                                                                                 "TargetNodeName":  "bulb3",
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
+                                                                                             },
+                                                                                             {
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_4",
+                                                                                                 "TargetNodeName":  "bulb4",
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
+                                                                                             },
+                                                                                             {
+                                                                                                 "SystemId":  "SpectralBloom_Rainbow_5",
+                                                                                                 "TargetNodeName":  "bulb6",
+                                                                                                 "Scale":  0.28,
+                                                                                                 "DetachedFromModel":  false,
+                                                                                                 "PositionOffset":  {
+                                                                                                                        "Y":  0.8,
+                                                                                                                        "Z":  0,
+                                                                                                                        "X":  0
+                                                                                                                    }
+                                                                                             }
+                                                                                         ],
+                                                                           "InteractionHint":  "server.interactionHints.harvest",
+                                                                           "Gathering":  {
+                                                                                             "Soft":  {
+                                                                                                          "IsWeaponBreakable":  false,
+                                                                                                          "DropList":  "Drops_Plant_Crop_SpectralBloom_Stage5"
+                                                                                                      },
+                                                                                             "Harvest":  {
+                                                                                                             "DropList":  "Drops_Plant_Crop_SpectralBloom_Stage5_Harvest"
+                                                                                                         }
+                                                                                         },
+                                                                           "BlockParticleSetId":  "Grass",
+                                                                           "BlockSoundSetId":  "Plant",
+                                                                           "HitboxType":  "Plant_Small",
+                                                                           "Light":  {
+                                                                                         "Color":  "#9bd",
+                                                                                         "Radius":  1
+                                                                                     },
+                                                                           "ParticleColor":  "#83ffd5"
+                                                                       }
+                                                    }
+                                },
+                      "Farming":  {
+                                      "Stages":  {
+                                                     "Default":  [
+                                                                     {
+                                                                         "Duration":  {
+                                                                                          "Min":  22000,
+                                                                                          "Max":  22000
+                                                                                      },
+                                                                         "Type":  "BlockState",
+                                                                         "State":  "default"
+                                                                     },
+                                                                     {
+                                                                         "Duration":  {
+                                                                                          "Min":  42000,
+                                                                                          "Max":  42000
+                                                                                      },
+                                                                         "Type":  "BlockState",
+                                                                         "SoundEventId":  "SFX_Crops_Grow",
+                                                                         "State":  "Stage1"
+                                                                     },
+                                                                     {
+                                                                         "Duration":  {
+                                                                                          "Min":  42000,
+                                                                                          "Max":  42000
+                                                                                      },
+                                                                         "Type":  "BlockState",
+                                                                         "SoundEventId":  "SFX_Crops_Grow",
+                                                                         "State":  "Stage2"
+                                                                     },
+                                                                     {
+                                                                         "Duration":  {
+                                                                                          "Min":  42000,
+                                                                                          "Max":  42000
+                                                                                      },
+                                                                         "Type":  "BlockState",
+                                                                         "SoundEventId":  "SFX_Crops_Grow",
+                                                                         "State":  "Stage3"
+                                                                     },
+                                                                     {
+                                                                         "Duration":  {
+                                                                                          "Min":  42000,
+                                                                                          "Max":  42000
+                                                                                      },
+                                                                         "Type":  "BlockState",
+                                                                         "SoundEventId":  "SFX_Crops_Grow",
+                                                                         "State":  "Stage4"
+                                                                     },
+                                                                     {
+                                                                         "Type":  "BlockState",
+                                                                         "SoundEventId":  "SFX_Crops_Grow_Stage_Complete",
+                                                                         "State":  "StageFinal"
+                                                                     }
+                                                                 ],
+                                                     "Harvested":  [
+                                                                       {
+                                                                           "Duration":  {
+                                                                                            "Min":  40000,
+                                                                                            "Max":  40000
+                                                                                        },
+                                                                           "Type":  "BlockState",
+                                                                           "SoundEventId":  "SFX_Crops_Grow",
+                                                                           "State":  "Stage1"
+                                                                       },
+                                                                       {
+                                                                           "Duration":  {
+                                                                                            "Min":  40000,
+                                                                                            "Max":  40000
+                                                                                        },
+                                                                           "Type":  "BlockState",
+                                                                           "SoundEventId":  "SFX_Crops_Grow",
+                                                                           "State":  "Stage2"
+                                                                       },
+                                                                       {
+                                                                           "Duration":  {
+                                                                                            "Min":  40000,
+                                                                                            "Max":  40000
+                                                                                        },
+                                                                           "Type":  "BlockState",
+                                                                           "SoundEventId":  "SFX_Crops_Grow",
+                                                                           "State":  "Stage3"
+                                                                       },
+                                                                       {
+                                                                           "Duration":  {
+                                                                                            "Min":  40000,
+                                                                                            "Max":  40000
+                                                                                        },
+                                                                           "Type":  "BlockState",
+                                                                           "SoundEventId":  "SFX_Crops_Grow",
+                                                                           "State":  "Stage4"
+                                                                       },
+                                                                       {
+                                                                           "Type":  "BlockState",
+                                                                           "SoundEventId":  "SFX_Crops_Grow_Stage_Complete",
+                                                                           "State":  "StageFinal"
+                                                                       }
+                                                                   ]
+                                                 },
+                                      "StartingStageSet":  "Default",
+                                      "ActiveGrowthModifiers":  [
+                                                                    "Fertilizer",
+                                                                    "Water",
+                                                                    "LightLevel"
+                                                                ],
+                                      "StageSetAfterHarvest":  "Harvested"
+                                  },
+                      "Gathering":  {
+                                        "Soft":  {
+                                                     "IsWeaponBreakable":  false,
+                                                     "DropList":  "Drops_Plant_Crop_SpectralBloom_Block"
+                                                 }
+                                    },
+                      "CustomModelScale":  0.75,
+                      "ParticleColor":  "#68e8ff"
+                  },
+    "Icon":  "Icons/ItemsGenerated/Plant_Crop_SpectralBloom_Block.png",
+    "IconProperties":  {
+                           "Scale":  0.8,
+                           "Rotation":  [
+                                            22.5,
+                                            45,
+                                            22.5
+                                        ],
+                           "Translation":  [
+                                               0,
+                                               1
+                                           ]
+                       }
+}

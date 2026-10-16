@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.BlueStarFlowerPollen.name",
     "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.BlueStarFlowerPollen.description"
   },
-  "Icon": "Icons/ItemsGenerated/BlueStarFlowerPollen_Icon.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_BlueStarFlower_Pollen.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -19,5 +19,17 @@
   "Quality": "Uncommon",
   "Scale": 1,
   "ItemLevel": 1,
-  "MaxStack": 100
+  "MaxStack": 100,
+  "IconProperties": {
+    "Scale": 1.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  }
 }

@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Blocks.DexPack_SPC.EmberPress.name",
     "Description": "DarselXMods.Blocks.DexPack_SPC.EmberPress.description"
   },
-  "Icon": "Icons/ItemsGenerated/EmberPress_Icon.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Press.png",
   "Categories": [
     "Furniture.Benches"
   ],
@@ -67,8 +67,6 @@
       "CompletedSoundEventId": "SFX_EmberPress_Processing_End",
       "EndSoundEventId": "SFX_Furnace_Bench_Processing_End",
       "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
-      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
-      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Id": "EmberPress",
       "TierLevels": [
         {
@@ -106,8 +104,13 @@
         }
       ]
     },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {},
+        "ProcessingBenchBlock": {}
+      }
+    },
     "State": {
-      "Id": "processingBench",
       "Definitions": {
         "Processing": {
           "Looping": true,
@@ -145,17 +148,17 @@
               "PositionOffset": {
                 "Y": -0.4,
                 "Z": 0.9,
-				"X": 0.1
-              }			  
+                "X": 0.1
+              }
             },
-			            {
+            {
               "SystemId": "Campfire_New_Cartoon",
               "Scale": 0.2,
               "PositionOffset": {
                 "Y": -0.4,
                 "Z": 0.9,
-				"X": -0.1
-              }			  
+                "X": -0.1
+              }
             }
           ]
         },
@@ -208,15 +211,15 @@
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.3,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      0,
+      20,
+      0
     ],
     "Translation": [
-      2,
-      -21
+      -1,
+      -51
     ]
   },
   "Tags": {

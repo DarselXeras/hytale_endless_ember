@@ -23,6 +23,8 @@ public class EndlessEmberPlugin extends JavaPlugin {
     private static final String EXAMPLE_FILE = "emberpress_wood_trunk_to_charcoal.json";
     private static final String CREATIVE_ONLY_ITEM_ID = "Endless_Ember_Creative";
     private Path recipeDir;
+    private final com.hypixel.hytale.server.core.util.Config<PlantParticleConfig> plantParticleConfig;
+    private PlantParticleEffects plantParticleEffects;
 
     private static final String EXAMPLE_JSON = """
             {
@@ -53,10 +55,14 @@ public class EndlessEmberPlugin extends JavaPlugin {
 
     public EndlessEmberPlugin(JavaPluginInit init) {
         super(init);
+        plantParticleConfig = withConfig("PlantParticles", PlantParticleConfig.CODEC);
     }
 
     @Override
     protected void setup() {
+        setupPlantParticles();
+        CreativeCropRestrictions.register(this);
+        getLogger().at(Level.INFO).log("Endless Ember: Creative-only crop guards registered for placement, use and crafting");
         try {
             String safePluginFolder = sanitizeFolderName(getName());
             Path base = resolveWorldBasePath();
@@ -243,63 +249,94 @@ public class EndlessEmberPlugin extends JavaPlugin {
     }
 
     private void registerCreativeOnlyInventoryGuard() {
+        getEntityStoreRegistry().registerSystem(new CreativeEmberInventoryGuard());
+        getLogger().at(Level.INFO).log("Endless Ember: Creative-only inventory guard enabled for " + CREATIVE_ONLY_ITEM_ID);
+    }
+
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    private void setupPlantParticles() {
+        PlantParticleConfig.Mode mode = PlantParticleConfig.Mode.FULL;
         try {
-            Class<?> eventClass = Class.forName("com.hypixel.hytale.server.core.event.events.entity.LivingEntityInventoryChangeEvent");
-            Object eventRegistry = this.getClass().getMethod("getEventRegistry").invoke(this);
-            java.util.function.Consumer<Object> handler = this::onInventoryChangeReflective;
-
-            for (var m : eventRegistry.getClass().getMethods()) {
-                if (!m.getName().equals("registerGlobal")) continue;
-                Class<?>[] p = m.getParameterTypes();
-                if (p.length != 2) continue;
-                if (!Class.class.isAssignableFrom(p[0])) continue;
-                if (!java.util.function.Consumer.class.isAssignableFrom(p[1])) continue;
-                m.invoke(eventRegistry, eventClass, handler);
-                getLogger().at(Level.INFO).log("Endless Ember: Creative-only inventory guard enabled for " + CREATIVE_ONLY_ITEM_ID);
-                return;
+            mode = plantParticleConfig.get().getMode();
+            if (Files.notExists(getDataDirectory().resolve("PlantParticles.json"))) {
+                plantParticleConfig.save().join();
             }
-
-            getLogger().at(Level.WARNING).log("Endless Ember: could not hook inventory guard (registerGlobal overload not found).");
-        } catch (Throwable t) {
-            getLogger().at(Level.WARNING).log("Endless Ember: failed to enable inventory guard: " + t.getMessage());
+        } catch (IllegalArgumentException error) {
+            getLogger().at(Level.WARNING).log("Endless Ember: invalid PlantParticles Mode; using FULL. " + error.getMessage());
+        }
+        try {
+            plantParticleEffects = new PlantParticleEffects(mode);
+            Class<com.hypixel.hytale.assetstore.event.LoadedAssetsEvent<String,
+                    com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType,
+                    com.hypixel.hytale.assetstore.map.BlockTypeAssetMap<String,
+                            com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType>>> eventType =
+                    (Class) com.hypixel.hytale.assetstore.event.LoadedAssetsEvent.class;
+            getEventRegistry().register(com.hypixel.hytale.event.EventPriority.FIRST, eventType,
+                    com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType.class,
+                    event -> plantParticleEffects.apply(event.getLoadedAssets().values()));
+        } catch (ReflectiveOperationException error) {
+            throw new IllegalStateException("Cannot initialize plant particle settings", error);
         }
     }
 
-    private void onInventoryChangeReflective(Object event) {
+    @Override
+    protected void start() {
+        // Also cover generated state assets and any assets loaded before our listener.
+        plantParticleEffects.apply(com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType
+                .getAssetMap().getAssetMap().values());
+        getLogger().at(Level.INFO).log("Endless Ember: plant particles " + plantParticleEffects.summary());
+    }
+
+    public String plantParticleStatus() {
+        return "active=" + plantParticleEffects.getMode()
+                + ", saved=" + plantParticleConfig.get().getValue();
+    }
+
+    public void savePlantParticleMode(String value) {
+        var mode = PlantParticleConfig.parse(value);
+        String previous = plantParticleConfig.get().getValue();
+        plantParticleConfig.get().setMode(mode);
         try {
-            Object entity = event.getClass().getMethod("getEntity").invoke(event);
-            if (entity == null) return;
+            plantParticleConfig.save().join();
+        } catch (RuntimeException error) {
+            plantParticleConfig.get().restoreValue(previous);
+            throw error;
+        }
+    }
 
-            // Only handle players; avoid hard dependency on Player class at compile time.
-            Class<?> playerClass = Class.forName("com.hypixel.hytale.server.core.entity.entities.Player");
-            if (!playerClass.isInstance(entity)) return;
+    private static final class CreativeEmberInventoryGuard extends
+            com.hypixel.hytale.component.system.EntityEventSystem<
+                    com.hypixel.hytale.server.core.universe.world.storage.EntityStore,
+                    com.hypixel.hytale.server.core.event.events.ecs.InventoryChangeEvent> {
+        CreativeEmberInventoryGuard() {
+            super(com.hypixel.hytale.server.core.event.events.ecs.InventoryChangeEvent.class);
+        }
 
-            Object gameMode = entity.getClass().getMethod("getGameMode").invoke(entity);
-            if (gameMode != null && "Creative".equals(String.valueOf(gameMode))) return;
+        @Override
+        public com.hypixel.hytale.component.query.Query<
+                com.hypixel.hytale.server.core.universe.world.storage.EntityStore> getQuery() {
+            return com.hypixel.hytale.server.core.entity.entities.Player.getComponentType();
+        }
 
-            Object inventory = entity.getClass().getMethod("getInventory").invoke(entity);
-            Object combined = inventory.getClass().getMethod("getCombinedHotbarFirst").invoke(inventory);
-            short capacity = ((Number) combined.getClass().getMethod("getCapacity").invoke(combined)).shortValue();
-
-            Class<?> itemStackClass = Class.forName("com.hypixel.hytale.server.core.inventory.ItemStack");
-            var isEmptyMethod = itemStackClass.getMethod("isEmpty", itemStackClass);
-            var getItemIdMethod = itemStackClass.getMethod("getItemId");
-
-            for (short slot = 0; slot < capacity; slot++) {
-                Object stack = combined.getClass().getMethod("getItemStack", short.class).invoke(combined, slot);
-                boolean empty = (Boolean) isEmptyMethod.invoke(null, stack);
-                if (empty) continue;
-
-                String itemId = (String) getItemIdMethod.invoke(stack);
-                if (CREATIVE_ONLY_ITEM_ID.equals(itemId)) {
-                    combined.getClass().getMethod("removeItemStackFromSlot", short.class).invoke(combined, slot);
+        @Override
+        public void handle(int index,
+                com.hypixel.hytale.component.ArchetypeChunk<com.hypixel.hytale.server.core.universe.world.storage.EntityStore> chunk,
+                com.hypixel.hytale.component.Store<com.hypixel.hytale.server.core.universe.world.storage.EntityStore> store,
+                com.hypixel.hytale.component.CommandBuffer<com.hypixel.hytale.server.core.universe.world.storage.EntityStore> commandBuffer,
+                com.hypixel.hytale.server.core.event.events.ecs.InventoryChangeEvent event) {
+            var player = chunk.getComponent(index,
+                    com.hypixel.hytale.server.core.entity.entities.Player.getComponentType());
+            if (player == null || player.getGameMode() == com.hypixel.hytale.protocol.GameMode.Creative) return;
+            var container = event.getItemContainer();
+            for (short slot = 0; slot < container.getCapacity(); slot++) {
+                var stack = container.getItemStack(slot);
+                if (!com.hypixel.hytale.server.core.inventory.ItemStack.isEmpty(stack)
+                        && CREATIVE_ONLY_ITEM_ID.equals(stack.getItemId())) {
+                    container.removeItemStackFromSlot(slot);
                 }
             }
-        } catch (Throwable ignored) {
-            // Silent by design to avoid log spam on high-frequency inventory updates.
         }
     }
-
     private String stripExtension(String filename) {
         int i = filename.lastIndexOf('.');
         return i > 0 ? filename.substring(0, i) : filename;

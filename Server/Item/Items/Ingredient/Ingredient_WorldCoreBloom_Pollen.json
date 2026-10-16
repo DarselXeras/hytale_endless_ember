@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Items.DexPack_SPC.Ingredient.WorldCoreBloomPollen.name",
     "Description": "DarselXMods.Items.DexPack_SPC.Ingredient.WorldCoreBloomPollen.description"
   },
-  "Icon": "Icons/ItemsGenerated/WorldCoreBloomPollen_Icon.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_WorldCoreBloom_Pollen.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -19,5 +19,17 @@
   "Quality": "Rare",
   "Scale": 1,
   "ItemLevel": 1,
-  "MaxStack": 100
+  "MaxStack": 100,
+  "IconProperties": {
+    "Scale": 1.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  }
 }

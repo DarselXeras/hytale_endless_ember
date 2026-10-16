@@ -1,0 +1,35 @@
+{
+    "TranslationProperties":  {
+                                  "Name":  "DarselXMods.Items.DexPack_SPC.Seedbag.SpectralBloom.name",
+                                  "Description":  "DarselXMods.Items.DexPack_SPC.Seedbag.SpectralBloom.description"
+                              },
+    "Parent":  "Template_Seeds",
+    "Quality":  "Creative",
+    "Interactions":  {
+                         "Secondary":  "Seed_Condition_SpectralBloom"
+                     },
+    "InteractionVars":  {
+                            "SeedId":  {
+                                           "Interactions":  [
+                                                                {
+                                                                    "Parent":  "Seed_Place",
+                                                                    "BlockTypeToPlace":  "Plant_Crop_SpectralBloom_Block"
+                                                                }
+                                                            ]
+                                       }
+                        },
+    "Texture":  "Resources/Plants/SeedBag_Textures/SpectralBloom.png",
+    "Icon":  "Icons/ItemsGenerated/Plant_Seeds_SpectralBloom.png",
+    "IconProperties":  {
+                           "Scale":  1.1,
+                           "Rotation":  [
+                                            11,
+                                            29,
+                                            14
+                                        ],
+                           "Translation":  [
+                                               1,
+                                               -11
+                                           ]
+                       }
+}

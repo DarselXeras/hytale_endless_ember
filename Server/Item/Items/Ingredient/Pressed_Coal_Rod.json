@@ -3,7 +3,7 @@
     "Name": "DarselXMods.Items.DexPack_SPC.PressedCoalRod.name",
     "Description": "DarselXMods.Items.DexPack_SPC.PressedCoalRod.description"
   },
-  "Icon": "Icons/ItemsGenerated/pressed_coal_rod_item_icon.png",
+  "Icon": "Icons/ItemsGenerated/Pressed_Coal_Rod.png",
   "Categories": [
     "Items.Ingredients"
   ],
@@ -81,5 +81,17 @@
     "TimeSeconds": 20,
     "KnowledgeRequired": false
   },
-  "MaxStack": 64
+  "MaxStack": 64,
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      29,
+      231,
+      11
+    ],
+    "Translation": [
+      1,
+      -3
+    ]
+  }
 }
