@@ -113,56 +113,33 @@
     "State": {
       "Definitions": {
         "Processing": {
-          "Looping": true,
-          "Light": {
-            "Color": "#6a3416"
-          },
+          "CustomModel": "Blocks/Benches/EmberPress_Working.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Benches/Ember_press_texture.png",
               "Weight": 1
             }
           ],
+          "Looping": true,
+          "Light": {
+            "Color": "#532",
+            "Radius": 0
+          },
           "AmbientSoundEventId": "SFX_EmberPress_Bench_Processing",
           "CustomModelAnimation": "Blocks/Benches/EmberPressProgression.blockyanim",
           "Particles": [
             {
-              "SystemId": "Campfire_New_Cartoon",
-              "Scale": 0.45,
-              "PositionOffset": {
-                "Y": 0.08,
-                "Z": 0.49
-              }
-            },
-            {
-              "SystemId": "Campfire_New_Cartoon",
+              "SystemId": "Fire_Furnace_On",
+              "TargetNodeName": "Fire",
               "Scale": 0.2,
               "PositionOffset": {
-                "Y": -0.4,
-                "Z": 0.9
-              }
-            },
-            {
-              "SystemId": "Campfire_New_Cartoon",
-              "Scale": 0.2,
-              "PositionOffset": {
-                "Y": -0.4,
-                "Z": 0.9,
-                "X": 0.1
-              }
-            },
-            {
-              "SystemId": "Campfire_New_Cartoon",
-              "Scale": 0.2,
-              "PositionOffset": {
-                "Y": -0.4,
-                "Z": 0.9,
-                "X": -0.1
+                "Z": 0.015
               }
             }
           ]
         },
         "ProcessCompleted": {
+          "CustomModel": "Blocks/Benches/EmberPress.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Benches/Ember_press_texture.png",
@@ -171,22 +148,73 @@
           ],
           "Particles": [
             {
-              "SystemId": "Campfire_New_Cartoon",
-              "Scale": 0.35,
-              "PositionOffset": {
-                "Y": 0.08,
-                "Z": 0.49
-              }
-            },
-            {
               "SystemId": "Potion_Morph_Burst",
-              "Scale": 0.4,
+              "TargetNodeName": "Output",
+              "Scale": 0.12,
               "PositionOffset": {
-                "Y": -0.4,
-                "Z": 0.65
+                "Y": 0.025
               }
             }
           ]
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/EmberPress_MK2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Ember_press_texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_EmberPress",
+          "State": {
+            "Definitions": {
+              "Processing": {
+                "CustomModel": "Blocks/Benches/EmberPress_MK2_Working.blockymodel",
+                "CustomModelTexture": [
+                  {
+                    "Texture": "Blocks/Benches/Ember_press_texture.png",
+                    "Weight": 1
+                  }
+                ],
+                "Looping": true,
+                "Light": {
+                  "Color": "#532",
+                  "Radius": 0
+                },
+                "AmbientSoundEventId": "SFX_EmberPress_Bench_Processing",
+                "CustomModelAnimation": "Blocks/Benches/EmberPressProgression_MK2.blockyanim",
+                "Particles": [
+                  {
+                    "SystemId": "Fire_Furnace_On",
+                    "TargetNodeName": "Fire",
+                    "Scale": 0.2,
+                    "PositionOffset": {
+                      "Z": 0.015
+                    }
+                  }
+                ]
+              },
+              "ProcessCompleted": {
+                "CustomModel": "Blocks/Benches/EmberPress_MK2.blockymodel",
+                "CustomModelTexture": [
+                  {
+                    "Texture": "Blocks/Benches/Ember_press_texture.png",
+                    "Weight": 1
+                  }
+                ],
+                "Particles": [
+                  {
+                    "SystemId": "Potion_Morph_Burst",
+                    "TargetNodeName": "Output",
+                    "Scale": 0.12,
+                    "PositionOffset": {
+                      "Y": 0.025
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       }
     },
@@ -207,11 +235,15 @@
     "BlockSoundSetId": "Stone",
     "Interactions": {
       "Use": "Open_Processing_Bench"
+    },
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true
     }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.3,
+    "Scale": 0.35,
     "Rotation": [
       0,
       20,
@@ -219,7 +251,7 @@
     ],
     "Translation": [
       -1,
-      -51
+      -37
     ]
   },
   "Tags": {
