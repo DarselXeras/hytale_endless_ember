@@ -23,6 +23,8 @@ public class EndlessEmberPlugin extends JavaPlugin {
     private static final String EXAMPLE_FILE = "emberpress_wood_trunk_to_charcoal.json";
     private static final String CREATIVE_ONLY_ITEM_ID = "Endless_Ember_Creative";
     private Path recipeDir;
+    private final com.hypixel.hytale.server.core.util.Config<PlantParticleConfig> plantParticleConfig;
+    private PlantParticleEffects plantParticleEffects;
 
     private static final String EXAMPLE_JSON = """
             {
@@ -53,10 +55,14 @@ public class EndlessEmberPlugin extends JavaPlugin {
 
     public EndlessEmberPlugin(JavaPluginInit init) {
         super(init);
+        plantParticleConfig = withConfig("PlantParticles", PlantParticleConfig.CODEC);
     }
 
     @Override
     protected void setup() {
+        setupPlantParticles();
+        CreativeCropRestrictions.register(this);
+        getLogger().at(Level.INFO).log("Endless Ember: Creative-only crop guards registered for placement, use and crafting");
         try {
             String safePluginFolder = sanitizeFolderName(getName());
             Path base = resolveWorldBasePath();
@@ -245,6 +251,57 @@ public class EndlessEmberPlugin extends JavaPlugin {
     private void registerCreativeOnlyInventoryGuard() {
         getEntityStoreRegistry().registerSystem(new CreativeEmberInventoryGuard());
         getLogger().at(Level.INFO).log("Endless Ember: Creative-only inventory guard enabled for " + CREATIVE_ONLY_ITEM_ID);
+    }
+
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    private void setupPlantParticles() {
+        PlantParticleConfig.Mode mode = PlantParticleConfig.Mode.FULL;
+        try {
+            mode = plantParticleConfig.get().getMode();
+            if (Files.notExists(getDataDirectory().resolve("PlantParticles.json"))) {
+                plantParticleConfig.save().join();
+            }
+        } catch (IllegalArgumentException error) {
+            getLogger().at(Level.WARNING).log("Endless Ember: invalid PlantParticles Mode; using FULL. " + error.getMessage());
+        }
+        try {
+            plantParticleEffects = new PlantParticleEffects(mode);
+            Class<com.hypixel.hytale.assetstore.event.LoadedAssetsEvent<String,
+                    com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType,
+                    com.hypixel.hytale.assetstore.map.BlockTypeAssetMap<String,
+                            com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType>>> eventType =
+                    (Class) com.hypixel.hytale.assetstore.event.LoadedAssetsEvent.class;
+            getEventRegistry().register(com.hypixel.hytale.event.EventPriority.FIRST, eventType,
+                    com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType.class,
+                    event -> plantParticleEffects.apply(event.getLoadedAssets().values()));
+        } catch (ReflectiveOperationException error) {
+            throw new IllegalStateException("Cannot initialize plant particle settings", error);
+        }
+    }
+
+    @Override
+    protected void start() {
+        // Also cover generated state assets and any assets loaded before our listener.
+        plantParticleEffects.apply(com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType
+                .getAssetMap().getAssetMap().values());
+        getLogger().at(Level.INFO).log("Endless Ember: plant particles " + plantParticleEffects.summary());
+    }
+
+    public String plantParticleStatus() {
+        return "active=" + plantParticleEffects.getMode()
+                + ", saved=" + plantParticleConfig.get().getValue();
+    }
+
+    public void savePlantParticleMode(String value) {
+        var mode = PlantParticleConfig.parse(value);
+        String previous = plantParticleConfig.get().getValue();
+        plantParticleConfig.get().setMode(mode);
+        try {
+            plantParticleConfig.save().join();
+        } catch (RuntimeException error) {
+            plantParticleConfig.get().restoreValue(previous);
+            throw error;
+        }
     }
 
     private static final class CreativeEmberInventoryGuard extends

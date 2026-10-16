@@ -11,7 +11,7 @@
     }
   ],
   "PrimaryOutput": {
-    "ItemId": "Ingredient_Bar_Copper"
+    "ItemId": "Ingredient_Bar_Iron"
   },
   "BenchRequirement": [
     {

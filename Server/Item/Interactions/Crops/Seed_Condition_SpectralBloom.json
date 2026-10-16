@@ -1,14 +1,24 @@
 {
-  "Type": "BlockCondition",
-  "Matchers": [
-    {
-      "Block": { "Id": "Soil_Mineral_Cultivated_MK3" },
-      "Face": "Up"
-    }
-  ],
-  "Next": {
-    "Type": "Replace",
-    "Var": "SeedId",
-    "DefaultValue": { "Interactions": ["Seed_Place"] }
-  }
+    "Type":  "Condition",
+    "RequiredGameMode":  "Creative",
+    "Next":  {
+                 "Type":  "BlockCondition",
+                 "Matchers":  [
+                                  {
+                                      "Block":  {
+                                                    "Id":  "Soil_Mineral_Cultivated_MK3"
+                                                },
+                                      "Face":  "Up"
+                                  }
+                              ],
+                 "Next":  {
+                              "Type":  "Replace",
+                              "Var":  "SeedId",
+                              "DefaultValue":  {
+                                                   "Interactions":  [
+                                                                        "Seed_Place"
+                                                                    ]
+                                               }
+                          }
+             }
 }
