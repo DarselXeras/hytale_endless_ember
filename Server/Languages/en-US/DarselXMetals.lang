@@ -1,5 +1,5 @@
 Metals.Ember_Crucible.name = Ember Crucible
-Metals.Ember_Crucible.description = Melts ingots and fills transport capsules.\nInputs: 1 standard stack (100 ingots of one metal) + 1 empty capsule.\nRequires fuel; cast filled capsules here to recover 100 ingots.\nCasting returns the empty capsule.
+Metals.Ember_Crucible.description = Melts ingots and fills transport capsules.\nCrafting: Tinkerbench MK2, Machines category.\nInputs: 1 standard stack (100 ingots of one metal) + 1 empty capsule.\nRequires fuel; cast filled capsules here to recover 100 ingots.\nCasting returns the empty capsule.
 Metals.Fluid_Capsule_Empty.name = Empty Molten Metal Capsule
 Metals.Fluid_Capsule_Empty.description = Reusable, insulated metal capsule.\nCapacity: 1 standard stack (100 ingots) of a single metal.\nFill with ingots and fuel in the Ember Crucible.\nPlace as decoration. Use to pick it up again; state and contents are preserved.\nWhen placed: right-click with an empty hand to rotate by 45°.
 Metals.Fluid_Capsule_Copper.name = Molten Metal Capsule: Copper

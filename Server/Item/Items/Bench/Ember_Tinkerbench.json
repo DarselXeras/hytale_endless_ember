@@ -116,6 +116,11 @@
           "Id": "Ember_Tinkerbench_EmberGardening",
           "Name": "DarselXMods.Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name",
           "Icon": "Icons/CraftingCategories/EndlessEmber/ember_gardening.png"
+        },
+        {
+          "Id": "Ember_Tinkerbench_Machines",
+          "Name": "DarselXMods.Items.Ember_Tinkerbench.Bench.Categories.Machines.name",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/machines.png"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",

@@ -105,6 +105,7 @@ Items.DexPack_SPC.ThoriumChunkPile.description = Ein Haufen grober Thoriumklumpe
 Items.DexPack_SPC.ThoriumChunkPile.name = Haufen Thoriumklumpen
 Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name = Glut Gärtnerei
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Brennstoff
+Items.Ember_Tinkerbench.Bench.Categories.Machines.name = Maschinen
 Items.DexPack_SPC.Crop.SpectralBloom.name = Spektralblüte
 Items.DexPack_SPC.Crop.SpectralBloom.description = Eine schillernde Erzblüte, deren Blütenblätter in den Farben des Spektrums leuchten.\nNur Creative: Platzieren und Ernten im Survival gesperrt.\nErde: Mineralerde (MK3).\nErste Ernte: ca. 2 Tage 4 Std. 47 Min. Spielzeit (Basis).\nNachwachsen: ca. 1 Tag 20 Std. 27 Min. Spielzeit (Basis).\nErtrag im Creative-Modus: 1 Pollen; wächst nach.\nKein Herstellungs- oder Pollenverarbeitungsrezept.\nWasser, Licht und Dünger beeinflussen die Wachstumszeit.
 Items.DexPack_SPC.Seedbag.SpectralBloom.name = Samenbeutel Spektralblüte

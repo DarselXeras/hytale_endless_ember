@@ -1,5 +1,5 @@
 Metals.Ember_Crucible.name = Glutschmelztiegel
-Metals.Ember_Crucible.description = Schmilzt Barren und befüllt Transportkapseln.\nEingaben: 1 Standard-Stack (100 gleiche Metallbarren) + 1 leere Kapsel.\nBrennstoff erforderlich; gefüllte Kapseln lassen sich hier zu 100 Barren ausgießen.\nDie leere Kapsel wird beim Ausgießen zurückgegeben.
+Metals.Ember_Crucible.description = Schmilzt Barren und befüllt Transportkapseln.\nHerstellung: Tinkerbench MK2, Kategorie Maschinen.\nEingaben: 1 Standard-Stack (100 gleiche Metallbarren) + 1 leere Kapsel.\nBrennstoff erforderlich; gefüllte Kapseln lassen sich hier zu 100 Barren ausgießen.\nDie leere Kapsel wird beim Ausgießen zurückgegeben.
 Metals.Fluid_Capsule_Empty.name = Leere Flüssigtransportkapsel
 Metals.Fluid_Capsule_Empty.description = Wiederverwendbare, isolierte Metallkapsel.\nKapazität: 1 Standard-Stack (100 Barren) einer Metallart.\nMit Barren und Brennstoff im Glutschmelztiegel befüllen.\nAls Dekoration platzierbar. Mit Benutzen wieder aufnehmen; Zustand und Inhalt bleiben erhalten.\nAufgestellt: Rechtsklick mit leerer Hand zum Drehen um 45°.
 Metals.Fluid_Capsule_Copper.name = Flüssigtransportkapsel: Kupfer

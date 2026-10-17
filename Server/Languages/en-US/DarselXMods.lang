@@ -105,6 +105,7 @@ Items.DexPack_SPC.ThoriumChunkPile.description = A pile of roughly crushed thori
 Items.DexPack_SPC.ThoriumChunkPile.name = Pile of Thorium Chunks
 Items.Ember_Tinkerbench.Bench.Categories.EmberGardening.name = Ember Gardening
 Items.Ember_Tinkerbench.Bench.Categories.Fuel.name = Fuel
+Items.Ember_Tinkerbench.Bench.Categories.Machines.name = Machines
 Items.DexPack_SPC.Crop.SpectralBloom.name = Spectral Bloom
 Items.DexPack_SPC.Crop.SpectralBloom.description = An iridescent ore blossom with petals that shine in the colors of the spectrum.\nCreative only: placement and harvesting are blocked in Survival.\nSoil: mineral soil (MK3).\nFirst harvest: approx. 2 d 4 h 47 min game time (base).\nRegrowth: approx. 1 d 20 h 27 min game time (base).\nCreative yield: 1 pollen; regrows.\nNo crafting or pollen-processing recipe.\nWater, light and fertilizer affect growth time.
 Items.DexPack_SPC.Seedbag.SpectralBloom.name = Spectral Bloom Seed Bag

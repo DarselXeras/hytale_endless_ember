@@ -46,9 +46,9 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Workbench",
+        "Id": "Ember_Tinkerbench",
         "Categories": [
-          "Workbench_Crafting"
+          "Ember_Tinkerbench_Machines"
         ],
         "RequiredTierLevel": 2
       }

@@ -26,10 +26,10 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Workbench_Crafting"
+          "Ember_Tinkerbench_Machines"
         ],
-        "Id": "Workbench",
-        "RequiredTierLevel": 2
+        "Id": "Ember_Tinkerbench",
+        "RequiredTierLevel": 1
       }
     ],
     "TimeSeconds": 3
