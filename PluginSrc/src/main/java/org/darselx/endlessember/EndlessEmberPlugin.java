@@ -61,6 +61,7 @@ public class EndlessEmberPlugin extends JavaPlugin {
     @Override
     protected void setup() {
         EmberCasting.register(this);
+        CrucibleProcessing.register(this);
         setupPlantParticles();
         CreativeCropRestrictions.register(this);
         getLogger().at(Level.INFO).log("Endless Ember: Creative-only crop guards registered for placement, use and crafting");

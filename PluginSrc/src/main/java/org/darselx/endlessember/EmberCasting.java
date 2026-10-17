@@ -9,27 +9,92 @@ import com.hypixel.hytale.server.core.modules.interaction.interaction.config.ser
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.hypixel.hytale.server.core.universe.world.chunk.BlockOperations;
 import com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType;
+import com.hypixel.hytale.server.core.universe.world.chunk.section.BlockSection;
 import org.joml.Vector3i;
 
 final class EmberCasting {
+    /** Append storage without moving the original slots or replacing live views. */
+    static boolean expandInventory(ItemContainerBlock block){
+        var previous=block.getItemContainer();
+        if(previous.getCapacity()>=CastingMachine.CAPACITY)return false;
+        var expanded=new com.hypixel.hytale.server.core.inventory.container.SimpleItemContainer((short)CastingMachine.CAPACITY);
+        for(short slot=0;slot<previous.getCapacity();slot++)
+            expanded.setItemStackForSlot(slot,previous.getItemStack(slot),false);
+        ItemContainerBlock.CODEC.decode(new org.bson.BsonDocument("Capacity",new org.bson.BsonInt32(CastingMachine.CAPACITY)),block,com.hypixel.hytale.codec.EmptyExtraInfo.EMPTY);
+        block.setItemContainer(expanded);
+        return true;
+    }
     static void register(EndlessEmberPlugin plugin){
         CastingMachine.TYPE=plugin.getChunkStoreRegistry().registerComponent(CastingMachine.class,"EE_CastingMachine",CastingMachine.CODEC);
         OpenCustomUIInteraction.registerBlockEntityCustomPage(plugin,CastingPage.class,"EE_CastingStation",CastingPage::new);
+        plugin.getChunkStoreRegistry().registerSystem(new Recover());
+        plugin.getChunkStoreRegistry().registerSystem(new DisplayCleanup());
+        plugin.getChunkStoreRegistry().registerSystem(new DisplayComponentCleanup());
         plugin.getChunkStoreRegistry().registerSystem(new Tick());
+    }
+    private static final class DisplayCleanup extends com.hypixel.hytale.component.system.RefSystem<ChunkStore>{
+        @Override public Query<ChunkStore> getQuery(){return CastingMachine.TYPE;}
+        @Override public void onEntityAdded(Ref<ChunkStore> ref,AddReason reason,Store<ChunkStore> store,CommandBuffer<ChunkStore> buffer){}
+        @Override public void onEntityRemove(Ref<ChunkStore> ref,RemoveReason reason,Store<ChunkStore> store,CommandBuffer<ChunkStore> buffer){
+            CastingMachine state=store.getComponent(ref,CastingMachine.TYPE);
+            var world=store.getExternalData().getWorld();
+            world.execute(()->state.displays.clear(world.getEntityStore().getStore()));
+        }
+    }
+    /** Component replacement/removal does not invoke the entity removal hook. */
+    private static final class DisplayComponentCleanup extends com.hypixel.hytale.component.system.RefChangeSystem<ChunkStore,CastingMachine>{
+        @Override public Query<ChunkStore> getQuery(){return ItemContainerBlock.getComponentType();}
+        @Override public ComponentType<ChunkStore,CastingMachine> componentType(){return CastingMachine.TYPE;}
+        @Override public void onComponentAdded(Ref<ChunkStore> ref,CastingMachine state,Store<ChunkStore> store,CommandBuffer<ChunkStore> buffer){}
+        @Override public void onComponentSet(Ref<ChunkStore> ref,CastingMachine old,CastingMachine state,Store<ChunkStore> store,CommandBuffer<ChunkStore> buffer){
+            if(old!=state)clear(old,store);
+        }
+        @Override public void onComponentRemoved(Ref<ChunkStore> ref,CastingMachine state,Store<ChunkStore> store,CommandBuffer<ChunkStore> buffer){clear(state,store);}
+        private void clear(CastingMachine state,Store<ChunkStore> store){
+            var world=store.getExternalData().getWorld();
+            world.execute(()->state.displays.clear(world.getEntityStore().getStore()));
+        }
+    }
+    /** Recover stations placed while only the unpacked assets were loaded. */
+    private static final class Recover extends EntityTickingSystem<ChunkStore>{
+        @Override public Query<ChunkStore> getQuery(){return Query.and(ItemContainerBlock.getComponentType(),BlockModule.BlockStateInfo.getComponentType());}
+        @Override public void tick(float dt,int index,ArchetypeChunk<ChunkStore> chunk,Store<ChunkStore> store,CommandBuffer<ChunkStore> buffer){
+            if(chunk.getComponent(index,CastingMachine.TYPE)!=null)return;
+            var info=chunk.getComponent(index,BlockModule.BlockStateInfo.getComponentType());
+            if(info==null||!info.getSectionRef().isValid())return;
+            BlockSection blocks=buffer.getComponent(info.getSectionRef(),BlockSection.getComponentType());
+            if(blocks==null)return;
+            BlockType block=BlockType.getAssetMap().getAsset(blocks.get(info.getIndex()));
+            var container=chunk.getComponent(index,ItemContainerBlock.getComponentType());
+            if(block!=null&&(CastingMachine.ID.equals(block.getId())||CastingMachine.ID.equals(block.getDefaultStateKey()))){
+                expandInventory(container);
+                buffer.putComponent(chunk.getReferenceTo(index),CastingMachine.TYPE,new CastingMachine());
+                info.markNeedsSaving(buffer);
+            }
+        }
     }
     private static final class Tick extends EntityTickingSystem<ChunkStore>{
         @Override public Query<ChunkStore> getQuery(){return Query.and(CastingMachine.TYPE,ItemContainerBlock.getComponentType());}
         @Override public void tick(float dt,int index,ArchetypeChunk<ChunkStore> chunk,Store<ChunkStore> store,CommandBuffer<ChunkStore> buffer){
             CastingMachine state=chunk.getComponent(index,CastingMachine.TYPE);
             ItemContainerBlock container=chunk.getComponent(index,ItemContainerBlock.getComponentType());
+            boolean expanded=expandInventory(container);
+            if(expanded){
+                var info=chunk.getComponent(index,BlockModule.BlockStateInfo.getComponentType());
+                if(info!=null)info.markNeedsSaving(buffer);
+            }
             boolean update=state.elapsed+dt>=.25f;
             boolean wasRunning=state.running;
             state.tick(dt,container.getItemContainer());
             if(update){
                 var info=chunk.getComponent(index,BlockModule.BlockStateInfo.getComponentType());
                 if(info!=null){
-                    if(state.running||wasRunning)info.markNeedsSaving(buffer);
-                    boolean active=state.running&&state.working;
+                    if(info.getSectionRef().isValid()){
+                        BlockSection blocks=buffer.getComponent(info.getSectionRef(),BlockSection.getComponentType());
+                        if(blocks!=null)state.displays.request(chunk.getReferenceTo(index),state,info,CastingMachine.snapshot(container.getItemContainer()),blocks.getRotationIndex(info.getIndex()));
+                    }
+                    if(expanded||state.inventoryChanged||state.running||wasRunning||state.working)info.markNeedsSaving(buffer);
+                    boolean active=state.working;
                     if(active!=state.lit){
                         Vector3i position=new Vector3i();
                         if(info.fillWorldPos(buffer,position)){

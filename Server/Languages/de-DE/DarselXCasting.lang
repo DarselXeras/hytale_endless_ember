@@ -1,5 +1,5 @@
 Casting.Station.name = Glutgießstation
-Casting.Station.description = Gießt Platten, Stangen und Zahnräder aus Flüssigmetall.\n10 Zellhalterungen, 24 Vorratsplätze, 6 Eingaben, 2 Produktausgänge, Leergut und Brennstoff.\nZellen in Teilmengen befüllen, nachfüllen oder vollständig entleeren.\nHerstellung: Tinkertable MK2, Maschinen.
+Casting.Station.description = Gießt Platten, Stangen und Zahnräder aus Flüssigmetall.\n10 sichtbare Zellhalter mit genauem Füllstand, 10 Vorratsseiten mit je 24 Plätzen, 6 Eingaben und 2 Produktausgänge.\nBarren in Eingabe 3 befüllen passende Zellen automatisch. Leere Zellen kommen aus dem gemeinsamen Vorrats-/Rückgabefach, volle Zellen bleiben bis zum nächsten Barren im Halter. Vorratszellen rücken automatisch in freie Halter nach. Brennstoff erforderlich.\nHerstellung: Tinkertable MK2, Maschinen.
 Casting.Open = Gießstation öffnen
 Casting.Ember_Mold_Plate.name = Gussform: Platte
 Casting.Ember_Mold_Plate.description = Wiederverwendbare Gussform. In Eingabeplatz 1 der Gießstation einsetzen.

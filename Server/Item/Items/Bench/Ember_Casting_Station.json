@@ -72,7 +72,7 @@
     "BlockEntity": {
       "Components": {
         "ItemContainerBlock": {
-          "Capacity": 44
+          "Capacity": 260
         },
         "EE_CastingMachine": {}
       }
@@ -114,8 +114,8 @@
       22.5
     ],
     "Translation": [
-      0,
-      -23
+      14,
+      -32
     ]
   }
 }

@@ -1,5 +1,5 @@
 Casting.Station.name = Ember Casting Station
-Casting.Station.description = Casts plates, rods and gears from molten metal.\n10 cell holders, 24 reserve slots, 6 inputs, 2 product outputs, empty-cell return and fuel.\nFill, top up or fully drain cells in variable quantities.\nCrafting: Tinkertable MK2, Machines.
+Casting.Station.description = Casts plates, rods and gears from molten metal.\n10 visible cell holders with exact fill levels, 10 reserve pages with 24 slots each, 6 inputs and 2 product outputs.\nInput 3 ingots automatically fill matching cells; empty cells come from the shared supply/return slot. Full cells stay mounted until another ingot needs space; reserve cells automatically replace empty holders. Fuel required.\nCrafting: Tinkertable MK2, Machines.
 Casting.Open = Open casting station
 Casting.Ember_Mold_Plate.name = Casting Mold: Plate
 Casting.Ember_Mold_Plate.description = Reusable casting mold. Place in casting station input 1.
