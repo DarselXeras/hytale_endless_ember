@@ -1,0 +1,121 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXCasting.Casting.Station.name",
+    "Description": "DarselXCasting.Casting.Station.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Ember_Casting_Station.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Quality": "Common",
+  "MaxStack": 1,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 60
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 30
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Endless_Ember_MK2",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_Machines"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 20
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/EmberCaster/EmberCaster.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/EmberCaster/EmberCaster.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "Ember_Casting_Station",
+    "BlockSoundSetId": "Metal",
+    "BlockParticleSetId": "Metal",
+    "PhysicalMaterialId": "Metal",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true
+    },
+    "BlockEntity": {
+      "Components": {
+        "ItemContainerBlock": {
+          "Capacity": 44
+        },
+        "EE_CastingMachine": {}
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "InteractionHint": "DarselXCasting.Casting.Open",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenCustomUI",
+            "Page": {
+              "Id": "EE_CastingStation"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Working": {
+          "CustomModel": "Blocks/Benches/EmberCaster/EmberCaster_Working.blockymodel",
+          "Light": {
+            "Color": "#531"
+          }
+        }
+      }
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -23
+    ]
+  }
+}

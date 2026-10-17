@@ -1,0 +1,51 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXCasting.Casting.Ember_Mold_Gear.name",
+    "Description": "DarselXCasting.Casting.Ember_Mold_Gear.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Ember_Mold_Gear.png",
+  "Model": "Items/EndlessEmber/Casting/Ember_Mold_Gear.blockymodel",
+  "Texture": "Items/EndlessEmber/Casting/Casting_Items.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "MaxStack": 1,
+  "Scale": 1,
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_Machines"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "TimeSeconds": 5
+  },
+  "IconProperties": {
+    "Scale": 1.2,
+    "Rotation": [
+      21,
+      35,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  }
+}

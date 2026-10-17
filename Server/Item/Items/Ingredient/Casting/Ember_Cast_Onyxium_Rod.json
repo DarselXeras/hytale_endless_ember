@@ -1,0 +1,28 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXCasting.Casting.Ember_Cast_Onyxium_Rod.name",
+    "Description": "DarselXCasting.Casting.Product.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Ember_Cast_Onyxium_Rod.png",
+  "Model": "Items/EndlessEmber/Casting/Ember_Cast_Onyxium_Rod.blockymodel",
+  "Texture": "Items/EndlessEmber/Casting/Casting_Items.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "MaxStack": 100,
+  "Scale": 1,
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      42,
+      42
+    ],
+    "Translation": [
+      0,
+      -2
+    ]
+  }
+}
