@@ -1,0 +1,8 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "Mode",
+  "Mode": 2,
+  "Modes": 3,
+  "Next": "Ember_Pollen_Launcher_Poison_Consume",
+  "Failed": "Gun_Shoot_Fail"
+}

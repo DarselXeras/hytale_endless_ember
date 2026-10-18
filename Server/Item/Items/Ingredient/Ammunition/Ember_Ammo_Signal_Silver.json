@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Ammo_Signal_Silver.name",
+    "Description": "DarselXAdvanced.Items.Ember_Ammo_Signal_Silver.description"
+  },
+  "Model": "Items/EndlessEmber/Ammunition/Ember_Ammo_Signal_Silver.blockymodel",
+  "Texture": "Items/EndlessEmber/Ammunition/Ember_Ammo_Signal_Silver.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Ammo_Signal_Silver.png",
+  "Quality": "Common",
+  "MaxStack": 100,
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_MirrorFlower_Pollen",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Ammo_Signal_Silver",
+        "Quantity": 4
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Ammo_Signal_Silver",
+      "Quantity": 4
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 4,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Ammo"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  }
+}

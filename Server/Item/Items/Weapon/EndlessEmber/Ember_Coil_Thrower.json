@@ -1,0 +1,125 @@
+{
+  "Parent": "Weapon_Assault_Rifle",
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Coil_Thrower.name",
+    "Description": "DarselXAdvanced.Items.Ember_Coil_Thrower.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Coil_Thrower.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Coil_Thrower.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Coil_Thrower.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Coil_Thrower_Fire",
+        "Cooldown": 2.8
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "EE_WeaponGate",
+            "Action": "CoilEnergy",
+            "Next": "Ember_Coil_Thrower_Shoot",
+            "Failed": "Gun_Shoot_Fail"
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Plate",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Gear",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Gold_Plate",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 8
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Coil_Thrower",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Coil_Thrower",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 22,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

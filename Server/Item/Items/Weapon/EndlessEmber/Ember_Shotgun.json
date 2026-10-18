@@ -1,0 +1,74 @@
+{
+  "Parent": "Weapon_Gun_Blunderbuss",
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Shotgun.name",
+    "Description": "DarselXArsenal.Items.Ember_Shotgun.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Shotgun.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Shotgun.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Shotgun.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Shotgun_Fire",
+        "Cooldown": 1.5
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": "Ember_Shotgun_Consume",
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Plate",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Gear",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Shotgun",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Shotgun",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 18,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

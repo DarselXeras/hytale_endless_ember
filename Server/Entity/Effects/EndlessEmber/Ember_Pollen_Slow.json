@@ -1,0 +1,8 @@
+{
+  "Parent": "Ability_Frost_Slow",
+  "Duration": 40,
+  "ApplicationEffects": {
+    "HorizontalSpeedMultiplier": 0.6,
+    "EntityTopTint": "#74c8ff"
+  }
+}

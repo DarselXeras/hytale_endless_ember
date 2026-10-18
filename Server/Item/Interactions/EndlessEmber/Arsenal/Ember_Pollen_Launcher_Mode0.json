@@ -1,0 +1,8 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "Mode",
+  "Mode": 0,
+  "Modes": 3,
+  "Next": "Ember_Pollen_Launcher_Slow_Consume",
+  "Failed": "Ember_Pollen_Launcher_Mode1"
+}

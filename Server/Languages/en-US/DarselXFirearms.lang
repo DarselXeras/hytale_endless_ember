@@ -1,0 +1,14 @@
+Categories.Firearms = Firearms
+Categories.Ammo = Ammunition
+Items.Ember_Pistol.name = Ember Pistol
+Items.Ember_Pistol.description = Weaponbench MK2.\nAmmo: Pistol Cartridge in inventory or hotbar.\nEach click fires once and consumes one cartridge.\n18 projectile damage, minimum 0.55 seconds between shots.\nNo matching cartridge, no shot. Creative does not consume ammo.\nCrouch + secondary: cycle ammo (standard, armor-piercing, incendiary, marking).
+Items.Ember_Repeater.name = Cobalt Repeater
+Items.Ember_Repeater.description = Weaponbench MK3.\nAmmo: Rifle Cartridge in inventory or hotbar.\nEach click fires once and consumes one cartridge.\n24 projectile damage, minimum 0.4 seconds between shots.\nNo matching cartridge, no shot. Creative does not consume ammo.\nCrouch + secondary: cycle ammo (standard, armor-piercing, incendiary, marking).
+Items.Ember_Precision_Rifle.name = Adamantite Precision Rifle
+Items.Ember_Precision_Rifle.description = Weaponbench MK4.\nAmmo: Precision Cartridge in inventory or hotbar.\nEach click fires once and consumes one cartridge.\n42 projectile damage, minimum 1.1 seconds between shots.\nNo matching cartridge, no shot. Creative does not consume ammo.\nHold secondary: aim through the scope.\nCrouch + secondary: cycle ammo (standard, armor-piercing, incendiary, marking).
+Items.Ember_Ammo_Pistol.name = Pistol Cartridge
+Items.Ember_Ammo_Pistol.description = For: Ember Pistol.\nWeaponbench MK2, Ammunition.\nCrafting: 16 cartridges per batch.\nCarry in inventory; the weapon takes one cartridge per shot.
+Items.Ember_Ammo_Rifle.name = Rifle Cartridge
+Items.Ember_Ammo_Rifle.description = For: Cobalt Repeater.\nWeaponbench MK3, Ammunition.\nCrafting: 16 cartridges per batch.\nCarry in inventory; the weapon takes one cartridge per shot.
+Items.Ember_Ammo_Precision.name = Precision Cartridge
+Items.Ember_Ammo_Precision.description = For: Adamantite Precision Rifle.\nWeaponbench MK4, Ammunition.\nCrafting: 8 cartridges per batch.\nCarry in inventory; the weapon takes one cartridge per shot.

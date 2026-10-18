@@ -1,0 +1,38 @@
+{
+  "TimeSeconds": 3,
+  "KnowledgeRequired": false,
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Copper",
+      "Quantity": 4
+    },
+    {
+      "ResourceTypeId": "Wood_Trunk",
+      "Quantity": 4
+    },
+    {
+      "ItemId": "Ingredient_Fibre",
+      "Quantity": 6
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Bow"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Shortbow_Copper",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Shortbow_Copper",
+    "Quantity": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Stick",
+      "Quantity": 4
+    },
+    {
+      "ResourceTypeId": "Rubble",
+      "Quantity": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Arrow_Crude",
+      "Quantity": 4
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Arrow_Crude",
+    "Quantity": 4
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Ember_Weaponbench_Ammo"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "KnowledgeRequired": false,
+  "TimeSeconds": 1
+}

@@ -1,0 +1,10 @@
+{
+  "Type": "ModifyInventory",
+  "RequiredGameMode": "Adventure",
+  "ItemToRemove": {
+    "Id": "Ember_Ammo_Pollen_Slow",
+    "Quantity": 1
+  },
+  "Next": "Ember_Pollen_Launcher_Slow_Shoot",
+  "Failed": "Gun_Shoot_Fail"
+}

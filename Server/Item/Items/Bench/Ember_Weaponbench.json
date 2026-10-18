@@ -1,0 +1,297 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXWeapons.Weaponbench.name",
+    "Description": "DarselXWeapons.Weaponbench.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Ember_Weaponbench.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 30
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Rod",
+        "Quantity": 4
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Weaponbench"
+      }
+    ],
+    "TimeSeconds": 15,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Tinkerbench",
+        "Categories": [
+          "Ember_Tinkerbench_Machines"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/EmberWeaponbench/EmberWeaponbench_MK1.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/EmberWeaponbench/EmberWeaponbench.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "Ember_Weaponbench_MK1",
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
+    "State": {
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK1.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK1.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/EmberWeaponbench/EmberWeaponbench_MK2.blockymodel",
+          "HitboxType": "Ember_Weaponbench_MK2",
+          "State": {
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK2.blockyanim",
+                "Looping": true
+              },
+              "CraftCompletedInstant": {
+                "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK2.blockyanim"
+              }
+            }
+          }
+        },
+        "Tier3": {
+          "CustomModel": "Blocks/Benches/EmberWeaponbench/EmberWeaponbench_MK3.blockymodel",
+          "HitboxType": "Ember_Weaponbench_MK3",
+          "State": {
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK3.blockyanim",
+                "Looping": true
+              },
+              "CraftCompletedInstant": {
+                "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK3.blockyanim"
+              }
+            }
+          }
+        },
+        "Tier4": {
+          "CustomModel": "Blocks/Benches/EmberWeaponbench/EmberWeaponbench_MK4.blockymodel",
+          "HitboxType": "Ember_Weaponbench_MK4",
+          "State": {
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK4.blockyanim",
+                "Looping": true
+              },
+              "CraftCompletedInstant": {
+                "CustomModelAnimation": "Blocks/Benches/EmberWeaponbench/Weaponbench_Crafting_MK4.blockyanim"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Bench": {
+      "Type": "Crafting",
+      "LocalOpenSoundEventId": "SFX_Weapon_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Weapon_Bench_Close",
+      "CompletedSoundEventId": "SFX_Weapon_Bench_Craft",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Categories": [
+        {
+          "Id": "Weapon_Sword",
+          "Icon": "Icons/CraftingCategories/Armory/Sword.png",
+          "Name": "server.benchCategories.sword"
+        },
+        {
+          "Id": "Weapon_Mace",
+          "Icon": "Icons/CraftingCategories/Armory/Mace.png",
+          "Name": "server.benchCategories.mace"
+        },
+        {
+          "Id": "Weapon_Battleaxe",
+          "Icon": "Icons/CraftingCategories/Armory/Battleaxe.png",
+          "Name": "server.benchCategories.battleaxe"
+        },
+        {
+          "Id": "Weapon_Daggers",
+          "Icon": "Icons/CraftingCategories/Armory/Daggers.png",
+          "Name": "server.benchCategories.daggers"
+        },
+        {
+          "Id": "Weapon_Bow",
+          "Icon": "Icons/CraftingCategories/Armory/Bow.png",
+          "Name": "server.benchCategories.bow"
+        },
+        {
+          "Id": "Ember_Weaponbench_Firearms",
+          "Name": "DarselXFirearms.Categories.Firearms",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Firearms.png"
+        },
+        {
+          "Id": "Ember_Weaponbench_Ammo",
+          "Name": "DarselXFirearms.Categories.Ammo",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo.png"
+        }
+      ],
+      "Id": "Ember_Weaponbench",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 50
+              },
+              {
+                "ResourceTypeId": "Rock",
+                "Quantity": 40
+              },
+              {
+                "ItemId": "Ember_Cast_Iron_Plate",
+                "Quantity": 12
+              },
+              {
+                "ItemId": "Ember_Cast_Copper_Gear",
+                "Quantity": 4
+              },
+              {
+                "ItemId": "Ember_Cast_Iron_Rod",
+                "Quantity": 8
+              }
+            ],
+            "TimeSeconds": 15
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.1,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 80
+              },
+              {
+                "ResourceTypeId": "Rock",
+                "Quantity": 64
+              },
+              {
+                "ItemId": "Ember_Cast_Cobalt_Plate",
+                "Quantity": 12
+              },
+              {
+                "ItemId": "Ember_Cast_Thorium_Rod",
+                "Quantity": 12
+              },
+              {
+                "ItemId": "Ember_Cast_Iron_Gear",
+                "Quantity": 8
+              }
+            ],
+            "TimeSeconds": 20
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.2,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ResourceTypeId": "Wood_Trunk",
+                "Quantity": 120
+              },
+              {
+                "ResourceTypeId": "Rock",
+                "Quantity": 100
+              },
+              {
+                "ItemId": "Ember_Cast_Adamantite_Plate",
+                "Quantity": 16
+              },
+              {
+                "ItemId": "Ember_Cast_Cobalt_Gear",
+                "Quantity": 8
+              },
+              {
+                "ItemId": "Ember_Cast_Thorium_Rod",
+                "Quantity": 16
+              }
+            ],
+            "TimeSeconds": 30
+          }
+        },
+        {
+          "CraftingTimeReductionModifier": 0.30000000000000004
+        }
+      ]
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "TextureComputedColor": "#473326",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "AllowRotationKey": true
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.32,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -14
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 2,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

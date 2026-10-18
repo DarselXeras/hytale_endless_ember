@@ -1,0 +1,38 @@
+{
+  "TimeSeconds": 3,
+  "KnowledgeRequired": false,
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Copper",
+      "Quantity": 6
+    },
+    {
+      "ResourceTypeId": "Wood_Trunk",
+      "Quantity": 6
+    },
+    {
+      "ItemId": "Ingredient_Fibre",
+      "Quantity": 4
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Battleaxe"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Battleaxe_Copper",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Battleaxe_Copper",
+    "Quantity": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "TimeSeconds": 3,
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Daggers"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "Input": [
+    {
+      "Quantity": 3,
+      "ItemId": "Ingredient_Fibre"
+    },
+    {
+      "ResourceTypeId": "Wood_Trunk",
+      "Quantity": 3
+    },
+    {
+      "ItemId": "Ingredient_Bar_Copper",
+      "Quantity": 4
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Daggers_Copper",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Daggers_Copper",
+    "Quantity": 1
+  }
+}

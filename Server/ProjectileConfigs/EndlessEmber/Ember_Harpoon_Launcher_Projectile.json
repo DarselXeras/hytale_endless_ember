@@ -1,0 +1,46 @@
+{
+  "Model": "Ember_Harpoon_Visual",
+  "LaunchForce": 38,
+  "SpawnOffset": {
+    "X": 0.12,
+    "Y": -0.15,
+    "Z": -0.4
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 5,
+    "TerminalVelocityAir": 38,
+    "TerminalVelocityWater": 20,
+    "RotationMode": "Velocity",
+    "Bounciness": 0
+  },
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        {
+          "Type": "DamageEntity",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Projectile": 12
+            }
+          }
+        },
+        {
+          "Type": "EE_AdvancedWeapon",
+          "Action": "Pull"
+        },
+        {
+          "Type": "ApplyEffect",
+          "Entity": "Target",
+          "EffectId": "Ember_Harpoon_Slow"
+        },
+        "Common_Projectile_Despawn"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "Common_Projectile_Despawn"
+      ]
+    }
+  }
+}

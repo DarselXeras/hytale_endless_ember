@@ -1,0 +1,82 @@
+{
+  "Parent": "Weapon_Flamethrower_Scrap",
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Flamethrower.name",
+    "Description": "DarselXArsenal.Items.Ember_Flamethrower.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Flamethrower.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Flamethrower.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Flamethrower.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": false,
+      "Cooldown": {
+        "Id": "Ember_Flamethrower_Fire",
+        "Cooldown": 0.4
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": "Ember_Flamethrower_FuelHeat",
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "EE_WeaponGate",
+          "Action": "Inspect"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Iron_Plate",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Gear",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Endless_Ember_MK2",
+        "Quantity": 2
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Flamethrower",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Flamethrower",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 18,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

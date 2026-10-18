@@ -1,0 +1,27 @@
+{
+  "Appearance": "Bullet_Blunderbuss",
+  "Radius": 0.06,
+  "Height": 0,
+  "DepthShot": 0.7,
+  "PitchAdjustShot": false,
+  "SticksVertically": true,
+  "MuzzleVelocity": 160,
+  "TerminalVelocity": 160,
+  "Gravity": 10,
+  "Bounciness": 0,
+  "ImpactSlowdown": 0,
+  "TimeToLive": 3,
+  "Damage": 42,
+  "DeathEffectsOnHit": true,
+  "DeadTime": 0.1,
+  "DeadTimeMiss": 0,
+  "DeathParticles": {
+    "SystemId": "Gun_Impact",
+    "PositionOffset": {
+      "Y": -0.3
+    }
+  },
+  "VerticalCenterShot": 0,
+  "HorizontalCenterShot": 0,
+  "DeathSoundEventId": "SFX_GunPvP_Handgun_Bullet_Death"
+}

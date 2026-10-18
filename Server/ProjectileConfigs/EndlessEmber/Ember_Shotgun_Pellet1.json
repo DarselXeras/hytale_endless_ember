@@ -1,0 +1,41 @@
+{
+  "Model": "Bullet_Blunderbuss",
+  "LaunchForce": 65,
+  "SpawnOffset": {
+    "X": 0.12,
+    "Y": -0.15,
+    "Z": -0.4
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 3,
+    "TerminalVelocityAir": 65,
+    "TerminalVelocityWater": 20,
+    "RotationMode": "Velocity",
+    "Bounciness": 0
+  },
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        {
+          "Type": "DamageEntity",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Projectile": 7
+            }
+          }
+        },
+        "Common_Projectile_Despawn"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "Common_Projectile_Despawn"
+      ]
+    }
+  },
+  "SpawnRotationOffset": {
+    "Yaw": -4,
+    "Pitch": 3
+  }
+}

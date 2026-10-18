@@ -1,0 +1,2682 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Origin",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shape": {
+        "type": "none",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "3",
+          "name": "BrassRim_core",
+          "position": {
+            "x": 0,
+            "y": 0.6,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.9,
+              "y": 0.6,
+              "z": 0.9285714285714286
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 5,
+                "y": 2,
+                "z": 7
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "4",
+          "name": "BrassRim_sides",
+          "position": {
+            "x": 0,
+            "y": 0.6,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.9285714285714286,
+              "y": 0.6,
+              "z": 0.9
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 2,
+                "z": 5
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "5",
+          "name": "BrassRim_bevel_-1_-1",
+          "position": {
+            "x": -2.25,
+            "y": 0.6,
+            "z": -2.25
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.6,
+              "z": 0.7071067811865476
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "6",
+          "name": "BrassRim_bevel_-1_1",
+          "position": {
+            "x": -2.25,
+            "y": 0.6,
+            "z": 2.25
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.6,
+              "z": 0.7071067811865476
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "7",
+          "name": "BrassRim_bevel_1_-1",
+          "position": {
+            "x": 2.25,
+            "y": 0.6,
+            "z": -2.25
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.6,
+              "z": 0.7071067811865476
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "8",
+          "name": "BrassRim_bevel_1_1",
+          "position": {
+            "x": 2.25,
+            "y": 0.6,
+            "z": 2.25
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.6,
+              "z": 0.7071067811865476
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "10",
+          "name": "PaperSignalShell_core",
+          "position": {
+            "x": 0,
+            "y": 5.6,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 1.0,
+              "z": 0.9166666666666666
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 4,
+                "y": 9,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "11",
+          "name": "PaperSignalShell_sides",
+          "position": {
+            "x": 0,
+            "y": 5.6,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.9166666666666666,
+              "y": 1.0,
+              "z": 0.975
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 6,
+                "y": 9,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "12",
+          "name": "PaperSignalShell_bevel_-1_-1",
+          "position": {
+            "x": -1.95,
+            "y": 5.6,
+            "z": -1.95
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 9,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "13",
+          "name": "PaperSignalShell_bevel_-1_1",
+          "position": {
+            "x": -1.95,
+            "y": 5.6,
+            "z": 1.95
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 9,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "14",
+          "name": "PaperSignalShell_bevel_1_-1",
+          "position": {
+            "x": 1.95,
+            "y": 5.6,
+            "z": -1.95
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 9,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "15",
+          "name": "PaperSignalShell_bevel_1_1",
+          "position": {
+            "x": 1.95,
+            "y": 5.6,
+            "z": 1.95
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 9,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 194,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "17",
+          "name": "ColourBand_core",
+          "position": {
+            "x": 0,
+            "y": 8.8,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.8399999999999999,
+              "y": 1.0,
+              "z": 0.9666666666666667
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 5,
+                "y": 2,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "18",
+          "name": "ColourBand_sides",
+          "position": {
+            "x": 0,
+            "y": 8.8,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.9666666666666667,
+              "y": 1.0,
+              "z": 0.8399999999999999
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 6,
+                "y": 2,
+                "z": 5
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "19",
+          "name": "ColourBand_bevel_-1_-1",
+          "position": {
+            "x": -2.0999999999999996,
+            "y": 8.8,
+            "z": -2.0999999999999996
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "20",
+          "name": "ColourBand_bevel_-1_1",
+          "position": {
+            "x": -2.0999999999999996,
+            "y": 8.8,
+            "z": 2.0999999999999996
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "21",
+          "name": "ColourBand_bevel_1_-1",
+          "position": {
+            "x": 2.0999999999999996,
+            "y": 8.8,
+            "z": -2.0999999999999996
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "22",
+          "name": "ColourBand_bevel_1_1",
+          "position": {
+            "x": 2.0999999999999996,
+            "y": 8.8,
+            "z": 2.0999999999999996
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 1.0,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "24",
+          "name": "SealedCap_core",
+          "position": {
+            "x": 0,
+            "y": 10.5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.9,
+              "y": 0.75,
+              "z": 0.8666666666666667
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 4,
+                "y": 2,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "25",
+          "name": "SealedCap_sides",
+          "position": {
+            "x": 0,
+            "y": 10.5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.8666666666666667,
+              "y": 0.75,
+              "z": 0.9
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 6,
+                "y": 2,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "26",
+          "name": "SealedCap_bevel_-1_-1",
+          "position": {
+            "x": -1.8,
+            "y": 10.5,
+            "z": -1.8
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 0.75,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "27",
+          "name": "SealedCap_bevel_-1_1",
+          "position": {
+            "x": -1.8,
+            "y": 10.5,
+            "z": 1.8
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 0.75,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "28",
+          "name": "SealedCap_bevel_1_-1",
+          "position": {
+            "x": 1.8,
+            "y": 10.5,
+            "z": -1.8
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 0.75,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "29",
+          "name": "SealedCap_bevel_1_1",
+          "position": {
+            "x": 1.8,
+            "y": 10.5,
+            "z": 1.8
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.3826834323650898,
+            "z": 0,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.5656854249492381,
+              "y": 0.75,
+              "z": 0.5656854249492381
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 2,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 66,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

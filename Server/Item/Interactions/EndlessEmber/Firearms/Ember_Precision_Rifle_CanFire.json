@@ -1,0 +1,7 @@
+{
+  "Type": "DurabilityCondition",
+  "Threshold": 0,
+  "Operator": "GreaterThan",
+  "Next": "Ember_Precision_Rifle_Mode0",
+  "Failed": "Gun_Shoot_Fail"
+}

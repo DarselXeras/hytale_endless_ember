@@ -1,0 +1,38 @@
+{
+  "TimeSeconds": 4,
+  "KnowledgeRequired": false,
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Thorium",
+      "Quantity": 8
+    },
+    {
+      "ItemId": "Ingredient_Leather_Medium",
+      "Quantity": 3
+    },
+    {
+      "ItemId": "Ingredient_Fabric_Scrap_Linen",
+      "Quantity": 3
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Sword"
+      ],
+      "RequiredTierLevel": 3
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Sword_Thorium",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Sword_Thorium",
+    "Quantity": 1
+  }
+}

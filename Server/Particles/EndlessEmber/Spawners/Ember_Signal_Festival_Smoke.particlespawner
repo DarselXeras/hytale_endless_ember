@@ -1,0 +1,80 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": false,
+  "SpawnBurst": true,
+  "MaxConcurrentParticles": 12,
+  "TotalParticles": {
+    "Min": 12,
+    "Max": 12
+  },
+  "SpawnRate": {
+    "Min": 12,
+    "Max": 12
+  },
+  "ParticleLifeSpan": {
+    "Min": 15,
+    "Max": 15
+  },
+  "LifeSpan": 15,
+  "EmitOffset": {
+    "X": {
+      "Min": -2.5,
+      "Max": 2.5
+    },
+    "Y": {
+      "Min": -2.5,
+      "Max": 2.5
+    },
+    "Z": {
+      "Min": -2.5,
+      "Max": 2.5
+    }
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0,
+      "Max": 0
+    }
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Smoke.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 64
+    },
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Enable",
+    "InitialAnimationFrame": {
+      "Color": "#ffffff",
+      "Opacity": 1,
+      "Scale": {
+        "X": {
+          "Min": 1,
+          "Max": 2
+        },
+        "Y": {
+          "Min": 1,
+          "Max": 2
+        }
+      }
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 0.18
+      },
+      "67": {
+        "Opacity": 0.18
+      },
+      "85": {
+        "Opacity": 0.08
+      },
+      "100": {
+        "Opacity": 0
+      }
+    }
+  },
+  "Shape": "Sphere"
+}

@@ -1,0 +1,89 @@
+{
+  "Parent": "Weapon_Gun_Blunderbuss",
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Pollen_Launcher.name",
+    "Description": "DarselXArsenal.Items.Ember_Pollen_Launcher.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Pollen_Launcher.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Pollen_Launcher.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Pollen_Launcher.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Pollen_Launcher_Fire",
+        "Cooldown": 1
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": "Ember_Pollen_Launcher_Mode0",
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Secondary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "EE_AmmoSwitch",
+        "Cooldown": 0.25
+      },
+      "Interactions": [
+        {
+          "Type": "EE_WeaponGate",
+          "Action": "Cycle",
+          "Modes": 3,
+          "RequireCrouch": false
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Gear",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Pollen_Launcher",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Pollen_Launcher",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 18,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Signal_Festival_Stars_Iron",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Stars_Copper",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Stars_Gold",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Stars_Thorium",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Stars_Mithril",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Stars_Cobalt",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Stars_Onyxium",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Smoke",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Festival_Core",
+      "LifeSpan": {
+        "Min": 15,
+        "Max": 15
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 15,
+  "CullDistance": 512,
+  "BoundingRadius": 64,
+  "IsImportant": true
+}

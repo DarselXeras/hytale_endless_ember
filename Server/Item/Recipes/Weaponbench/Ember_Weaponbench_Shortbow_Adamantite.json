@@ -1,0 +1,38 @@
+{
+  "TimeSeconds": 4.5,
+  "KnowledgeRequired": false,
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Adamantite",
+      "Quantity": 11
+    },
+    {
+      "ItemId": "Ingredient_Leather_Heavy",
+      "Quantity": 3
+    },
+    {
+      "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+      "Quantity": 3
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Bow"
+      ],
+      "RequiredTierLevel": 4
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Shortbow_Adamantite",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Shortbow_Adamantite",
+    "Quantity": 1
+  }
+}

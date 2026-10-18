@@ -1,0 +1,93 @@
+{
+  "Parent": "Weapon_Handgun",
+  "TranslationProperties": {
+    "Name": "DarselXFirearms.Items.Ember_Pistol.name",
+    "Description": "DarselXFirearms.Items.Ember_Pistol.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Pistol.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Pistol.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Pistol.png",
+  "Quality": "Uncommon",
+  "MaxStack": 1,
+  "MaxDurability": 300,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Pistol_Fire",
+        "Cooldown": 0.55
+      },
+      "Interactions": [
+        "Ember_Pistol_CanFire"
+      ]
+    },
+    "Secondary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "EE_AmmoSwitch",
+        "Cooldown": 0.25
+      },
+      "Interactions": [
+        {
+          "Type": "EE_WeaponGate",
+          "Action": "Cycle",
+          "Modes": 4,
+          "RequireCrouch": true,
+          "Failed": {
+            "Type": "Replace",
+            "Var": "EE_Secondary",
+            "DefaultOk": true,
+            "DefaultValue": "Gun_Attack"
+          }
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Iron_Plate",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Gear",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Rod",
+        "Quantity": 8
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 4
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Pistol",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Pistol",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 14,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  }
+}

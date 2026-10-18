@@ -1,0 +1,10 @@
+{
+  "Type": "ModifyInventory",
+  "RequiredGameMode": "Adventure",
+  "ItemToRemove": {
+    "Id": "Ember_Ammo_Pistol_Incendiary",
+    "Quantity": 1
+  },
+  "Next": "Ember_Pistol_Incendiary_Shoot",
+  "Failed": "Gun_Shoot_Fail"
+}

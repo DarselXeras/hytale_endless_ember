@@ -1,0 +1,23 @@
+{
+  "Parent": "Gun_Shoot",
+  "RunTime": 0,
+  "ProjectileId": "Ember_Pistol_Bullet",
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "Handgun_Shoot",
+    "WorldSoundEventId": "SFX_Handgun_Fire",
+    "LocalSoundEventId": "SFX_Handgun_Fire_Local",
+    "Particles": [
+      {
+        "SystemId": "RifleShooting",
+        "PositionOffset": {
+          "Z": 0.35,
+          "Y": 0.15
+        },
+        "RotationOffset": {
+          "Pitch": 90
+        }
+      }
+    ]
+  }
+}

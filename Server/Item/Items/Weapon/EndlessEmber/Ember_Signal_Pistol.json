@@ -1,0 +1,136 @@
+{
+  "Parent": "Weapon_Handgun",
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Signal_Pistol.name",
+    "Description": "DarselXAdvanced.Items.Ember_Signal_Pistol.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Signal_Pistol.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Signal_Pistol.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Signal_Pistol.png",
+  "Quality": "Uncommon",
+  "MaxStack": 1,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Signal_Pistol_Fire",
+        "Cooldown": 3
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "EE_SignalPistol",
+            "Action": "Fire",
+            "Effects": {
+              "ItemAnimationId": "Shoot",
+              "WorldSoundEventId": "SFX_Handgun_Fire",
+              "LocalSoundEventId": "SFX_Handgun_Fire_Local"
+            }
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Secondary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Signal_Pistol_Colour_Fire",
+        "Cooldown": 0.3
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "EE_SignalPistol",
+            "Action": "Cycle"
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Rod",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Gear",
+        "Quantity": 2
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Signal_Pistol",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Signal_Pistol",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 20,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  }
+}

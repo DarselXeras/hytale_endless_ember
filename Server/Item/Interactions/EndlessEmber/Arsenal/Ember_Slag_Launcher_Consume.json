@@ -1,0 +1,10 @@
+{
+  "Type": "ModifyInventory",
+  "RequiredGameMode": "Adventure",
+  "ItemToRemove": {
+    "Id": "Ember_Ammo_Slag",
+    "Quantity": 1
+  },
+  "Next": "Ember_Slag_Launcher_Shoot",
+  "Failed": "Gun_Shoot_Fail"
+}

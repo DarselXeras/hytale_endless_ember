@@ -1,0 +1,26 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Signal_Mithril_Trail",
+      "LifeSpan": {
+        "Min": 15.5,
+        "Max": 15.5
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Trail_Smoke",
+      "LifeSpan": {
+        "Min": 15.5,
+        "Max": 15.5
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 15.5,
+  "CullDistance": 256,
+  "BoundingRadius": 128,
+  "IsImportant": true
+}

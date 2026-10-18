@@ -1,0 +1,38 @@
+{
+  "TimeSeconds": 3,
+  "KnowledgeRequired": false,
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Copper",
+      "Quantity": 6
+    },
+    {
+      "ResourceTypeId": "Wood_Trunk",
+      "Quantity": 10
+    },
+    {
+      "ItemId": "Ingredient_Fibre",
+      "Quantity": 2
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Mace"
+      ],
+      "RequiredTierLevel": 1
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Mace_Copper",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Mace_Copper",
+    "Quantity": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Ammo_Precision_AP.name",
+    "Description": "DarselXArsenal.Items.Ember_Ammo_Precision_AP.description"
+  },
+  "Model": "Items/EndlessEmber/Ammunition/Ember_Ammo_Precision_AP.blockymodel",
+  "Texture": "Items/EndlessEmber/Ammunition/Ember_Ammo_Precision_AP.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Ammo_Precision_AP.png",
+  "Quality": "Common",
+  "MaxStack": 100,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 2,
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Rod",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Ammo_Precision_AP",
+        "Quantity": 8
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Ammo_Precision_AP",
+      "Quantity": 8
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Ammo"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  }
+}

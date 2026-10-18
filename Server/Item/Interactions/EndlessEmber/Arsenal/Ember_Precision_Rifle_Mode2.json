@@ -1,0 +1,8 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "Mode",
+  "Mode": 2,
+  "Modes": 4,
+  "Next": "Ember_Precision_Rifle_Incendiary_Consume",
+  "Failed": "Ember_Precision_Rifle_Mode3"
+}

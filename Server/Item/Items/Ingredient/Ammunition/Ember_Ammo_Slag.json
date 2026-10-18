@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Ammo_Slag.name",
+    "Description": "DarselXAdvanced.Items.Ember_Ammo_Slag.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Slag_Visual.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Slag_Visual.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Ammo_Slag.png",
+  "Quality": "Common",
+  "MaxStack": 100,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 2,
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Slag",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Ammo_Slag",
+        "Quantity": 4
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Ammo_Slag",
+      "Quantity": 4
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Ammo"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

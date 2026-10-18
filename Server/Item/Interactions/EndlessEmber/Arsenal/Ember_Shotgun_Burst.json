@@ -1,0 +1,58 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    {
+      "Type": "Projectile",
+      "Config": "Ember_Shotgun_Pellet0",
+      "Lifetime": 0.35,
+      "Effects": {
+        "ItemAnimationId": "Shoot",
+        "CameraEffect": "Handgun_Shoot",
+        "WorldSoundEventId": "SFX_Rifle_Fire",
+        "LocalSoundEventId": "SFX_Rifle_Fire_Local",
+        "Particles": [
+          {
+            "SystemId": "RifleShooting",
+            "PositionOffset": {
+              "Z": 0.8,
+              "Y": 0.15
+            },
+            "RotationOffset": {
+              "Pitch": 90
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Projectile",
+      "Config": "Ember_Shotgun_Pellet1",
+      "Lifetime": 0.35
+    },
+    {
+      "Type": "Projectile",
+      "Config": "Ember_Shotgun_Pellet2",
+      "Lifetime": 0.35
+    },
+    {
+      "Type": "Projectile",
+      "Config": "Ember_Shotgun_Pellet3",
+      "Lifetime": 0.35
+    },
+    {
+      "Type": "Projectile",
+      "Config": "Ember_Shotgun_Pellet4",
+      "Lifetime": 0.35
+    },
+    {
+      "Type": "Projectile",
+      "Config": "Ember_Shotgun_Pellet5",
+      "Lifetime": 0.35
+    },
+    {
+      "Type": "Projectile",
+      "Config": "Ember_Shotgun_Pellet6",
+      "Lifetime": 0.35
+    }
+  ]
+}

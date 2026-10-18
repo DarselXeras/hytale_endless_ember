@@ -1,0 +1,38 @@
+{
+  "TimeSeconds": 3.5,
+  "KnowledgeRequired": false,
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Iron",
+      "Quantity": 6
+    },
+    {
+      "ItemId": "Ingredient_Leather_Light",
+      "Quantity": 3
+    },
+    {
+      "ItemId": "Ingredient_Fabric_Scrap_Linen",
+      "Quantity": 3
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Sword"
+      ],
+      "RequiredTierLevel": 2
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Sword_Iron",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Sword_Iron",
+    "Quantity": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "TimeSeconds": 4,
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Daggers"
+      ],
+      "RequiredTierLevel": 3
+    }
+  ],
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Cobalt",
+      "Quantity": 8
+    },
+    {
+      "ItemId": "Ingredient_Leather_Heavy",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+      "Quantity": 3
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Daggers_Cobalt",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Daggers_Cobalt",
+    "Quantity": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Duration": 8,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "ApplicationEffects": {
+    "EntityTopTint": "#ffdc55",
+    "EntityBottomTint": "#b78223",
+    "Particles": [
+      {
+        "SystemId": "Sword_Signature_Status",
+        "Color": "#ffdc55"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "Mode",
+  "Mode": 1,
+  "Modes": 4,
+  "Next": "Ember_Repeater_AP_Consume",
+  "Failed": "Ember_Repeater_Mode2"
+}

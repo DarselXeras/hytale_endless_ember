@@ -14,7 +14,7 @@ import java.util.logging.Level;
  * original acyclic block packets for clients.
  */
 public final class EndlessEmberTierStateRepair {
-    private static final String BENCH_ID = "Ember_Tinkerbench";
+    private static final String[] BENCH_IDS = {"Ember_Tinkerbench", "Ember_Weaponbench"};
     private static final String BLOCK_TYPE_CLASS =
             "com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType";
     private static final String STATE_DATA_CLASS =
@@ -27,24 +27,26 @@ public final class EndlessEmberTierStateRepair {
     }
 
     public static void apply(Object plugin) {
-        try {
-            repair();
-            log(plugin, Level.INFO,
-                    "Endless Ember: repaired Ember Tinkerbench tier-state reset graph");
-        } catch (Throwable error) {
-            log(plugin, Level.WARNING,
-                    "Endless Ember: failed to repair Ember Tinkerbench tier states: " + error);
+        for (String benchId : BENCH_IDS) {
+            try {
+                repair(benchId);
+                log(plugin, Level.INFO,
+                        "Endless Ember: repaired " + benchId + " tier-state reset graph");
+            } catch (Throwable error) {
+                log(plugin, Level.WARNING,
+                        "Endless Ember: failed to repair " + benchId + " tier states: " + error);
+            }
         }
     }
 
-    private static void repair() throws Exception {
+    private static void repair(String benchId) throws Exception {
         Class<?> blockTypeClass = Class.forName(BLOCK_TYPE_CLASS);
         Class<?> stateDataClass = Class.forName(STATE_DATA_CLASS);
         Object assetMap = blockTypeClass.getMethod("getAssetMap").invoke(null);
-        Object root = invoke(assetMap, "getAsset", BENCH_ID);
+        Object root = invoke(assetMap, "getAsset", benchId);
         Object rootState = root == null ? null : invoke(root, "getState");
         if (root == null || rootState == null) {
-            throw new IllegalStateException("Missing block or root state: " + BENCH_ID);
+            throw new IllegalStateException("Missing block or root state: " + benchId);
         }
 
         // Cache the JSON-defined packets first. The following self targets remain

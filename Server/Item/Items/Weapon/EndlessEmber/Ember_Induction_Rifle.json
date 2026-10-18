@@ -1,0 +1,89 @@
+{
+  "Parent": "Weapon_Assault_Rifle",
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Induction_Rifle.name",
+    "Description": "DarselXArsenal.Items.Ember_Induction_Rifle.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Induction_Rifle.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Induction_Rifle.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Induction_Rifle.png",
+  "Quality": "Epic",
+  "MaxStack": 1,
+  "MaxDurability": 600,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Induction_Rifle_Fire",
+        "Cooldown": 1.8
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "Charging",
+            "DisplayProgress": true,
+            "AllowIndefiniteHold": true,
+            "HorizontalSpeedMultiplier": 0.65,
+            "Effects": {
+              "ItemAnimationId": "Shoot",
+              "ClearAnimationOnFinish": true
+            },
+            "Next": {
+              "0": {
+                "Type": "Simple"
+              },
+              "1.2": "Ember_Induction_Rifle_Energy"
+            }
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Adamantite_Plate",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Gear",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Gold_Plate",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 10
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Induction_Rifle",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Induction_Rifle",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 20,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  }
+}

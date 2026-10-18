@@ -1,0 +1,245 @@
+{
+  "Parent": "Weapon_Mace_Adamantite",
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Hammer_MK4.name",
+    "Description": "DarselXArsenal.Items.Ember_Hammer_MK4.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Hammer_MK4.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Hammer_MK4.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Hammer_MK4.png",
+  "Quality": "Epic",
+  "MaxStack": 1,
+  "MaxDurability": 600,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {},
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ember_Cast_Adamantite_Plate",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Gear",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Hammer_MK4",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Hammer_MK4",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 20,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Weapon_Mace"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 43
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 43
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Up_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 43
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Left_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Left_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 60
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Right_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Right_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 60
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Primary_Swing_Up_Left_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 60
+            }
+          }
+        }
+      ]
+    },
+    "Groundslam_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Mace_Signature_Groundslam_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 96
+            }
+          }
+        }
+      ]
+    },
+    "Groundslam_Swing_Selector": {
+      "Interactions": [
+        {
+          "Type": "Selector",
+          "RunTime": 0.043,
+          "Effects": {
+            "ItemAnimationId": "SwingDownCharged",
+            "WorldSoundEventId": "SFX_Mace_T2_Signature_Impact",
+            "LocalSoundEventId": "SFX_Mace_T2_Signature_Impact_Local",
+            "Particles": [
+              {
+                "SystemId": "Mace_Signature_Slash",
+                "TargetEntityPart": "Entity",
+                "TargetNodeName": "Hip",
+                "PositionOffset": {
+                  "Y": 1.5,
+                  "Z": 0.5
+                },
+                "RotationOffset": {
+                  "Pitch": 0
+                },
+                "Scale": 1.4
+              }
+            ],
+            "Trails": [
+              {
+                "TrailId": "Mace_Signature",
+                "TargetEntityPart": "PrimaryItem",
+                "TargetNodeName": "Origin_Projectile",
+                "PositionOffset": {
+                  "Y": -0.2
+                }
+              },
+              {
+                "TrailId": "Mace_Signature2",
+                "RotationOffset": {
+                  "Roll": 90.0
+                },
+                "TargetEntityPart": "PrimaryItem",
+                "TargetNodeName": "Origin_Projectile",
+                "PositionOffset": {
+                  "Y": -0.2
+                }
+              }
+            ]
+          },
+          "Selector": {
+            "Id": "AOECircle",
+            "Offset": {
+              "Z": -1.5
+            },
+            "Range": 3.5
+          },
+          "HitEntity": {
+            "Interactions": [
+              {
+                "Type": "Replace",
+                "Var": "Groundslam_Damage",
+                "DefaultOk": true,
+                "DefaultValue": {
+                  "Interactions": [
+                    "Weapon_Mace_Signature_Groundslam_Damage"
+                  ]
+                }
+              }
+            ]
+          },
+          "Next": {
+            "Type": "Replace",
+            "Var": "Groundslam_Explosion",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                "Weapon_Mace_Signature_Groundslam_Explosion"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Groundslam_Explosion": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "RunTime": 0.609,
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Mace_Signature_Ground_Hit",
+                "TargetEntityPart": "Entity",
+                "TargetNodeName": "Hip",
+                "PositionOffset": {
+                  "Y": 0.1
+                },
+                "Scale": 1.4
+              }
+            ],
+            "CameraEffect": "Mace_Explode"
+          }
+        }
+      ]
+    }
+  }
+}

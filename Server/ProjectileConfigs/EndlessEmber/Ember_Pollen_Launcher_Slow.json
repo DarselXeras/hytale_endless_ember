@@ -1,0 +1,85 @@
+{
+  "Model": "Ability_ChargedShot_Bolt",
+  "LaunchForce": 26,
+  "SpawnOffset": {
+    "X": 0.12,
+    "Y": -0.15,
+    "Z": -0.4
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 12,
+    "TerminalVelocityAir": 26,
+    "TerminalVelocityWater": 20,
+    "RotationMode": "Velocity",
+    "Bounciness": 0
+  },
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        {
+          "Type": "Selector",
+          "RunTime": 0.05,
+          "Selector": {
+            "Id": "AOECircle",
+            "Range": 2,
+            "Offset": {
+              "Y": 0
+            }
+          },
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Sword_Signature_Status",
+                "Scale": 1.5
+              }
+            ]
+          },
+          "HitEntity": {
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "Entity": "Target",
+                "EffectId": "Ember_Pollen_Slow"
+              }
+            ]
+          }
+        },
+        "Common_Projectile_Despawn"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        {
+          "Type": "Selector",
+          "RunTime": 0.05,
+          "Selector": {
+            "Id": "AOECircle",
+            "Range": 2,
+            "Offset": {
+              "Y": 0
+            }
+          },
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Sword_Signature_Status",
+                "Scale": 1.5
+              }
+            ]
+          },
+          "HitEntity": {
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "Entity": "Target",
+                "EffectId": "Ember_Pollen_Slow"
+              }
+            ]
+          }
+        },
+        "Common_Projectile_Despawn"
+      ]
+    }
+  }
+}

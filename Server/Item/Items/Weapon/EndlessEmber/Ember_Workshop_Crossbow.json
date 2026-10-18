@@ -1,0 +1,110 @@
+{
+  "Parent": "Weapon_Crossbow_Iron",
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Workshop_Crossbow.name",
+    "Description": "DarselXArsenal.Items.Ember_Workshop_Crossbow.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Workshop_Crossbow.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Workshop_Crossbow.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Workshop_Crossbow.png",
+  "Quality": "Common",
+  "MaxStack": 1,
+  "MaxDurability": 300,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Workshop_Crossbow_Fire",
+        "Cooldown": 1.3
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "Charging",
+            "DisplayProgress": true,
+            "AllowIndefiniteHold": true,
+            "HorizontalSpeedMultiplier": 0.65,
+            "Effects": {
+              "ItemAnimationId": "ReloadReady",
+              "ClearAnimationOnFinish": true
+            },
+            "Next": {
+              "0": {
+                "Type": "Simple"
+              },
+              "0.6": "Ember_Workshop_Crossbow_Consume"
+            }
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Rod",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 3
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Workshop_Crossbow",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Workshop_Crossbow",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 14,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "TimeSeconds": 3.5,
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "Ember_Weaponbench",
+      "Categories": [
+        "Weapon_Daggers"
+      ],
+      "RequiredTierLevel": 2
+    }
+  ],
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Iron",
+      "Quantity": 4
+    },
+    {
+      "ItemId": "Ingredient_Leather_Light",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Fabric_Scrap_Linen",
+      "Quantity": 3
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Weapon_Daggers_Iron",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Weapon_Daggers_Iron",
+    "Quantity": 1
+  }
+}

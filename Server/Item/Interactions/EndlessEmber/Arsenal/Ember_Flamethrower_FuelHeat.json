@@ -1,0 +1,6 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "Flame",
+  "Next": "Ember_Flamethrower_Burn",
+  "Failed": "Gun_Shoot_Fail"
+}

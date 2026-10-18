@@ -1,0 +1,51 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "LanceFuel",
+  "Next": {
+    "Type": "Selector",
+    "RunTime": 0.15,
+    "Effects": {
+      "ItemAnimationId": "Stab",
+      "Particles": [
+        {
+          "SystemId": "Flamethrower",
+          "Scale": 0.45,
+          "PositionOffset": {
+            "Z": 2
+          },
+          "RotationOffset": {
+            "Yaw": 180
+          }
+        }
+      ]
+    },
+    "Selector": {
+      "Id": "Stab",
+      "TestLineOfSight": true,
+      "StartDistance": 0.2,
+      "EndDistance": 4.5,
+      "ExtendTop": 0.3,
+      "ExtendBottom": 0.3,
+      "ExtendLeft": 0.3,
+      "ExtendRight": 0.3
+    },
+    "HitEntity": {
+      "Interactions": [
+        {
+          "Type": "DamageEntity",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Fire": 18
+            }
+          },
+          "Next": {
+            "Type": "ApplyEffect",
+            "Entity": "Target",
+            "EffectId": "Flame_Staff_Burn"
+          }
+        }
+      ]
+    }
+  },
+  "Failed": "Gun_Shoot_Fail"
+}

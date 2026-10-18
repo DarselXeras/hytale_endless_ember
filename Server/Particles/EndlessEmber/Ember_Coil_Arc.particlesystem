@@ -1,0 +1,16 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Coil_Arc_Burst",
+      "LifeSpan": {
+        "Min": 0.35,
+        "Max": 0.35
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 0.6,
+  "CullDistance": 64,
+  "IsImportant": true
+}

@@ -1,0 +1,7 @@
+{
+  "Parent": "Projectile",
+  "DurabilityLoss": true,
+  "StaminaLoss": false,
+  "BypassResistances": true,
+  "DamageTextColor": "#73cbff"
+}

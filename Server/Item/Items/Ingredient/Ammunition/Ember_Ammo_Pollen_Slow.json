@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXArsenal.Items.Ember_Ammo_Pollen_Slow.name",
+    "Description": "DarselXArsenal.Items.Ember_Ammo_Pollen_Slow.description"
+  },
+  "Model": "Items/EndlessEmber/Ammunition/Ember_Ammo_Pollen_Slow.blockymodel",
+  "Texture": "Items/EndlessEmber/Ammunition/Ember_Ammo_Pollen_Slow.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Ammo_Pollen_Slow.png",
+  "Quality": "Common",
+  "MaxStack": 100,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 2,
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_BlueStarFlower_Pollen",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Ammo_Pollen_Slow",
+        "Quantity": 6
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Ammo_Pollen_Slow",
+      "Quantity": 6
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Ammo"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "Parent": "Weapon_Test_Sniper_Rifle",
+  "TranslationProperties": {
+    "Name": "DarselXFirearms.Items.Ember_Precision_Rifle.name",
+    "Description": "DarselXFirearms.Items.Ember_Precision_Rifle.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Precision_Rifle.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Precision_Rifle.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Precision_Rifle.png",
+  "Quality": "Epic",
+  "MaxStack": 1,
+  "MaxDurability": 600,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Precision_Rifle_Fire",
+        "Cooldown": 1.1
+      },
+      "Interactions": [
+        "Ember_Precision_Rifle_CanFire"
+      ],
+      "Rules": {
+        "BlockedBy": [
+          "Primary",
+          "Ability1",
+          "Ability2",
+          "Ability3",
+          "Use",
+          "Pick",
+          "SwapFrom",
+          "SwapTo"
+        ]
+      }
+    },
+    "Secondary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "EE_AmmoSwitch",
+        "Cooldown": 0.25
+      },
+      "Interactions": [
+        {
+          "Type": "EE_WeaponGate",
+          "Action": "Cycle",
+          "Modes": 4,
+          "RequireCrouch": true,
+          "Failed": {
+            "Type": "Replace",
+            "Var": "EE_Secondary",
+            "DefaultOk": true,
+            "DefaultValue": "Root_Test_Sniper_Rifle_ADS"
+          }
+        }
+      ],
+      "Rules": {
+        "BlockedBy": [
+          "Secondary",
+          "Ability1",
+          "Ability2",
+          "Ability3",
+          "Use",
+          "Pick",
+          "SwapFrom",
+          "SwapTo"
+        ]
+      }
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Adamantite_Plate",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Gear",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Gold_Plate",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 8
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Precision_Rifle",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Precision_Rifle",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 18,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  }
+}

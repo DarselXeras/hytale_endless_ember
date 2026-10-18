@@ -26,11 +26,45 @@ final class EmberCasting {
     }
     static void register(EndlessEmberPlugin plugin){
         CastingMachine.TYPE=plugin.getChunkStoreRegistry().registerComponent(CastingMachine.class,"EE_CastingMachine",CastingMachine.CODEC);
-        OpenCustomUIInteraction.registerBlockEntityCustomPage(plugin,CastingPage.class,"EE_CastingStation",CastingPage::new);
+        OpenCustomUIInteraction.registerCustomPageSupplier(plugin,CastingPage.class,"EE_CastingStation",
+            (OpenCustomUIInteraction.CustomPageSupplier)(ref,access,player,context)->{
+                var chunks=access.getExternalData().getWorld().getChunkStore();
+                var target=context.getTargetBlock();if(target==null)target=context.getTargetBlockRaw();
+                Ref<ChunkStore> station=resolveStation(chunks,target);
+                return station==null?null:new CastingPage(player,station);
+            });
         plugin.getChunkStoreRegistry().registerSystem(new Recover());
         plugin.getChunkStoreRegistry().registerSystem(new DisplayCleanup());
         plugin.getChunkStoreRegistry().registerSystem(new DisplayComponentCleanup());
         plugin.getChunkStoreRegistry().registerSystem(new Tick());
+    }
+    /** Resolve clicks on the complete multiblock and recover legacy component layouts before opening. */
+    static Ref<ChunkStore> resolveStation(com.hypixel.hytale.server.core.universe.world.storage.ChunkStore chunks,com.hypixel.hytale.protocol.BlockPosition target){
+        if(target==null)return null;
+        var origin=BlockOperations.resolveBaseBlockPosition(chunks,target);if(origin==null)return null;
+        var section=chunks.getChunkSectionReferenceAtBlock(origin.x,origin.y,origin.z);
+        if(section==null||!section.isValid())return null;
+        var store=chunks.getStore();var blocks=store.getComponent(section,BlockSection.getComponentType());if(blocks==null)return null;
+        var type=BlockType.getAssetMap().getAsset(blocks.get(origin.x,origin.y,origin.z));
+        if(type==null||!(CastingMachine.ID.equals(type.getId())||CastingMachine.ID.equals(type.getDefaultStateKey())))return null;
+        var ref=BlockModule.getBlockEntity(chunks.getWorld(),origin.x,origin.y,origin.z);
+        boolean changed=false;
+        if(ref==null||!ref.isValid()){
+            Holder<ChunkStore> holder=com.hypixel.hytale.server.core.universe.world.storage.ChunkStore.REGISTRY.newHolder();
+            holder.putComponent(BlockModule.BlockStateInfo.getComponentType(),new BlockModule.BlockStateInfo(com.hypixel.hytale.math.util.ChunkUtil.indexBlock(origin.x,origin.y,origin.z),section));
+            holder.putComponent(ItemContainerBlock.getComponentType(),newContainer());
+            holder.putComponent(CastingMachine.TYPE,new CastingMachine());ref=store.addEntity(holder,AddReason.SPAWN);changed=true;
+        }else{
+            var container=store.getComponent(ref,ItemContainerBlock.getComponentType());
+            if(container==null){store.putComponent(ref,ItemContainerBlock.getComponentType(),newContainer());changed=true;}
+            else changed=expandInventory(container);
+            if(store.getComponent(ref,CastingMachine.TYPE)==null){store.putComponent(ref,CastingMachine.TYPE,new CastingMachine());changed=true;}
+        }
+        if(changed){var info=store.getComponent(ref,BlockModule.BlockStateInfo.getComponentType());if(info!=null)info.markNeedsSaving(store);}
+        return ref;
+    }
+    static ItemContainerBlock newContainer(){
+        return ItemContainerBlock.CODEC.decode(new org.bson.BsonDocument("Capacity",new org.bson.BsonInt32(CastingMachine.CAPACITY)),com.hypixel.hytale.codec.EmptyExtraInfo.EMPTY);
     }
     private static final class DisplayCleanup extends com.hypixel.hytale.component.system.RefSystem<ChunkStore>{
         @Override public Query<ChunkStore> getQuery(){return CastingMachine.TYPE;}

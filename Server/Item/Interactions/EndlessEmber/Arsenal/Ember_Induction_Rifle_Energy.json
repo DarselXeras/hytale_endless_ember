@@ -1,0 +1,7 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "Energy",
+  "Ammo": "Ember_Ammo_Induction",
+  "Next": "Ember_Induction_Rifle_Consume",
+  "Failed": "Gun_Shoot_Fail"
+}

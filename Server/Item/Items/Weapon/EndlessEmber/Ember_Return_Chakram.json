@@ -1,0 +1,119 @@
+{
+  "Parent": "Weapon_Sword_Iron",
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Return_Chakram.name",
+    "Description": "DarselXAdvanced.Items.Ember_Return_Chakram.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Return_Chakram.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Return_Chakram.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Return_Chakram.png",
+  "Quality": "Uncommon",
+  "MaxStack": 1,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Return_Chakram_Fire",
+        "Cooldown": 2.6
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "EE_AdvancedWeapon",
+            "Action": "Disc"
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Iron_Plate",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Gear",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Rod",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 3
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Return_Chakram",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Return_Chakram",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 20,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  }
+}

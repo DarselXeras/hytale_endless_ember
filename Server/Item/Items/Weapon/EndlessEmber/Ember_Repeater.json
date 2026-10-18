@@ -1,0 +1,93 @@
+{
+  "Parent": "Weapon_Assault_Rifle",
+  "TranslationProperties": {
+    "Name": "DarselXFirearms.Items.Ember_Repeater.name",
+    "Description": "DarselXFirearms.Items.Ember_Repeater.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Repeater.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Repeater.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Repeater.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "MaxDurability": 450,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Repeater_Fire",
+        "Cooldown": 0.4
+      },
+      "Interactions": [
+        "Ember_Repeater_CanFire"
+      ]
+    },
+    "Secondary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "EE_AmmoSwitch",
+        "Cooldown": 0.25
+      },
+      "Interactions": [
+        {
+          "Type": "EE_WeaponGate",
+          "Action": "Cycle",
+          "Modes": 4,
+          "RequireCrouch": true,
+          "Failed": {
+            "Type": "Replace",
+            "Var": "EE_Secondary",
+            "DefaultOk": true,
+            "DefaultValue": "Gun_Attack"
+          }
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Cobalt_Plate",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Gear",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 6
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 4
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Repeater",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Repeater",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 16,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

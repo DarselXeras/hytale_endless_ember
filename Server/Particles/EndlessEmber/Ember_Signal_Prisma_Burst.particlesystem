@@ -1,0 +1,98 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_0",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_1",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_2",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_3",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_4",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_5",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_6",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Stars_Fall_7",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Explosion_Smoke",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Signal_Prisma_Flash",
+      "LifeSpan": {
+        "Min": 50,
+        "Max": 50
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 50,
+  "CullDistance": 512,
+  "BoundingRadius": 192,
+  "IsImportant": true
+}

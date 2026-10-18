@@ -139,7 +139,11 @@ public final class CastingPage extends InteractiveCustomUIPage<CastingPage.Data>
         rendered.put(id,contents);
         ItemGridSlot[] slots=new ItemGridSlot[count];
         for(int i=0;i<count;i++){
-            ItemStack stack=contents[i];slots[i]=ItemStack.isEmpty(stack)?new ItemGridSlot():new ItemGridSlot(stack);
+            ItemStack stack=contents[i];
+            // ItemGridSlot serializes server BSON metadata as an object, which the
+            // client's ClientItemMetadata converter rejects. Strip only the view copy;
+            // drag/drop keeps using the original, fully populated inventory stack.
+            slots[i]=ItemStack.isEmpty(stack)?new ItemGridSlot():new ItemGridSlot(stack.withMetadata((BsonDocument)null));
             if(cells&&EmberCell.isCell(stack))slots[i].setDescription(EmberCell.units(stack)+" / 100 "+tr("ingots per cell","Barren je Zelle"));
         }
         ui.set(id+".Slots",slots);

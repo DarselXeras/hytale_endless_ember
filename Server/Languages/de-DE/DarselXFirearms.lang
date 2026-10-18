@@ -1,0 +1,14 @@
+Categories.Firearms = Schusswaffen
+Categories.Ammo = Munition
+Items.Ember_Pistol.name = Glutpistole
+Items.Ember_Pistol.description = Waffenwerkbank MK2.\nMunition: Pistolenpatrone im Inventar oder in der Schnellleiste.\nEinzelklick feuert einen Schuss und verbraucht eine Patrone.\n18 Projektilschaden, mindestens 0.55 Sekunden zwischen Schüssen.\nOhne passende Patrone kein Schuss. Creative verbraucht keine Munition.\nDucken + Rechtsklick: Munition wechseln (Standard, Panzerbrechend, Brand, Markierung).
+Items.Ember_Repeater.name = Kobaltrepetierer
+Items.Ember_Repeater.description = Waffenwerkbank MK3.\nMunition: Gewehrpatrone im Inventar oder in der Schnellleiste.\nEinzelklick feuert einen Schuss und verbraucht eine Patrone.\n24 Projektilschaden, mindestens 0.4 Sekunden zwischen Schüssen.\nOhne passende Patrone kein Schuss. Creative verbraucht keine Munition.\nDucken + Rechtsklick: Munition wechseln (Standard, Panzerbrechend, Brand, Markierung).
+Items.Ember_Precision_Rifle.name = Adamantit-Präzisionsgewehr
+Items.Ember_Precision_Rifle.description = Waffenwerkbank MK4.\nMunition: Präzisionspatrone im Inventar oder in der Schnellleiste.\nEinzelklick feuert einen Schuss und verbraucht eine Patrone.\n42 Projektilschaden, mindestens 1.1 Sekunden zwischen Schüssen.\nOhne passende Patrone kein Schuss. Creative verbraucht keine Munition.\nRechtsklick halten: durch das Zielfernrohr zielen.\nDucken + Rechtsklick: Munition wechseln (Standard, Panzerbrechend, Brand, Markierung).
+Items.Ember_Ammo_Pistol.name = Pistolenpatrone
+Items.Ember_Ammo_Pistol.description = Passend für: Glutpistole.\nWaffenwerkbank MK2, Munition.\nHerstellung: 16 Patronen je Durchgang.\nIm Inventar mitführen; die Waffe entnimmt eine Patrone je Schuss.
+Items.Ember_Ammo_Rifle.name = Gewehrpatrone
+Items.Ember_Ammo_Rifle.description = Passend für: Kobaltrepetierer.\nWaffenwerkbank MK3, Munition.\nHerstellung: 16 Patronen je Durchgang.\nIm Inventar mitführen; die Waffe entnimmt eine Patrone je Schuss.
+Items.Ember_Ammo_Precision.name = Präzisionspatrone
+Items.Ember_Ammo_Precision.description = Passend für: Adamantit-Präzisionsgewehr.\nWaffenwerkbank MK4, Munition.\nHerstellung: 8 Patronen je Durchgang.\nIm Inventar mitführen; die Waffe entnimmt eine Patrone je Schuss.

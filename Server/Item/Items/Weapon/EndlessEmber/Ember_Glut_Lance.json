@@ -1,0 +1,172 @@
+{
+  "Parent": "Weapon_Spear_Iron",
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Glut_Lance.name",
+    "Description": "DarselXAdvanced.Items.Ember_Glut_Lance.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Glut_Lance.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Glut_Lance.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Glut_Lance.png",
+  "Quality": "Uncommon",
+  "MaxStack": 1,
+  "MaxDurability": 400,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Glut_Lance_Fire",
+        "Cooldown": 0.8
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "Selector",
+            "RunTime": 0.15,
+            "Effects": {
+              "ItemAnimationId": "Stab"
+            },
+            "Selector": {
+              "Id": "Stab",
+              "TestLineOfSight": true,
+              "StartDistance": 0.2,
+              "EndDistance": 3.5,
+              "ExtendTop": 0.3,
+              "ExtendBottom": 0.3,
+              "ExtendLeft": 0.3,
+              "ExtendRight": 0.3
+            },
+            "HitEntity": {
+              "Interactions": [
+                {
+                  "Type": "DamageEntity",
+                  "DamageCalculator": {
+                    "BaseDamage": {
+                      "Physical": 22
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Secondary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Glut_Lance_Heat_Fire",
+        "Cooldown": 1.8
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": {
+            "Type": "Charging",
+            "DisplayProgress": true,
+            "AllowIndefiniteHold": true,
+            "HorizontalSpeedMultiplier": 0.65,
+            "Effects": {
+              "ItemAnimationId": "Stab",
+              "ClearAnimationOnFinish": true
+            },
+            "Next": {
+              "0": {
+                "Type": "Simple"
+              },
+              "0.7": "Ember_Glut_Lance_Fuel"
+            }
+          },
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Rod",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Gear",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 4
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Glut_Lance",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Glut_Lance",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 20,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  }
+}

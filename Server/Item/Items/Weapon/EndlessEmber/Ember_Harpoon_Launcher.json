@@ -1,0 +1,116 @@
+{
+  "Parent": "Weapon_Crossbow_Iron",
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Harpoon_Launcher.name",
+    "Description": "DarselXAdvanced.Items.Ember_Harpoon_Launcher.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Harpoon_Launcher.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Harpoon_Launcher.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Harpoon_Launcher.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Cooldown": {
+        "Id": "Ember_Harpoon_Launcher_Fire",
+        "Cooldown": 2.2
+      },
+      "Interactions": [
+        {
+          "Type": "DurabilityCondition",
+          "Threshold": 0,
+          "Operator": "GreaterThan",
+          "Next": "Ember_Harpoon_Launcher_Consume",
+          "Failed": "Gun_Shoot_Fail"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Plate",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Gear",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Harpoon_Launcher",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Harpoon_Launcher",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 22,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

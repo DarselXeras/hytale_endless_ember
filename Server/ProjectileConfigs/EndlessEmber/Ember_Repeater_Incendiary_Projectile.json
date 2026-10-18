@@ -1,0 +1,42 @@
+{
+  "Model": "Bullet_Blunderbuss",
+  "LaunchForce": 90,
+  "SpawnOffset": {
+    "X": 0.12,
+    "Y": -0.15,
+    "Z": -0.4
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 1,
+    "TerminalVelocityAir": 90,
+    "TerminalVelocityWater": 20,
+    "RotationMode": "Velocity",
+    "Bounciness": 0
+  },
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        {
+          "Type": "DamageEntity",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Projectile": 16
+            }
+          },
+          "Next": {
+            "Type": "ApplyEffect",
+            "Entity": "Target",
+            "EffectId": "Ember_Repeater_Incendiary_Burn"
+          }
+        },
+        "Common_Projectile_Despawn"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "Common_Projectile_Despawn"
+      ]
+    }
+  }
+}

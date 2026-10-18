@@ -1,0 +1,8 @@
+{
+  "Parent": "Ability_Frost_Slow",
+  "Duration": 2,
+  "OverlapBehavior": "Overwrite",
+  "ApplicationEffects": {
+    "HorizontalSpeedMultiplier": 0.65
+  }
+}

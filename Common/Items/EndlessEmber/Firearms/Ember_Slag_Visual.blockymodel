@@ -1,0 +1,1032 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Origin",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shape": {
+        "type": "none",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "3",
+          "name": "SlagCore_core",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 4,
+                "y": 7,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "4",
+          "name": "SlagCore_sides",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 4,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "5",
+          "name": "SlagCore_bevel_-1_-1",
+          "position": {
+            "x": -2.0,
+            "y": -2.0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.7071067811865476,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 3,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "6",
+          "name": "SlagCore_bevel_-1_1",
+          "position": {
+            "x": -2.0,
+            "y": 2.0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.7071067811865476,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 3,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "7",
+          "name": "SlagCore_bevel_1_-1",
+          "position": {
+            "x": 2.0,
+            "y": -2.0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.7071067811865476,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 3,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "8",
+          "name": "SlagCore_bevel_1_1",
+          "position": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.7071067811865476,
+              "y": 0.7071067811865476,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 3,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "9",
+          "name": "HotSeam-2",
+          "position": {
+            "x": -2,
+            "y": 1,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "10",
+          "name": "HotSeam1",
+          "position": {
+            "x": 1,
+            "y": -2,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "11",
+          "name": "HotSeam2",
+          "position": {
+            "x": 2,
+            "y": 2,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 6
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 226,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

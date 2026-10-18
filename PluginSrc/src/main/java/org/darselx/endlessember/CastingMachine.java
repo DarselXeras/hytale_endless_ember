@@ -126,6 +126,7 @@ public final class CastingMachine implements Component<ChunkStore> {
         switch(shape){case "Plate"->{need=2;quantity=1;seconds=12;}case "Rod"->{need=1;quantity=2;seconds=8;}case "Gear"->{need=4;quantity=1;seconds=18;}default->{status="Input 1 requires a casting mold";return null;}}
         if(!takeMetal(a,m,need)){status="Not enough "+m+" / empty-cell output blocked";return null;}
         if(!add(a,OUTPUT,OUTPUT+2,new ItemStack("Ember_Cast_"+m+"_"+shape,quantity))){status="Product outputs full";return null;}
+        if(!add(a,OUTPUT,OUTPUT+2,new ItemStack("Ember_Slag",1))){status="Make room for slag in product outputs";return null;}
         return new Plan(a,seconds,m+" "+shape);
     }
     /** Fill one ingot per step so the rack shows the actual rising level. */

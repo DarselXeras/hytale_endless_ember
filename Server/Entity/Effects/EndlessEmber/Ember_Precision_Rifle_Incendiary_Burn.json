@@ -1,0 +1,10 @@
+{
+  "Parent": "Flame_Staff_Burn",
+  "Duration": 4,
+  "DamageCalculatorCooldown": 1,
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Fire": 8
+    }
+  }
+}

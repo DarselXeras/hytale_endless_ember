@@ -1,0 +1,3562 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Origin",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shape": {
+        "type": "none",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "RingSegment0",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 12.0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "3",
+          "name": "CuttingEdge0",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 14.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "4",
+          "name": "CopperHub0",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 12.0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 4,
+                "z": 3
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "5",
+          "name": "RingSegment1",
+          "position": {
+            "x": 5.999999999999999,
+            "y": 0.0,
+            "z": 10.392304845413264
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.25881904510252074,
+            "z": 0,
+            "w": 0.9659258262890683
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "6",
+          "name": "CuttingEdge1",
+          "position": {
+            "x": 7.249999999999999,
+            "y": 0.0,
+            "z": 12.557368354874361
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.25881904510252074,
+            "z": 0,
+            "w": 0.9659258262890683
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "7",
+          "name": "RingSegment2",
+          "position": {
+            "x": 10.392304845413264,
+            "y": 0.0,
+            "z": 6.000000000000002
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.49999999999999994,
+            "z": 0,
+            "w": 0.8660254037844387
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "8",
+          "name": "CuttingEdge2",
+          "position": {
+            "x": 12.55736835487436,
+            "y": 0.0,
+            "z": 7.250000000000002
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.49999999999999994,
+            "z": 0,
+            "w": 0.8660254037844387
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "9",
+          "name": "RingSegment3",
+          "position": {
+            "x": 12.0,
+            "y": 0.0,
+            "z": 7.347880794884119e-16
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865476,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "10",
+          "name": "CuttingEdge3",
+          "position": {
+            "x": 14.5,
+            "y": 0.0,
+            "z": 8.878689293818311e-16
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865476,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "11",
+          "name": "CopperHub3",
+          "position": {
+            "x": 12.0,
+            "y": 0.0,
+            "z": 7.347880794884119e-16
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865476,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 4,
+                "z": 3
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "12",
+          "name": "RingSegment4",
+          "position": {
+            "x": 10.392304845413264,
+            "y": 0.0,
+            "z": -5.999999999999997
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.8660254037844386,
+            "z": 0,
+            "w": 0.5000000000000001
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "13",
+          "name": "CuttingEdge4",
+          "position": {
+            "x": 12.557368354874361,
+            "y": 0.0,
+            "z": -7.2499999999999964
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.8660254037844386,
+            "z": 0,
+            "w": 0.5000000000000001
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "14",
+          "name": "RingSegment5",
+          "position": {
+            "x": 5.999999999999999,
+            "y": 0.0,
+            "z": -10.392304845413264
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.9659258262890683,
+            "z": 0,
+            "w": 0.25881904510252074
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "15",
+          "name": "CuttingEdge5",
+          "position": {
+            "x": 7.249999999999999,
+            "y": 0.0,
+            "z": -12.557368354874361
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.9659258262890683,
+            "z": 0,
+            "w": 0.25881904510252074
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "16",
+          "name": "RingSegment6",
+          "position": {
+            "x": 1.4695761589768238e-15,
+            "y": 0.0,
+            "z": -12.0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 1.0,
+            "z": 0,
+            "w": 6.123233995736766e-17
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "17",
+          "name": "CuttingEdge6",
+          "position": {
+            "x": 1.7757378587636622e-15,
+            "y": 0.0,
+            "z": -14.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 1.0,
+            "z": 0,
+            "w": 6.123233995736766e-17
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "18",
+          "name": "CopperHub6",
+          "position": {
+            "x": 1.4695761589768238e-15,
+            "y": 0.0,
+            "z": -12.0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 1.0,
+            "z": 0,
+            "w": 6.123233995736766e-17
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 4,
+                "z": 3
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "19",
+          "name": "RingSegment7",
+          "position": {
+            "x": -5.9999999999999964,
+            "y": 0.0,
+            "z": -10.392304845413266
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.9659258262890683,
+            "z": 0,
+            "w": -0.25881904510252085
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "20",
+          "name": "CuttingEdge7",
+          "position": {
+            "x": -7.249999999999996,
+            "y": 0.0,
+            "z": -12.557368354874363
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.9659258262890683,
+            "z": 0,
+            "w": -0.25881904510252085
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "21",
+          "name": "RingSegment8",
+          "position": {
+            "x": -10.392304845413262,
+            "y": 0.0,
+            "z": -6.000000000000005
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.8660254037844387,
+            "z": 0,
+            "w": -0.4999999999999998
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "22",
+          "name": "CuttingEdge8",
+          "position": {
+            "x": -12.557368354874358,
+            "y": 0.0,
+            "z": -7.250000000000006
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.8660254037844387,
+            "z": 0,
+            "w": -0.4999999999999998
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "23",
+          "name": "RingSegment9",
+          "position": {
+            "x": -12.0,
+            "y": 0.0,
+            "z": -2.204364238465236e-15
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865476,
+            "z": 0,
+            "w": -0.7071067811865475
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "24",
+          "name": "CuttingEdge9",
+          "position": {
+            "x": -14.5,
+            "y": 0.0,
+            "z": -2.663606788145493e-15
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865476,
+            "z": 0,
+            "w": -0.7071067811865475
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "25",
+          "name": "CopperHub9",
+          "position": {
+            "x": -12.0,
+            "y": 0.0,
+            "z": -2.204364238465236e-15
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.7071067811865476,
+            "z": 0,
+            "w": -0.7071067811865475
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 3,
+                "y": 4,
+                "z": 3
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 98,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "26",
+          "name": "RingSegment10",
+          "position": {
+            "x": -10.392304845413264,
+            "y": 0.0,
+            "z": 6.000000000000002
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.49999999999999994,
+            "z": 0,
+            "w": -0.8660254037844387
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "27",
+          "name": "CuttingEdge10",
+          "position": {
+            "x": -12.55736835487436,
+            "y": 0.0,
+            "z": 7.250000000000002
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.49999999999999994,
+            "z": 0,
+            "w": -0.8660254037844387
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "28",
+          "name": "RingSegment11",
+          "position": {
+            "x": -6.000000000000005,
+            "y": 0.0,
+            "z": 10.39230484541326
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.258819045102521,
+            "z": 0,
+            "w": -0.9659258262890682
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.9333333333333332,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 7,
+                "y": 3,
+                "z": 4
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 2,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "29",
+          "name": "CuttingEdge11",
+          "position": {
+            "x": -7.250000000000006,
+            "y": 0.0,
+            "z": 12.557368354874356
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0.258819045102521,
+            "z": 0,
+            "w": -0.9659258262890682
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.975,
+              "y": 0.6,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 8,
+                "y": 2,
+                "z": 2
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "30",
+          "name": "CrossGrip",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 1.0,
+              "y": 0.8,
+              "z": 1.0
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 4,
+                "y": 4,
+                "z": 18
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 162,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 162,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 162,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 162,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 162,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 162,
+                  "y": 2
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "31",
+          "name": "GripWrap-5",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.8400000000000001,
+              "y": 0.85,
+              "z": 0.7
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 5,
+                "y": 4,
+                "z": 1
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "32",
+          "name": "GripWrap0",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.8400000000000001,
+              "y": 0.85,
+              "z": 0.7
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 5,
+                "y": 4,
+                "z": 1
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "33",
+          "name": "GripWrap5",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shape": {
+            "type": "box",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "stretch": {
+              "x": 0.8400000000000001,
+              "y": 0.85,
+              "z": 0.7
+            },
+            "settings": {
+              "isPiece": false,
+              "size": {
+                "x": 5,
+                "y": 4,
+                "z": 1
+              },
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "top": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 34,
+                  "y": 34
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

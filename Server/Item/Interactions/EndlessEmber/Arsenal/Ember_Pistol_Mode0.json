@@ -1,0 +1,8 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "Mode",
+  "Mode": 0,
+  "Modes": 4,
+  "Next": "Ember_Pistol_Consume",
+  "Failed": "Ember_Pistol_Mode1"
+}

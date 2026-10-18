@@ -1,0 +1,16 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXAdvanced.Items.Ember_Slag.name",
+    "Description": "DarselXAdvanced.Items.Ember_Slag.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Slag_Visual.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Slag_Visual.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Slag.png",
+  "MaxStack": 100,
+  "Quality": "Common",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Items_Ingots"
+}

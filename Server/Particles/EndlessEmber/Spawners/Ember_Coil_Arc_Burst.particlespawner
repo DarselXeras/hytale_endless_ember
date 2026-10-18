@@ -1,0 +1,124 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": -0.05,
+      "Max": 0.05
+    },
+    "Y": {
+      "Min": -0.05,
+      "Max": 0.05
+    },
+    "Z": {
+      "Min": -0.05,
+      "Max": 0.05
+    }
+  },
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": false,
+  "LightInfluence": 0,
+  "ParticleLifeSpan": {
+    "Min": 0.12,
+    "Max": 0.25
+  },
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 6,
+  "SpawnRate": {
+    "Min": 24,
+    "Max": 24
+  },
+  "TotalParticles": {
+    "Min": 6,
+    "Max": 6
+  },
+  "InitialVelocity": {
+    "Yaw": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Pitch": {
+      "Min": 0,
+      "Max": 180
+    },
+    "Speed": {
+      "Min": 0,
+      "Max": 0
+    }
+  },
+  "Attractors": [
+    {
+      "RadialImpulse": 0,
+      "DampingMultiplier": {
+        "X": 0.5314410000000002,
+        "Y": 0.5314410000000002,
+        "Z": 0.5314410000000002
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Shapes/LightningVoid.png",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "Opacity": 0
+      },
+      "10": {
+        "Opacity": 0,
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 3
+        }
+      },
+      "21": {
+        "Opacity": 1
+      },
+      "50": {
+        "Opacity": 1
+      },
+      "86": {
+        "Opacity": 1,
+        "FrameIndex": {
+          "Min": 4,
+          "Max": 5
+        }
+      },
+      "100": {
+        "Opacity": 0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 0.872,
+      "Color": "#f8ff00",
+      "Rotation": {
+        "Z": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Y": {
+          "Max": 360
+        }
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.12,
+          "Max": 0.18
+        }
+      }
+    },
+    "FrameSize": {
+      "Width": 64,
+      "Height": 124
+    }
+  },
+  "UVMotion": {
+    "Texture": "Particles/Textures/UVMotion/FlowMap.png",
+    "StrengthCurveType": "IncreaseLinear",
+    "Scale": 0.32,
+    "SpeedX": 0.01,
+    "SpeedY": 0.01,
+    "Strength": 3
+  },
+  "CameraOffset": 0
+}

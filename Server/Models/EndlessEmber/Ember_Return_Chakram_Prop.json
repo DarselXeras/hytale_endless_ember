@@ -1,0 +1,18 @@
+{
+  "Model": "Items/EndlessEmber/Firearms/Ember_Return_Chakram_Prop.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Return_Chakram_Prop.png",
+  "MinScale": 1,
+  "MaxScale": 1,
+  "HitBox": {
+    "Min": {
+      "X": -0.5,
+      "Y": -0.05,
+      "Z": -0.5
+    },
+    "Max": {
+      "X": 0.5,
+      "Y": 0.05,
+      "Z": 0.5
+    }
+  }
+}
