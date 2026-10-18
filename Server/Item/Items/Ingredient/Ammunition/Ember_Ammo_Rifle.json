@@ -43,21 +43,21 @@
     "Output": [
       {
         "ItemId": "Ember_Ammo_Rifle",
-        "Quantity": 16
+        "Quantity": 48
       }
     ],
     "PrimaryOutput": {
       "ItemId": "Ember_Ammo_Rifle",
-      "Quantity": 16
+      "Quantity": 48
     },
     "KnowledgeRequired": false,
     "TimeSeconds": 3,
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Ember_Weaponbench",
+        "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Weaponbench_Ammo"
+          "Ember_Ammunitionbench_Cartridges"
         ],
         "RequiredTierLevel": 3
       }

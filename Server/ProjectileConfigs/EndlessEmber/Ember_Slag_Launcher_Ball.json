@@ -28,7 +28,7 @@
       "Interactions": [
         {
           "Type": "EE_AdvancedWeapon",
-          "Action": "SlagBlast"
+          "Action": "SlagGround"
         },
         "Common_Projectile_Despawn"
       ]

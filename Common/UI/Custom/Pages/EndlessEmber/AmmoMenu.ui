@@ -1,0 +1,19 @@
+$C = "../../Common.ui";
+Group { Anchor: (Width: 680, Height: 760); Background: #0e1822; Padding: 20; LayoutMode: Top;
+Label #Title { Anchor: (Height: 28); Text: "LOAD AMMUNITION"; Style: (FontSize: 20, TextColor: #dfc797); }
+Label #Weapon { Anchor: (Height: 26); Style: (FontSize: 16, TextColor: #ffffff); }
+Label #Hint { Anchor: (Height: 44); Style: (FontSize: 12, TextColor: #dfc797); }
+Label #Empty { Anchor: (Height: 32); Visible: false; Style: (FontSize: 14, TextColor: #dfc797); }
+Group #Row0 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon0 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load0 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row1 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon1 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load1 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row2 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon2 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load2 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row3 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon3 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load3 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row4 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon4 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load4 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row5 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon5 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load5 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row6 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon6 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load6 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row7 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon7 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load7 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row8 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon8 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load8 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row9 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon9 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load9 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+Group #Row10 { LayoutMode: Left; Anchor: (Height: 50); ItemGrid #Icon10 { Anchor: (Width: 48, Height: 48); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 40); } $C.@SecondaryTextButton #Load10 { Anchor: (Width: 580, Height: 44); Text: "Load"; } }
+$C.@SecondaryTextButton #Close { Anchor: (Width: 180, Height: 36, Top: 12); Text: "Close"; }
+}

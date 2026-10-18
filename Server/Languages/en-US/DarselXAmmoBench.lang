@@ -1,0 +1,8 @@
+Bench.name = Ember Ammunition Bench
+Bench.description = Dedicated loading press with six ammunition tabs and four upgrade tiers.\nCraft at Tinkertable MK2: 24 wood, 12 stone, 6 copper plates, 4 iron rods and 2 copper gears.\nExisting ammunition tier requirements and recipe costs are preserved.
+Categories.Cartridges = Cartridges
+Categories.Projectiles = Arrows & Harpoons
+Categories.Heavy = Heavy Ammunition
+Categories.Pollen = Pollen Capsules
+Categories.Energy = Energy
+Categories.Signals = Signals & Fireworks

@@ -64,6 +64,7 @@ public class EndlessEmberPlugin extends JavaPlugin {
                 .register("EE_WeaponGate",EmberWeaponGate.class,EmberWeaponGate.CODEC);
         getEntityStoreRegistry().registerSystem(new PollenPoisonProgression());
         EmberAdvancedArsenal.register(this);
+        getEntityStoreRegistry().registerSystem(new ProjectileFoliage());
         EmberSignalPistol.register(this);
         EmberCasting.register(this);
         setupPlantParticles();

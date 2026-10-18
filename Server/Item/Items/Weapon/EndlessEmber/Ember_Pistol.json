@@ -42,6 +42,28 @@
           }
         }
       ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Use": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "UseBlock",
+          "Failed": {
+            "Type": "UseEntity",
+            "Failed": {
+              "Type": "EE_WeaponGate",
+              "Action": "AmmoMenu"
+            }
+          }
+        }
+      ]
     }
   },
   "Recipe": {

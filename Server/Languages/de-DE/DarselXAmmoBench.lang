@@ -1,0 +1,8 @@
+Bench.name = Glutmunitionswerkbank
+Bench.description = Eigene Ladepresse mit sechs Munitionstabs und vier Ausbaustufen.\nHerstellung am Tinkertable MK2: 24 Holz, 12 Stein, 6 Kupferplatten, 4 Eisenstangen und 2 Kupferzahnräder.\nBisherige Munitionsstufen und Rezeptkosten bleiben erhalten.
+Categories.Cartridges = Patronen
+Categories.Projectiles = Pfeile & Harpunen
+Categories.Heavy = Schwere Munition
+Categories.Pollen = Pollenkapseln
+Categories.Energy = Energie
+Categories.Signals = Signale & Feuerwerk

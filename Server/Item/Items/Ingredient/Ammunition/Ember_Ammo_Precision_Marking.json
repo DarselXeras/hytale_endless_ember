@@ -47,21 +47,21 @@
     "Output": [
       {
         "ItemId": "Ember_Ammo_Precision_Marking",
-        "Quantity": 8
+        "Quantity": 24
       }
     ],
     "PrimaryOutput": {
       "ItemId": "Ember_Ammo_Precision_Marking",
-      "Quantity": 8
+      "Quantity": 24
     },
     "KnowledgeRequired": false,
     "TimeSeconds": 3,
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Ember_Weaponbench",
+        "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Weaponbench_Ammo"
+          "Ember_Ammunitionbench_Cartridges"
         ],
         "RequiredTierLevel": 4
       }

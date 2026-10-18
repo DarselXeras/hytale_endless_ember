@@ -59,6 +59,7 @@ public final class EmberWeaponGate extends SimpleInstantInteraction {
     @Override protected void firstRun(InteractionType type,InteractionContext ctx,CooldownHandler cooldown){
         var item=ctx.getHeldItem();if(ItemStack.isEmpty(item)||ctx.getHeldItemContainer()==null){fail(ctx,null);return;}
         switch(action){
+            case "AmmoMenu"->EmberAmmoPage.open(ctx);
             case "Mode"->{if(selected(item,modes)!=mode)fail(ctx,null);}
             case "Cycle"->{
                 var movement=ctx.getCommandBuffer().getComponent(ctx.getOwningEntity(),MovementStatesComponent.getComponentType());
@@ -84,7 +85,7 @@ public final class EmberWeaponGate extends SimpleInstantInteraction {
         double fuel=Math.max(0,number(state,"Fuel",0));
         if(fuel+.00001<.4){
             var inventory=inventory(ctx);boolean loaded=false;
-            for(String id:FUELS){
+            for(String id:EmberAmmo.fuels(ctx.getHeldItem())){
                 var stack=new ItemStack(id);double seconds=stack.getItem().getFuelQuality();
                 if(seconds>0&&inventory.removeItemStack(stack,true,true).succeeded()){fuel+=seconds;loaded=true;break;}
             }
@@ -108,7 +109,7 @@ public final class EmberWeaponGate extends SimpleInstantInteraction {
         var state=state(ctx.getHeldItem());double fuel=Math.max(0,number(state,"Fuel",0));
         if(fuel<cost){
             boolean loaded=false;
-            for(String id:FUELS){var stack=new ItemStack(id);double seconds=stack.getItem().getFuelQuality();
+            for(String id:EmberAmmo.fuels(ctx.getHeldItem())){var stack=new ItemStack(id);double seconds=stack.getItem().getFuelQuality();
                 if(seconds>0&&inventory(ctx).removeItemStack(stack,true,true).succeeded()){fuel+=seconds;loaded=true;break;}}
             if(!loaded){fail(ctx,"FuelRequired");return;}
         }

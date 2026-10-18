@@ -8,7 +8,7 @@
   },
   "Physics": {
     "Type": "Standard",
-    "Gravity": 1,
+    "Gravity": 0,
     "TerminalVelocityAir": 140,
     "TerminalVelocityWater": 20,
     "RotationMode": "Velocity",

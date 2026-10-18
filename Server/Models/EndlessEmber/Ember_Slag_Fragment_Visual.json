@@ -1,0 +1,18 @@
+{
+  "Model": "Items/EndlessEmber/Firearms/Ember_Slag_Visual.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Slag_Visual.png",
+  "MinScale": 0.3,
+  "MaxScale": 0.3,
+  "HitBox": {
+    "Min": {
+      "X": -0.12,
+      "Y": -0.12,
+      "Z": -0.12
+    },
+    "Max": {
+      "X": 0.12,
+      "Y": 0.12,
+      "Z": 0.12
+    }
+  }
+}

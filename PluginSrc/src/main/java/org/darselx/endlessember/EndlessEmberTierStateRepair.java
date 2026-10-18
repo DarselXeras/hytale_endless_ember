@@ -14,7 +14,7 @@ import java.util.logging.Level;
  * original acyclic block packets for clients.
  */
 public final class EndlessEmberTierStateRepair {
-    private static final String[] BENCH_IDS = {"Ember_Tinkerbench", "Ember_Weaponbench"};
+    private static final String[] BENCH_IDS = {"Ember_Tinkerbench", "Ember_Weaponbench", "Ember_Ammunitionbench"};
     private static final String BLOCK_TYPE_CLASS =
             "com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType";
     private static final String STATE_DATA_CLASS =

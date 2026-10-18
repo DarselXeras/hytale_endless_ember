@@ -1,7 +1,7 @@
 {
   "Type": "Projectile",
   "Config": "Ember_Precision_Rifle_AP_Projectile",
-  "Lifetime": 2,
+  "Lifetime": 20,
   "Effects": {
     "ItemAnimationId": "Shoot",
     "CameraEffect": "Handgun_Shoot",

@@ -46,6 +46,7 @@ public final class EmberAdvancedArsenal extends SimpleInstantInteraction {
             case "Pull"->pull(ctx);
             case "Chain", "CoilBurst"->coil(ctx);
             case "SlagBlast"->slag(ctx);
+            case "SlagGround"->slagGround(ctx);
             case "Disc"->disc(ctx);
             default->EmberWeaponGate.fail(ctx,null);
         }
@@ -116,7 +117,7 @@ public final class EmberAdvancedArsenal extends SimpleInstantInteraction {
         for(var target:new ArrayList<>(TargetUtil.getAllEntitiesInSphere(point,COIL_RADIUS+4,access))){
             if(!used.add(target)||!living(target,access))continue;
             var nearest=closestPoint(target,point,access);
-            if(nearest!=null&&nearest.distanceSquared(point)<=COIL_RADIUS*COIL_RADIUS&&clear(point,nearest,access))hit(owner,target,COIL_DAMAGE,access);
+            if(nearest!=null&&nearest.distanceSquared(point)<=COIL_RADIUS*COIL_RADIUS&&ProjectileFoliage.clear(point,nearest,access))hit(owner,target,COIL_DAMAGE,access);
         }
         ParticleUtil.spawnParticleEffect("Ember_Coil_Arc",point,access);
         // Bounded bursts mark the actual impact area, not the full shooter-to-target path.
@@ -124,17 +125,37 @@ public final class EmberAdvancedArsenal extends SimpleInstantInteraction {
             double y=1-2*(i+.5)/24.0,radial=Math.sqrt(1-y*y),angle=i*2.399963229728653;
             var offset=new Vector3d(Math.cos(angle)*radial,y,Math.sin(angle)*radial).mul(i%3==0?1.7:3.5);
             var sample=new Vector3d(point).add(offset);
-            if(clear(point,sample,access))ParticleUtil.spawnParticleEffect("Ember_Coil_Arc",sample,access);
+            if(ProjectileFoliage.clear(point,sample,access))ParticleUtil.spawnParticleEffect("Ember_Coil_Arc",sample,access);
         }
     }
     static void slag(InteractionContext ctx){
         var access=ctx.getCommandBuffer();var owner=ctx.getOwningEntity();
-        var point=centre(ctx.getEntity(),access);if(point==null)return;
+        var impact=ctx.getMetaStore().getIfPresentMetaObject(com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction.HIT_LOCATION);
+        var point=impact!=null?new Vector3d(impact.x,impact.y,impact.z):centre(ctx.getEntity(),access);if(point==null)return;
         ParticleUtil.spawnParticleEffect("Impact_Blade_01",point,access);
         for(var target:new ArrayList<>(TargetUtil.getAllEntitiesInSphere(point,1.8,access))){
             if(target.equals(owner)||!living(target,access))continue;
             var centre=centre(target,access);
             if(centre!=null&&clear(point,centre,access))hit(owner,target,24,access);
+        }
+    }
+    static Vector3d fragmentDirection(int index){
+        double angle=index*Math.PI/4;
+        return new Vector3d(Math.cos(angle),.85,Math.sin(angle)).normalize();
+    }
+    static void slagGround(InteractionContext ctx){
+        // Only the terrain root calls this action. A timed despawn has no hit location.
+        if(ctx.getTargetEntity()!=null)return;
+        var impact=ctx.getMetaStore().getIfPresentMetaObject(com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction.HIT_LOCATION);
+        if(impact==null||!Double.isFinite(impact.x)||!Double.isFinite(impact.y)||!Double.isFinite(impact.z))return;
+        var config=com.hypixel.hytale.server.core.modules.projectile.config.ProjectileConfig.getAssetMap().getAsset("Ember_Slag_Fragment");
+        if(config==null)return;
+        var point=new Vector3d(impact.x,impact.y+.18,impact.z);
+        ParticleUtil.spawnParticleEffect("Impact_Blade_01",point,ctx.getCommandBuffer());
+        for(int i=0;i<8;i++){
+            var direction=fragmentDirection(i);
+            com.hypixel.hytale.server.core.modules.projectile.ProjectileModule.get().spawnProjectile(null,null,ctx.getOwningEntity(),ctx.getCommandBuffer(),config,
+                new Vector3d(point),direction,4000L);
         }
     }
     static void wear(InteractionContext ctx,double amount){
@@ -154,6 +175,7 @@ public final class EmberAdvancedArsenal extends SimpleInstantInteraction {
     }
     static final class Disc {
         final Ref<EntityStore> owner,visual;final Vector3d position,velocity;
+        final ItemStack blade=new ItemStack("Ember_Return_Chakram");
         final Set<Ref<EntityStore>> outward=new HashSet<>(),inward=new HashSet<>();
         float age,travel;boolean returning;
         Disc(Ref<EntityStore> owner,Ref<EntityStore> visual,Vector3d start,Vector3d direction){this.owner=owner;this.visual=visual;position=new Vector3d(start);velocity=new Vector3d(direction).mul(15);}
@@ -186,7 +208,7 @@ public final class EmberAdvancedArsenal extends SimpleInstantInteraction {
                 if(d.returning){if(d.position.distanceSquared(home)<.6){caught=true;break;}d.velocity.set(home).sub(d.position).normalize(19);}
                 var next=new Vector3d(d.position).fma(delta,d.velocity);
                 // Returning discs take the clear path home without dealing damage through a wall.
-                boolean visible=clear(d.position,next,store);
+                boolean visible=ChakramFoliage.sweep(d.owner,d.visual,d.blade,d.position,next,store);
                 if(!visible&&!d.returning){d.returning=true;continue;}
                 if(visible){
                     var used=d.returning?d.inward:d.outward;

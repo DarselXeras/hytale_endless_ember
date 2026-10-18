@@ -68,7 +68,7 @@ public final class EmberSignalPistol extends SimpleInstantInteraction {
         }
         return -1;
     }
-    static void save(InteractionContext ctx,int colour){var state=EmberWeaponGate.state(ctx.getHeldItem());state.put("SignalColour",new BsonInt32(colour));EmberWeaponGate.save(ctx,state);}
+    static void save(InteractionContext ctx,int colour){var state=EmberWeaponGate.state(ctx.getHeldItem());state.put("SignalColour",new BsonInt32(colour));state.put("AmmoPinned",org.bson.BsonBoolean.TRUE);EmberWeaponGate.save(ctx,state);}
     static void cycle(InteractionContext ctx){
         var inventory=EmberWeaponGate.inventory(ctx);int current=selected(ctx.getHeldItem());
         for(int offset=1;offset<=COLOURS.length;offset++){
@@ -81,7 +81,9 @@ public final class EmberSignalPistol extends SimpleInstantInteraction {
     }
     static void fire(InteractionContext ctx){
         var access=ctx.getCommandBuffer();var inventory=EmberWeaponGate.inventory(ctx);boolean creative=EmberWeaponGate.creative(ctx);
-        int c=choose(inventory,selected(ctx.getHeldItem()),creative);
+        int selected=selected(ctx.getHeldItem());
+        boolean pinned=EmberWeaponGate.state(ctx.getHeldItem()).getBoolean("AmmoPinned",org.bson.BsonBoolean.FALSE).getValue();
+        int c=pinned?(creative||available(inventory,selected)?selected:-1):choose(inventory,selected,creative);
         if(c<0){EmberWeaponGate.fail(ctx,"SignalAmmo");return;}
         var asset=ModelAsset.getAssetMap().getAsset(ammo(c));if(asset==null){EmberWeaponGate.fail(ctx,null);return;}
         var look=TargetUtil.getLook(ctx.getOwningEntity(),access);var eye=new Vector3d(look.getPosition());

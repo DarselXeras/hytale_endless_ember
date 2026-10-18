@@ -55,9 +55,9 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Ember_Weaponbench",
+        "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Weaponbench_Ammo"
+          "Ember_Ammunitionbench_Energy"
         ],
         "RequiredTierLevel": 3
       }

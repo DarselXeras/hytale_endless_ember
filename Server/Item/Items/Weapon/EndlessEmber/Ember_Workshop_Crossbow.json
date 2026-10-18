@@ -63,6 +63,21 @@
           "Type": "ChangeActiveSlot"
         }
       ]
+    },
+    "Use": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "UseBlock",
+          "Failed": {
+            "Type": "UseEntity",
+            "Failed": {
+              "Type": "EE_WeaponGate",
+              "Action": "AmmoMenu"
+            }
+          }
+        }
+      ]
     }
   },
   "Recipe": {

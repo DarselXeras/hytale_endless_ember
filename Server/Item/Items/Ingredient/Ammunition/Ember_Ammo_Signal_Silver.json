@@ -31,21 +31,21 @@
     "Output": [
       {
         "ItemId": "Ember_Ammo_Signal_Silver",
-        "Quantity": 4
+        "Quantity": 12
       }
     ],
     "PrimaryOutput": {
       "ItemId": "Ember_Ammo_Signal_Silver",
-      "Quantity": 4
+      "Quantity": 12
     },
     "KnowledgeRequired": false,
     "TimeSeconds": 4,
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Ember_Weaponbench",
+        "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Weaponbench_Ammo"
+          "Ember_Ammunitionbench_Signals"
         ],
         "RequiredTierLevel": 2
       }
