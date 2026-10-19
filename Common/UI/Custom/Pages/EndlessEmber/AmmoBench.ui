@@ -1,0 +1,48 @@
+$C = "../../Common.ui";
+Group { Anchor: (Width: 1060, Height: 840); Background: #0e1822; Padding: 18; LayoutMode: Top;
+Label #Title { Anchor: (Height: 30); Style: (FontSize: 21, TextColor: #dfc797); }
+Group { LayoutMode: Left; Anchor: (Height: 36); $C.@SecondaryTextButton #Prev { Anchor: (Width: 170, Height: 32); Text: "Previous"; } Label #Page { Anchor: (Width: 180, Height: 32); Style: (FontSize: 16, TextColor: #ffffff, HorizontalAlignment: Center); } $C.@SecondaryTextButton #Next { Anchor: (Width: 170, Height: 32); Text: "Next"; } }
+Group { LayoutMode: Left; Anchor: (Height: 50);
+Group #CategoryRow0 { LayoutMode: Left; Anchor: (Width: 338, Height: 48); ItemGrid #CategoryIcon0 { Anchor: (Width: 46, Height: 46); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 42); } $C.@SecondaryTextButton #Category0 { Anchor: (Width: 282, Height: 44); Text: "Weapon"; } }
+Group #CategoryRow1 { LayoutMode: Left; Anchor: (Width: 338, Height: 48); ItemGrid #CategoryIcon1 { Anchor: (Width: 46, Height: 46); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 42); } $C.@SecondaryTextButton #Category1 { Anchor: (Width: 282, Height: 44); Text: "Weapon"; } }
+Group #CategoryRow2 { LayoutMode: Left; Anchor: (Width: 338, Height: 48); ItemGrid #CategoryIcon2 { Anchor: (Width: 46, Height: 46); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 42); } $C.@SecondaryTextButton #Category2 { Anchor: (Width: 282, Height: 44); Text: "Weapon"; } }
+}
+Group { LayoutMode: Left; Anchor: (Height: 50);
+Group #CategoryRow3 { LayoutMode: Left; Anchor: (Width: 338, Height: 48); ItemGrid #CategoryIcon3 { Anchor: (Width: 46, Height: 46); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 42); } $C.@SecondaryTextButton #Category3 { Anchor: (Width: 282, Height: 44); Text: "Weapon"; } }
+Group #CategoryRow4 { LayoutMode: Left; Anchor: (Width: 338, Height: 48); ItemGrid #CategoryIcon4 { Anchor: (Width: 46, Height: 46); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 42); } $C.@SecondaryTextButton #Category4 { Anchor: (Width: 282, Height: 44); Text: "Weapon"; } }
+Group #CategoryRow5 { LayoutMode: Left; Anchor: (Width: 338, Height: 48); ItemGrid #CategoryIcon5 { Anchor: (Width: 46, Height: 46); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 44, SlotIconSize: 42); } $C.@SecondaryTextButton #Category5 { Anchor: (Width: 282, Height: 44); Text: "Weapon"; } }
+}
+Label #Weapon { Anchor: (Height: 26); Style: (FontSize: 17, TextColor: #dfc797); }
+Group { LayoutMode: Left; Anchor: (Height: 356);
+Group { LayoutMode: Top; Anchor: (Width: 420);
+Group #RecipeRow0 { LayoutMode: Left; Anchor: (Height: 46); ItemGrid #RecipeIcon0 { Anchor: (Width: 44, Height: 44); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 42, SlotIconSize: 40); } $C.@SecondaryTextButton #Recipe0 { Anchor: (Width: 364, Height: 42); Text: "Ammo"; } }
+Group #RecipeRow1 { LayoutMode: Left; Anchor: (Height: 46); ItemGrid #RecipeIcon1 { Anchor: (Width: 44, Height: 44); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 42, SlotIconSize: 40); } $C.@SecondaryTextButton #Recipe1 { Anchor: (Width: 364, Height: 42); Text: "Ammo"; } }
+Group #RecipeRow2 { LayoutMode: Left; Anchor: (Height: 46); ItemGrid #RecipeIcon2 { Anchor: (Width: 44, Height: 44); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 42, SlotIconSize: 40); } $C.@SecondaryTextButton #Recipe2 { Anchor: (Width: 364, Height: 42); Text: "Ammo"; } }
+Group #RecipeRow3 { LayoutMode: Left; Anchor: (Height: 46); ItemGrid #RecipeIcon3 { Anchor: (Width: 44, Height: 44); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 42, SlotIconSize: 40); } $C.@SecondaryTextButton #Recipe3 { Anchor: (Width: 364, Height: 42); Text: "Ammo"; } }
+Group #RecipeRow4 { LayoutMode: Left; Anchor: (Height: 46); ItemGrid #RecipeIcon4 { Anchor: (Width: 44, Height: 44); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 42, SlotIconSize: 40); } $C.@SecondaryTextButton #Recipe4 { Anchor: (Width: 364, Height: 42); Text: "Ammo"; } }
+Group #RecipeRow5 { LayoutMode: Left; Anchor: (Height: 46); ItemGrid #RecipeIcon5 { Anchor: (Width: 44, Height: 44); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 42, SlotIconSize: 40); } $C.@SecondaryTextButton #Recipe5 { Anchor: (Width: 364, Height: 42); Text: "Ammo"; } }
+Group { LayoutMode: Left; Anchor: (Height: 34); $C.@SecondaryTextButton #RecipePrev { Anchor: (Width: 54, Height: 30); Text: "<"; } Label #RecipePage { Anchor: (Width: 270, Height: 30); Style: (FontSize: 14, TextColor: #ffffff, HorizontalAlignment: Center); } $C.@SecondaryTextButton #RecipeNext { Anchor: (Width: 54, Height: 30); Text: ">"; } }
+}
+Group { LayoutMode: Top; Anchor: (Width: 592); Padding: (Left: 14);
+Label #DetailsTitle { Anchor: (Height: 30); Style: (FontSize: 16, TextColor: #ffffff); }
+Group { LayoutMode: Left; Anchor: (Height: 66); ItemGrid #Output { Anchor: (Width: 66, Height: 66); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 64, SlotIconSize: 60); } Label #OutputInfo { Anchor: (Width: 498, Height: 60); Style: (FontSize: 14, TextColor: #dfc797); } }
+Group #InputRow0 { LayoutMode: Left; Anchor: (Height: 34); ItemGrid #InputIcon0 { Anchor: (Width: 34, Height: 34); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 32, SlotIconSize: 30); } Label #Input0 { Anchor: (Width: 530, Height: 32); Style: (FontSize: 14, TextColor: #dddddd); } }
+Group #InputRow1 { LayoutMode: Left; Anchor: (Height: 34); ItemGrid #InputIcon1 { Anchor: (Width: 34, Height: 34); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 32, SlotIconSize: 30); } Label #Input1 { Anchor: (Width: 530, Height: 32); Style: (FontSize: 14, TextColor: #dddddd); } }
+Group #InputRow2 { LayoutMode: Left; Anchor: (Height: 34); ItemGrid #InputIcon2 { Anchor: (Width: 34, Height: 34); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 32, SlotIconSize: 30); } Label #Input2 { Anchor: (Width: 530, Height: 32); Style: (FontSize: 14, TextColor: #dddddd); } }
+Group #InputRow3 { LayoutMode: Left; Anchor: (Height: 34); ItemGrid #InputIcon3 { Anchor: (Width: 34, Height: 34); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 32, SlotIconSize: 30); } Label #Input3 { Anchor: (Width: 530, Height: 32); Style: (FontSize: 14, TextColor: #dddddd); } }
+Group #InputRow4 { LayoutMode: Left; Anchor: (Height: 34); ItemGrid #InputIcon4 { Anchor: (Width: 34, Height: 34); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 32, SlotIconSize: 30); } Label #Input4 { Anchor: (Width: 530, Height: 32); Style: (FontSize: 14, TextColor: #dddddd); } }
+Group #InputRow5 { LayoutMode: Left; Anchor: (Height: 34); ItemGrid #InputIcon5 { Anchor: (Width: 34, Height: 34); SlotsPerRow: 1; AreItemsDraggable: false; HitTestVisible: false; Style: (SlotSize: 32, SlotIconSize: 30); } Label #Input5 { Anchor: (Width: 530, Height: 32); Style: (FontSize: 14, TextColor: #dddddd); } }
+$C.@SecondaryTextButton #StartUpgrade { Anchor: (Width: 280, Height: 32); Text: "Start upgrade"; Visible: false; }
+}
+}
+Group { LayoutMode: Top; Anchor: (Height: 38);
+Label #CraftProgressLabel { Anchor: (Height: 24); Style: (FontSize: 14, TextColor: #dfc797); Text: "Ready"; }
+ProgressBar #CraftProgress { Anchor: (Height: 8); Background: "../../Common/ProgressBar.png"; BarTexturePath: "../../Common/ProgressBarFill.png"; Value: 0.0; }
+}
+Group #QueueProgressGroup { LayoutMode: Top; Anchor: (Height: 38); Visible: false;
+Label #QueueProgressLabel { Anchor: (Height: 24); Style: (FontSize: 14, TextColor: #dfc797); }
+ProgressBar #QueueProgress { Anchor: (Height: 8); Background: "../../Common/ProgressBar.png"; BarTexturePath: "../../Common/ProgressBarFill.png"; Value: 0.0; }
+}
+Label #Status { Anchor: (Height: 36); Style: (FontSize: 14, TextColor: #dfc797); }
+Group { LayoutMode: Left; Anchor: (Height: 40); $C.@SecondaryTextButton #Craft1 { Anchor: (Width: 164, Height: 34); Text: "Craft x1"; } $C.@SecondaryTextButton #Craft10 { Anchor: (Width: 164, Height: 34); Text: "Craft x10"; } $C.@SecondaryTextButton #CraftAll { Anchor: (Width: 164, Height: 34); Text: "Craft all"; } $C.@SecondaryTextButton #Cancel { Anchor: (Width: 160, Height: 34); Text: "Cancel"; } $C.@SecondaryTextButton #Upgrade { Anchor: (Width: 200, Height: 34); Text: "Upgrade"; } $C.@SecondaryTextButton #Close { Anchor: (Width: 160, Height: 34); Text: "Close"; } }
+}

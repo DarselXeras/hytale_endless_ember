@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXRockets.Items.Ember_Ammo_Rocket_Nuclear.name",
+    "Description": "DarselXRockets.Items.Ember_Ammo_Rocket_Nuclear.description"
+  },
+  "Model": "Items/EndlessEmber/Ammunition/Ember_Ammo_Rocket_Nuclear.blockymodel",
+  "Texture": "Items/EndlessEmber/Ammunition/Ember_Ammo_Rocket_Nuclear.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Ammo_Rocket_Nuclear.png",
+  "MaxStack": 100,
+  "Quality": "Epic",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Adamantite_Plate",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ember_Cast_Onyxium_Plate",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Gear",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Gold_Plate",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_WorldCoreBloom_Pollen",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 12
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Ammo_Rocket_Nuclear",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Ammo_Rocket_Nuclear",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 24,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Ammunitionbench",
+        "Categories": [
+          "Ember_Ammunitionbench_Rockets"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  }
+}

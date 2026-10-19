@@ -57,7 +57,7 @@
         "Type": "Crafting",
         "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Ammunitionbench_Heavy"
+          "Ember_Ammunitionbench_Shotgun"
         ],
         "RequiredTierLevel": 3
       }

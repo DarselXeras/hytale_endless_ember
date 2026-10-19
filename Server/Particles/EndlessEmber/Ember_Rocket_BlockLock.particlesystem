@@ -1,0 +1,26 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_BlockLockRing",
+      "LifeSpan": {
+        "Min": 0.7,
+        "Max": 0.7
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_BlockLockTarget",
+      "LifeSpan": {
+        "Min": 0.7,
+        "Max": 0.7
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 0.7,
+  "CullDistance": 192,
+  "BoundingRadius": 24,
+  "IsImportant": true
+}

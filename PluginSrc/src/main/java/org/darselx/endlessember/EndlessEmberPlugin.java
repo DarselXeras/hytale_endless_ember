@@ -25,6 +25,7 @@ public class EndlessEmberPlugin extends JavaPlugin {
     private Path recipeDir;
     private final com.hypixel.hytale.server.core.util.Config<PlantParticleConfig> plantParticleConfig;
     private PlantParticleEffects plantParticleEffects;
+    private final com.hypixel.hytale.server.core.util.Config<NuclearRocketConfig> nuclearRocketConfig;
 
     private static final String EXAMPLE_JSON = """
             {
@@ -56,6 +57,7 @@ public class EndlessEmberPlugin extends JavaPlugin {
     public EndlessEmberPlugin(JavaPluginInit init) {
         super(init);
         plantParticleConfig = withConfig("PlantParticles", PlantParticleConfig.CODEC);
+        nuclearRocketConfig = withConfig("NuclearRocket", NuclearRocketConfig.CODEC);
     }
 
     @Override
@@ -64,9 +66,14 @@ public class EndlessEmberPlugin extends JavaPlugin {
                 .register("EE_WeaponGate",EmberWeaponGate.class,EmberWeaponGate.CODEC);
         getEntityStoreRegistry().registerSystem(new PollenPoisonProgression());
         EmberAdvancedArsenal.register(this);
+        EmberMachineGun.register(this);
+        EmberrunnerArmor.register(this);
+        setupNuclearRockets();
+        EmberRocketLauncher.register(this);
         getEntityStoreRegistry().registerSystem(new ProjectileFoliage());
         EmberSignalPistol.register(this);
         EmberCasting.register(this);
+        AmmoBenchPage.register(this);
         setupPlantParticles();
         CreativeCropRestrictions.register(this);
         getLogger().at(Level.INFO).log("Endless Ember: Creative-only crop guards registered for placement, use and crafting");
@@ -261,6 +268,17 @@ public class EndlessEmberPlugin extends JavaPlugin {
     }
 
     @SuppressWarnings({"rawtypes", "unchecked"})
+    private void setupNuclearRockets() {
+        try {
+            NuclearRocketConfig.active=nuclearRocketConfig.get().settings();
+            if(Files.notExists(getDataDirectory().resolve("NuclearRocket.json")))nuclearRocketConfig.save().join();
+        } catch(IllegalArgumentException error) {
+            NuclearRocketConfig.active=new NuclearRocketConfig.Settings(NuclearRocketConfig.Mode.NONE,10);
+            getLogger().at(Level.WARNING).log("Endless Ember: invalid NuclearRocket DestructionMode; using NONE. Choose NONE, VEGETATION or CRATER.");
+        }
+        getLogger().at(Level.INFO).log("Endless Ember: nuclear destruction " + NuclearRocketConfig.active.mode() + ", crater depth " + NuclearRocketConfig.active.craterDepth() + "; config " + getDataDirectory().resolve("NuclearRocket.json"));
+    }
+
     private void setupPlantParticles() {
         PlantParticleConfig.Mode mode = PlantParticleConfig.Mode.FULL;
         try {

@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXRockets.Items.Ember_Ammo_Rocket_Napalm.name",
+    "Description": "DarselXRockets.Items.Ember_Ammo_Rocket_Napalm.description"
+  },
+  "Model": "Items/EndlessEmber/Ammunition/Ember_Ammo_Rocket_Napalm.blockymodel",
+  "Texture": "Items/EndlessEmber/Ammunition/Ember_Ammo_Rocket_Napalm.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Ammo_Rocket_Napalm.png",
+  "MaxStack": 100,
+  "Quality": "Epic",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "PlayerAnimationsId": "Item",
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_AurumBloom_Pollen",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 4
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Ammo_Rocket_Napalm",
+        "Quantity": 3
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Ammo_Rocket_Napalm",
+      "Quantity": 3
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Ammunitionbench",
+        "Categories": [
+          "Ember_Ammunitionbench_Rockets"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  }
+}

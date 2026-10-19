@@ -1,0 +1,10 @@
+Items.Ember_Machine_Gun.name = Cobalt Machine Gun
+Items.Ember_Machine_Gun.description = Weaponbench MK3. 12 projectile damage; hold primary for automatic fire at 120 rounds/minute (0.5 seconds). Low spread (0.65 degrees). One cartridge per shot; Creative consumes no ammunition. F: select carried ammunition; stays selected until empty or changed.
+Items.Ember_Ammo_MachineGun_Normal.name = Machine Gun Cartridge
+Items.Ember_Ammo_MachineGun_Normal.description = For: Cobalt Machine Gun. 12 direct damage.\nBatch: 96 per craft.\nStation: Ammunition Bench MK3 - Cobalt Machine Gun
+Items.Ember_Ammo_MachineGun_Tracer.name = Tracer Cartridge
+Items.Ember_Ammo_MachineGun_Tracer.description = For: Cobalt Machine Gun. 12 direct damage. Visible golden flight streak, removed on impact; 30% chance to ignite for 3 seconds, dealing 2 fire damage per second.\nBatch: 48 per craft.\nStation: Ammunition Bench MK3 - Cobalt Machine Gun
+Items.Ember_Ammo_MachineGun_Explosive.name = Explosive Cartridge
+Items.Ember_Ammo_MachineGun_Explosive.description = For: Cobalt Machine Gun. 12 direct damage; other enemies within 5 blocks take 7.2 splash damage. Solid cover blocks splash. No terrain destruction.\nBatch: 48 per craft.\nStation: Ammunition Bench MK3 - Cobalt Machine Gun
+Items.Ember_Ammo_MachineGun_Poison.name = Toxic Cartridge
+Items.Ember_Ammo_MachineGun_Poison.description = For: Cobalt Machine Gun. 12 direct damage. Poison: up to 5 independent stacks, 2 damage per second per stack, 15 seconds per stack. At most one new stack every 2 seconds per target; hits do not refresh existing stacks.\nBatch: 48 per craft.\nStation: Ammunition Bench MK3 - Cobalt Machine Gun

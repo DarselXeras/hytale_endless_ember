@@ -1,0 +1,9 @@
+{
+  "Duration": 15,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "ApplicationEffects": {
+    "EntityTopTint": "#67ab48",
+    "EntityBottomTint": "#4c7f39"
+  }
+}

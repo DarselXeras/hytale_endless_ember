@@ -47,12 +47,12 @@
     "Output": [
       {
         "ItemId": "Ember_Ammo_Rifle_Incendiary",
-        "Quantity": 24
+        "Quantity": 48
       }
     ],
     "PrimaryOutput": {
       "ItemId": "Ember_Ammo_Rifle_Incendiary",
-      "Quantity": 24
+      "Quantity": 48
     },
     "KnowledgeRequired": false,
     "TimeSeconds": 3,
@@ -61,7 +61,7 @@
         "Type": "Crafting",
         "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Ammunitionbench_Cartridges"
+          "Ember_Ammunitionbench_Repeater"
         ],
         "RequiredTierLevel": 3
       }

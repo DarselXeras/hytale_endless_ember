@@ -1,0 +1,134 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "LightInfluence": 0,
+  "SpawnBurst": true,
+  "MaxConcurrentParticles": 14,
+  "TotalParticles": {
+    "Min": 14,
+    "Max": 14
+  },
+  "SpawnRate": {
+    "Min": 14,
+    "Max": 14
+  },
+  "LifeSpan": 0.1,
+  "ParticleLifeSpan": {
+    "Min": 20.7,
+    "Max": 23
+  },
+  "EmitOffset": {
+    "X": {
+      "Min": -1.4,
+      "Max": 1.4
+    },
+    "Y": {
+      "Min": -1.4,
+      "Max": 1.4
+    },
+    "Z": {
+      "Min": -1.4,
+      "Max": 1.4
+    }
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0.13999999999999999,
+      "Max": 0.2
+    },
+    "Pitch": {
+      "Min": 90,
+      "Max": 90
+    },
+    "Yaw": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  "Attractors": [],
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Smoke_Dense.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 64
+    },
+    "ScaleRatioConstraint": "OneToOne",
+    "InitialAnimationFrame": {
+      "Color": "#544b43",
+      "Opacity": 0.9,
+      "Scale": {
+        "X": {
+          "Min": 3.57,
+          "Max": 4.2
+        },
+        "Y": {
+          "Min": 3.57,
+          "Max": 4.2
+        }
+      },
+      "Rotation": {
+        "Z": {
+          "Min": -180,
+          "Max": 180
+        }
+      }
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 0.25,
+        "Scale": {
+          "X": {
+            "Min": 0.75,
+            "Max": 0.75
+          },
+          "Y": {
+            "Min": 0.75,
+            "Max": 0.75
+          }
+        }
+      },
+      "5": {
+        "Opacity": 0.95
+      },
+      "35": {
+        "Opacity": 0.9,
+        "Scale": {
+          "X": {
+            "Min": 1.15,
+            "Max": 1.15
+          },
+          "Y": {
+            "Min": 1.15,
+            "Max": 1.15
+          }
+        }
+      },
+      "72": {
+        "Opacity": 0.75,
+        "Scale": {
+          "X": {
+            "Min": 1.45,
+            "Max": 1.45
+          },
+          "Y": {
+            "Min": 1.45,
+            "Max": 1.45
+          }
+        }
+      },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 1.65,
+            "Max": 1.65
+          },
+          "Y": {
+            "Min": 1.65,
+            "Max": 1.65
+          }
+        }
+      }
+    }
+  }
+}

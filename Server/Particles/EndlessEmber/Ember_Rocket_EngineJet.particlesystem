@@ -1,0 +1,26 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_JetOrange",
+      "LifeSpan": {
+        "Min": 16.25,
+        "Max": 16.25
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_JetBlue",
+      "LifeSpan": {
+        "Min": 16.25,
+        "Max": 16.25
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 16.5,
+  "CullDistance": 192,
+  "BoundingRadius": 24,
+  "IsImportant": true
+}

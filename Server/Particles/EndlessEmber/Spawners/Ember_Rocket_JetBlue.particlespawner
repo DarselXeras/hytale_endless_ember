@@ -1,0 +1,94 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Velocity",
+  "LinearFiltering": false,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "TrailSpawnerRotationMultiplier": 1.0,
+  "MaxConcurrentParticles": 14,
+  "ParticleLifeSpan": {
+    "Min": 0.06999999999999999,
+    "Max": 0.1
+  },
+  "SpawnRate": {
+    "Min": 70,
+    "Max": 70
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Fire/Fire_Small.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 32
+    },
+    "ScaleRatioConstraint": "None",
+    "SoftParticles": "Require",
+    "UVOption": "None",
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Color": "#68baff"
+      },
+      "60": {
+        "Opacity": 0.85,
+        "Color": "#68baff"
+      },
+      "100": {
+        "Opacity": 0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 1,
+      "Color": "#68baff",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 3
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.2,
+          "Max": 0.2
+        },
+        "Y": {
+          "Min": 0.36000000000000004,
+          "Max": 0.36000000000000004
+        }
+      }
+    }
+  },
+  "SpawnBurst": false,
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 0
+    }
+  },
+  "Attractors": [],
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 2.4000000000000004,
+      "Max": 3
+    },
+    "Pitch": {
+      "Min": -93,
+      "Max": -87
+    },
+    "Yaw": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  "LifeSpan": 16.25,
+  "TotalParticles": {
+    "Min": 1140,
+    "Max": 1140
+  }
+}

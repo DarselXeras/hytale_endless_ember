@@ -1,0 +1,106 @@
+{
+  "Parent": "Weapon_Assault_Rifle",
+  "TranslationProperties": {
+    "Name": "DarselXRockets.Items.Ember_Rocket_Launcher.name",
+    "Description": "DarselXRockets.Items.Ember_Rocket_Launcher.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Rocket_Launcher.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Rocket_Launcher.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Rocket_Launcher.png",
+  "Quality": "Epic",
+  "MaxStack": 1,
+  "MaxDurability": 600,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "EE_RocketLauncher",
+          "Action": "Primary"
+        }
+      ]
+    },
+    "Secondary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "EE_RocketLauncher",
+          "Action": "Clear"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Use": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "UseBlock",
+          "Failed": {
+            "Type": "UseEntity",
+            "Failed": {
+              "Type": "EE_WeaponGate",
+              "Action": "AmmoMenu"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Adamantite_Plate",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Gear",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ember_Cast_Gold_Plate",
+        "Quantity": 4
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 18
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Rocket_Launcher",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Rocket_Launcher",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 25,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_Lightning",
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1,
+      "LifeSpan": {
+        "Min": 0.4,
+        "Max": 0.4
+      }
+    }
+  ],
+  "LifeSpan": 0.4,
+  "CullDistance": 192,
+  "BoundingRadius": 48,
+  "IsImportant": true
+}

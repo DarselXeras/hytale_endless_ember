@@ -57,7 +57,8 @@
         "Type": "Crafting",
         "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Ammunitionbench_Energy"
+          "Ember_Ammunitionbench_Coil",
+          "Ember_Ammunitionbench_Induction"
         ],
         "RequiredTierLevel": 3
       }

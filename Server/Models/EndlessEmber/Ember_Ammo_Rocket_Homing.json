@@ -1,0 +1,29 @@
+{
+  "Model": "Items/EndlessEmber/Ammunition/Ember_Ammo_Rocket_Homing.blockymodel",
+  "Texture": "Items/EndlessEmber/Ammunition/Ember_Ammo_Rocket_Homing.png",
+  "MinScale": 1,
+  "MaxScale": 1,
+  "HitBox": {
+    "Min": {
+      "X": -0.15,
+      "Y": -0.4,
+      "Z": -0.15
+    },
+    "Max": {
+      "X": 0.15,
+      "Y": 0.5,
+      "Z": 0.15
+    }
+  },
+  "Particles": [
+    {
+      "SystemId": "Ember_Rocket_EngineJet",
+      "TargetNodeName": "Motor",
+      "PositionOffset": {
+        "Y": -0.05
+      },
+      "DetachedFromModel": false,
+      "ClearParticlesOnRemove": true
+    }
+  ]
+}

@@ -17,6 +17,12 @@ final class EmberAmmo {
             for(String suffix:new String[]{"","_AP","_Incendiary","_Marking"})choices.add(new Choice(rounds[i]+suffix,"Mode",mode++));
             WEAPONS.put(guns[i],List.copyOf(choices));
         }
+        var machineGun=new ArrayList<Choice>();
+        for(int i=0;i<EmberMachineGun.KINDS.length;i++)machineGun.add(new Choice(EmberMachineGun.ammo(i),"Mode",i));
+        WEAPONS.put(EmberMachineGun.ID,List.copyOf(machineGun));
+        var rockets=new ArrayList<Choice>();
+        for(int i=0;i<EmberRocketLauncher.KINDS.length;i++)rockets.add(new Choice(EmberRocketLauncher.ammo(i),"Mode",i));
+        WEAPONS.put(EmberRocketLauncher.ID,List.copyOf(rockets));
         single("Ember_Workshop_Crossbow","Weapon_Arrow_Crude");
         single("Ember_Shotgun","Ember_Ammo_Shotgun");
         single("Ember_Induction_Rifle","Ember_Ammo_Induction");

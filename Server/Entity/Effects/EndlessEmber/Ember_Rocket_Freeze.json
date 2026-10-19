@@ -1,0 +1,36 @@
+{
+  "Tags": {
+    "Element": [
+      "Water"
+    ]
+  },
+  "ApplicationEffects": {
+    "EntityTopTint": "#e3fbff",
+    "EntityBottomTint": "#80ecff",
+    "ModelVFXId": "Freeze",
+    "Particles": [
+      {
+        "SystemId": "Effect_Snow"
+      },
+      {
+        "SystemId": "Effect_Snow_Impact"
+      }
+    ],
+    "HorizontalSpeedMultiplier": 0.0,
+    "MovementEffects": {
+      "DisableAll": true
+    },
+    "AbilityEffects": {
+      "Disabled": [
+        "Primary",
+        "Secondary",
+        "Ability1",
+        "Ability3"
+      ]
+    }
+  },
+  "Duration": 20,
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "StatusEffectIcon": "UI/StatusEffects/Icon_Slow.png"
+}

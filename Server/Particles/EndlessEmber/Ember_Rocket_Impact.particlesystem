@@ -1,0 +1,17 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_Impact",
+      "LifeSpan": {
+        "Min": 0.7999999999999999,
+        "Max": 0.7999999999999999
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 0.7999999999999999,
+  "CullDistance": 192,
+  "BoundingRadius": 24,
+  "IsImportant": true
+}

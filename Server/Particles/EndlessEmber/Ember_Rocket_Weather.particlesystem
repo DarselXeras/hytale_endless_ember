@@ -1,0 +1,17 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_Weather",
+      "LifeSpan": {
+        "Min": 1.9000000000000001,
+        "Max": 1.9000000000000001
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 1.9000000000000001,
+  "CullDistance": 192,
+  "BoundingRadius": 24,
+  "IsImportant": true
+}

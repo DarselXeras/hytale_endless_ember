@@ -1,0 +1,104 @@
+{
+  "Parent": "Weapon_Assault_Rifle",
+  "TranslationProperties": {
+    "Name": "DarselXMachineGun.Items.Ember_Machine_Gun.name",
+    "Description": "DarselXMachineGun.Items.Ember_Machine_Gun.description"
+  },
+  "Model": "Items/EndlessEmber/Firearms/Ember_Machine_Gun.blockymodel",
+  "Texture": "Items/EndlessEmber/Firearms/Ember_Machine_Gun.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Machine_Gun.png",
+  "Quality": "Rare",
+  "MaxStack": 1,
+  "MaxDurability": 500,
+  "DurabilityLossOnHit": 0.2,
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": false,
+      "Cooldown": {
+        "Id": "Ember_Machine_Gun_Fire",
+        "Cooldown": 0.5
+      },
+      "Interactions": [
+        "Ember_Machine_Gun_Fire"
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "EE_Secondary",
+          "DefaultOk": true,
+          "DefaultValue": "Gun_Attack"
+        }
+      ]
+    },
+    "Ability4": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Use": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "UseBlock",
+          "Failed": {
+            "Type": "UseEntity",
+            "Failed": {
+              "Type": "EE_WeaponGate",
+              "Action": "AmmoMenu"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Cobalt_Plate",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ember_Cast_Iron_Gear",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Rod",
+        "Quantity": 8
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 4
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Machine_Gun",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Machine_Gun",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 18,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Firearms"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

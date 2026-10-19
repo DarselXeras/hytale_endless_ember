@@ -1,0 +1,98 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": false,
+  "SpawnBurst": true,
+  "Shape": "Sphere",
+  "UseEmitDirection": false,
+  "MaxConcurrentParticles": 140,
+  "TotalParticles": {
+    "Min": 140,
+    "Max": 140
+  },
+  "SpawnRate": {
+    "Min": 140,
+    "Max": 140
+  },
+  "LifeSpan": 1.1,
+  "ParticleLifeSpan": {
+    "Min": 0.7,
+    "Max": 1
+  },
+  "EmitOffset": {
+    "X": {
+      "Min": -0.4,
+      "Max": 0.4
+    },
+    "Z": {
+      "Min": -0.4,
+      "Max": 0.4
+    },
+    "Y": {
+      "Min": -0.4,
+      "Max": 0.4
+    }
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 6,
+      "Max": 9
+    },
+    "Pitch": {
+      "Min": -180,
+      "Max": 180
+    },
+    "Yaw": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": {
+        "Y": -3
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Glow_Star.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 32
+    },
+    "ScaleRatioConstraint": "OneToOne",
+    "InitialAnimationFrame": {
+      "Color": "#ffac45",
+      "Opacity": 1,
+      "Scale": {
+        "X": {
+          "Min": 0.75,
+          "Max": 1.2
+        },
+        "Y": {
+          "Min": 0.75,
+          "Max": 1.2
+        }
+      }
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 1
+      },
+      "65": {
+        "Opacity": 0.6
+      },
+      "100": {
+        "Opacity": 0
+      }
+    }
+  },
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "ParticleCollision": {
+    "BlockType": "Solid",
+    "Action": "Expire"
+  }
+}

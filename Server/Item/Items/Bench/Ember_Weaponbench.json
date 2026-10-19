@@ -159,6 +159,11 @@
           "Id": "Ember_Weaponbench_Firearms",
           "Name": "DarselXFirearms.Categories.Firearms",
           "Icon": "Icons/CraftingCategories/EndlessEmber/Firearms.png"
+        },
+        {
+          "Id": "Ember_Weaponbench_Armor",
+          "Name": "DarselXArmor.Categories.Armor",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Armor.png"
         }
       ],
       "Id": "Ember_Weaponbench",

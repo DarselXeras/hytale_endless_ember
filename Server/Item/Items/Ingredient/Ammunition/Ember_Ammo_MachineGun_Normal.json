@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXMachineGun.Items.Ember_Ammo_MachineGun_Normal.name",
+    "Description": "DarselXMachineGun.Items.Ember_Ammo_MachineGun_Normal.description"
+  },
+  "Model": "Items/EndlessEmber/Ammunition/Ember_Ammo_MachineGun_Normal.blockymodel",
+  "Texture": "Items/EndlessEmber/Ammunition/Ember_Ammo_MachineGun_Normal.png",
+  "Icon": "Icons/ItemsGenerated/Ember_Ammo_MachineGun_Normal.png",
+  "Quality": "Common",
+  "MaxStack": 100,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 2,
+    "Rotation": [
+      22.5,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ember_Cast_Copper_Plate",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Rod",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Pressed_Coal_Rod",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ember_Ammo_MachineGun_Normal",
+        "Quantity": 96
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Ember_Ammo_MachineGun_Normal",
+      "Quantity": 96
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Ammunitionbench",
+        "Categories": [
+          "Ember_Ammunitionbench_MachineGun"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Parent": "Flame_Staff_Burn",
+  "Duration": 3,
+  "OverlapBehavior": "Overwrite",
+  "DamageCalculatorCooldown": 1,
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Fire": 2
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Items.Ember_Machine_Gun.name = Kobalt-Maschinengewehr
+Items.Ember_Machine_Gun.description = Waffenwerkbank MK3. 12 Projektilschaden; linke Maustaste halten: Dauerfeuer mit 120 Schuss/Minute (0,5 Sekunden). Geringe Streuung (0,65 Grad). Ein Schuss verbraucht eine Patrone; Creative ohne Verbrauch. F: Mitgeführte Munition auswählen; bleibt bis leer oder bis zum Wechsel ausgewählt.
+Items.Ember_Ammo_MachineGun_Normal.name = Maschinengewehrpatrone
+Items.Ember_Ammo_MachineGun_Normal.description = Für: Kobalt-Maschinengewehr. 12 direkter Schaden.\nAusgabe: 96 je Herstellung.\nStation: Munitionswerkbank MK3 - Kobalt-Maschinengewehr
+Items.Ember_Ammo_MachineGun_Tracer.name = Leuchtspurpatrone
+Items.Ember_Ammo_MachineGun_Tracer.description = Für: Kobalt-Maschinengewehr. 12 direkter Schaden. Goldene Leuchtspur im Flug, verschwindet beim Aufprall; 30% Chance auf 3 Sekunden Brennen mit 2 Feuerschaden pro Sekunde.\nAusgabe: 48 je Herstellung.\nStation: Munitionswerkbank MK3 - Kobalt-Maschinengewehr
+Items.Ember_Ammo_MachineGun_Explosive.name = Explosivpatrone
+Items.Ember_Ammo_MachineGun_Explosive.description = Für: Kobalt-Maschinengewehr. 12 direkter Schaden; weitere Gegner in 5 Blöcken erhalten 7,2 Umgebungsschaden. Feste Deckung schützt. Keine Geländezerstörung.\nAusgabe: 48 je Herstellung.\nStation: Munitionswerkbank MK3 - Kobalt-Maschinengewehr
+Items.Ember_Ammo_MachineGun_Poison.name = Giftpatrone
+Items.Ember_Ammo_MachineGun_Poison.description = Für: Kobalt-Maschinengewehr. 12 direkter Schaden. Gift: bis zu 5 unabhängige Stapel mit je 2 Schaden pro Sekunde und je 15 Sekunden Dauer. Höchstens ein neuer Stapel alle 2 Sekunden pro Ziel; Treffer verlängern vorhandene Stapel nicht.\nAusgabe: 48 je Herstellung.\nStation: Munitionswerkbank MK3 - Kobalt-Maschinengewehr

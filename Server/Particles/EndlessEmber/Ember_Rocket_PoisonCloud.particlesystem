@@ -1,0 +1,35 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_PoisonCloud",
+      "LifeSpan": {
+        "Min": 27,
+        "Max": 27
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_PoisonCloudStart",
+      "LifeSpan": {
+        "Min": 3,
+        "Max": 3
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_PoisonGroundFog",
+      "LifeSpan": {
+        "Min": 26,
+        "Max": 26
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 30,
+  "CullDistance": 192,
+  "BoundingRadius": 24,
+  "IsImportant": true
+}

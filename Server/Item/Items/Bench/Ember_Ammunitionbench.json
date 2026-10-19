@@ -140,19 +140,44 @@
       "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Categories": [
         {
-          "Id": "Ember_Ammunitionbench_Cartridges",
-          "Name": "DarselXAmmoBench.Categories.Cartridges",
-          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Cartridges.png"
+          "Id": "Ember_Ammunitionbench_Crossbow",
+          "Name": "DarselXAmmoBench.Categories.Crossbow",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Crossbow.png"
         },
         {
-          "Id": "Ember_Ammunitionbench_Projectiles",
-          "Name": "DarselXAmmoBench.Categories.Projectiles",
-          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Projectiles.png"
+          "Id": "Ember_Ammunitionbench_Pistol",
+          "Name": "DarselXAmmoBench.Categories.Pistol",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Pistol.png"
         },
         {
-          "Id": "Ember_Ammunitionbench_Heavy",
-          "Name": "DarselXAmmoBench.Categories.Heavy",
-          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Heavy.png"
+          "Id": "Ember_Ammunitionbench_Signals",
+          "Name": "DarselXAmmoBench.Categories.Signals",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Signals.png"
+        },
+        {
+          "Id": "Ember_Ammunitionbench_Repeater",
+          "Name": "DarselXAmmoBench.Categories.Repeater",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Repeater.png"
+        },
+        {
+          "Id": "Ember_Ammunitionbench_MachineGun",
+          "Name": "DarselXAmmoBench.Categories.MachineGun",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_MachineGun.png"
+        },
+        {
+          "Id": "Ember_Ammunitionbench_Shotgun",
+          "Name": "DarselXAmmoBench.Categories.Shotgun",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Shotgun.png"
+        },
+        {
+          "Id": "Ember_Ammunitionbench_Harpoon",
+          "Name": "DarselXAmmoBench.Categories.Harpoon",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Harpoon.png"
+        },
+        {
+          "Id": "Ember_Ammunitionbench_Slag",
+          "Name": "DarselXAmmoBench.Categories.Slag",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Slag.png"
         },
         {
           "Id": "Ember_Ammunitionbench_Pollen",
@@ -160,14 +185,24 @@
           "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Pollen.png"
         },
         {
-          "Id": "Ember_Ammunitionbench_Energy",
-          "Name": "DarselXAmmoBench.Categories.Energy",
-          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Energy.png"
+          "Id": "Ember_Ammunitionbench_Coil",
+          "Name": "DarselXAmmoBench.Categories.Coil",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Coil.png"
         },
         {
-          "Id": "Ember_Ammunitionbench_Signals",
-          "Name": "DarselXAmmoBench.Categories.Signals",
-          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Signals.png"
+          "Id": "Ember_Ammunitionbench_Induction",
+          "Name": "DarselXAmmoBench.Categories.Induction",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Induction.png"
+        },
+        {
+          "Id": "Ember_Ammunitionbench_Precision",
+          "Name": "DarselXAmmoBench.Categories.Precision",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Precision.png"
+        },
+        {
+          "Id": "Ember_Ammunitionbench_Rockets",
+          "Name": "DarselXAmmoBench.Categories.Rockets",
+          "Icon": "Icons/CraftingCategories/EndlessEmber/Ammo_Rockets.png"
         }
       ],
       "Id": "Ember_Ammunitionbench",
@@ -271,6 +306,18 @@
     "PlacementSettings": {
       "RotationMode": "FacingPlayer",
       "AllowRotationKey": true
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenCustomUI",
+            "Page": {
+              "Id": "EE_AmmoBench"
+            }
+          }
+        ]
+      }
     }
   },
   "PlayerAnimationsId": "Block",

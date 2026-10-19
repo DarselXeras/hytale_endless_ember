@@ -1,0 +1,156 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "BillboardY",
+  "LinearFiltering": false,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "TrailSpawnerRotationMultiplier": 1.0,
+  "MaxConcurrentParticles": 32,
+  "ParticleLifeSpan": {
+    "Min": 0.7,
+    "Max": 1.2
+  },
+  "SpawnRate": {
+    "Min": 32,
+    "Max": 32
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Fire/Fire_Small.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 32
+    },
+    "ScaleRatioConstraint": "None",
+    "SoftParticles": "Require",
+    "UVOption": "None",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 3
+        },
+        "Scale": {
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Opacity": 0.0,
+        "Color": "#ffe92f"
+      },
+      "20": {
+        "Opacity": 1.0,
+        "Scale": {
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Color": "#ff870f"
+      },
+      "50": {
+        "Rotation": {
+          "Z": {
+            "Min": 0.0,
+            "Max": 0.0
+          }
+        },
+        "Opacity": 0.6,
+        "Color": "#ff7f00"
+      },
+      "100": {
+        "Opacity": 0,
+        "Rotation": {
+          "Z": {
+            "Min": -30.0,
+            "Max": 30.0
+          }
+        },
+        "Scale": {
+          "X": {
+            "Min": 0.5,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.5,
+            "Max": 2.0
+          }
+        },
+        "Color": "#f23900"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 1,
+      "Color": "#ffffff",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 3
+      },
+      "Scale": {
+        "X": {
+          "Min": 2,
+          "Max": 3.5
+        },
+        "Y": {
+          "Min": 2,
+          "Max": 3.5
+        }
+      }
+    }
+  },
+  "SpawnBurst": true,
+  "EmitOffset": {
+    "X": {
+      "Min": -1.4,
+      "Max": 1.4
+    },
+    "Y": {
+      "Min": -1.4,
+      "Max": 1.4
+    },
+    "Z": {
+      "Min": -1.4,
+      "Max": 1.4
+    }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": {
+        "Y": 1.0,
+        "X": 0.9,
+        "Z": 0.9
+      },
+      "LinearAcceleration": {
+        "Y": 0.1
+      }
+    }
+  ],
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 3,
+      "Max": 6
+    },
+    "Pitch": {
+      "Min": -180,
+      "Max": 180
+    },
+    "Yaw": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  "LifeSpan": 1.2,
+  "TotalParticles": {
+    "Min": 32,
+    "Max": 32
+  }
+}

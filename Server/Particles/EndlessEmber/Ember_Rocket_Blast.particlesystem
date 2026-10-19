@@ -1,0 +1,35 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_Blast",
+      "LifeSpan": {
+        "Min": 1.1,
+        "Max": 1.1
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_BlastFireball",
+      "LifeSpan": {
+        "Min": 1.2,
+        "Max": 1.2
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_BlastSmoke",
+      "LifeSpan": {
+        "Min": 2.5,
+        "Max": 2.5
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 2.5,
+  "CullDistance": 192,
+  "BoundingRadius": 24,
+  "IsImportant": true
+}

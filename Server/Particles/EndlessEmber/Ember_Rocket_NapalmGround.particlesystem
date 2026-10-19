@@ -1,0 +1,17 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_NapalmGround",
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 10,
+  "CullDistance": 192,
+  "BoundingRadius": 24,
+  "IsImportant": true
+}

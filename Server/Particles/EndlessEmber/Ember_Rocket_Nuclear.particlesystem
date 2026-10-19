@@ -1,0 +1,1418 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Flash",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 5,
+        "Z": 0
+      },
+      "StartDelay": 0,
+      "LifeSpan": {
+        "Min": 0.75,
+        "Max": 0.75
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Shockwave",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.15,
+        "Z": 0
+      },
+      "StartDelay": 0.08,
+      "LifeSpan": {
+        "Min": 2,
+        "Max": 2
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Fireball",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 5,
+        "Z": 0
+      },
+      "StartDelay": 0.05,
+      "LifeSpan": {
+        "Min": 6,
+        "Max": 6
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Fireball",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 10,
+        "Z": 0
+      },
+      "StartDelay": 0.45,
+      "LifeSpan": {
+        "Min": 6,
+        "Max": 6
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 17.0,
+        "Y": 1.2,
+        "Z": 0.0
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 15.705952052691874,
+        "Y": 1.2,
+        "Z": 6.505618350206526
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 12.020815280171309,
+        "Y": 1.2,
+        "Z": 12.020815280171309
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 6.505618350206527,
+        "Y": 1.2,
+        "Z": 15.705952052691874
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 1.0409497792752501e-15,
+        "Y": 1.2,
+        "Z": 17.0
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -6.505618350206525,
+        "Y": 1.2,
+        "Z": 15.705952052691874
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -12.020815280171307,
+        "Y": 1.2,
+        "Z": 12.020815280171309
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -15.705952052691874,
+        "Y": 1.2,
+        "Z": 6.505618350206528
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -17.0,
+        "Y": 1.2,
+        "Z": 2.0818995585505003e-15
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -15.705952052691876,
+        "Y": 1.2,
+        "Z": -6.505618350206524
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -12.02081528017131,
+        "Y": 1.2,
+        "Z": -12.020815280171307
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -6.505618350206536,
+        "Y": 1.2,
+        "Z": -15.70595205269187
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": -3.1228493378257506e-15,
+        "Y": 1.2,
+        "Z": -17.0
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 6.50561835020653,
+        "Y": 1.2,
+        "Z": -15.705952052691872
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 12.020815280171306,
+        "Y": 1.2,
+        "Z": -12.02081528017131
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Dust",
+      "PositionOffset": {
+        "X": 15.70595205269187,
+        "Y": 1.2,
+        "Z": -6.505618350206537
+      },
+      "StartDelay": 0.3,
+      "LifeSpan": {
+        "Min": 12,
+        "Max": 12
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": 0.45464871341284085,
+        "Y": 2,
+        "Z": -0.2080734182735712
+      },
+      "StartDelay": 0.24,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_RisingCore",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 2,
+        "Z": 0
+      },
+      "StartDelay": 0.26,
+      "LifeSpan": {
+        "Min": 8,
+        "Max": 8
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": -0.4794621373315692,
+        "Y": 5,
+        "Z": 0.14183109273161312
+      },
+      "StartDelay": 0.6,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_RisingCore",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 5,
+        "Z": 0
+      },
+      "StartDelay": 0.65,
+      "LifeSpan": {
+        "Min": 8,
+        "Max": 8
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": 0.4946791233116909,
+        "Y": 8,
+        "Z": -0.07275001690430677
+      },
+      "StartDelay": 0.96,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_RisingCore",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 8,
+        "Z": 0
+      },
+      "StartDelay": 1.04,
+      "LifeSpan": {
+        "Min": 8,
+        "Max": 8
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": -0.49999510327535174,
+        "Y": 11,
+        "Z": 0.0022128489940253927
+      },
+      "StartDelay": 1.3199999999999998,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_RisingCore",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 11,
+        "Z": 0
+      },
+      "StartDelay": 1.4300000000000002,
+      "LifeSpan": {
+        "Min": 8,
+        "Max": 8
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": 0.4953036778474352,
+        "Y": 14,
+        "Z": 0.0683686091039168
+      },
+      "StartDelay": 1.68,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_RisingCore",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 14,
+        "Z": 0
+      },
+      "StartDelay": 1.82,
+      "LifeSpan": {
+        "Min": 8,
+        "Max": 8
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": -0.4806987459397784,
+        "Y": 17,
+        "Z": -0.13758166902579846
+      },
+      "StartDelay": 2.04,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_RisingCore",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 17,
+        "Z": 0
+      },
+      "StartDelay": 2.21,
+      "LifeSpan": {
+        "Min": 8,
+        "Max": 8
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": 0.45647262536381383,
+        "Y": 20,
+        "Z": 0.20404103090669598
+      },
+      "StartDelay": 2.4,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_RisingCore",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 20,
+        "Z": 0
+      },
+      "StartDelay": 2.6,
+      "LifeSpan": {
+        "Min": 8,
+        "Max": 8
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Stem",
+      "PositionOffset": {
+        "X": -0.4231102020875853,
+        "Y": 23,
+        "Z": -0.26641651016669876
+      },
+      "StartDelay": 2.76,
+      "LifeSpan": {
+        "Min": 23,
+        "Max": 23
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 31,
+        "Z": 0
+      },
+      "StartDelay": 3.2,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 6.0,
+        "Y": 30,
+        "Z": 0.0
+      },
+      "StartDelay": 3.13,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 4.242640687119286,
+        "Y": 30,
+        "Z": 4.242640687119286
+      },
+      "StartDelay": 3.1999999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 3.6739403974420594e-16,
+        "Y": 30,
+        "Z": 6.0
+      },
+      "StartDelay": 3.27,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -4.242640687119285,
+        "Y": 30,
+        "Z": 4.242640687119286
+      },
+      "StartDelay": 3.13,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -6.0,
+        "Y": 30,
+        "Z": 7.347880794884119e-16
+      },
+      "StartDelay": 3.1999999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -4.242640687119286,
+        "Y": 30,
+        "Z": -4.242640687119285
+      },
+      "StartDelay": 3.27,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -1.102182119232618e-15,
+        "Y": 30,
+        "Z": -6.0
+      },
+      "StartDelay": 3.13,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 4.242640687119284,
+        "Y": 30,
+        "Z": -4.242640687119286
+      },
+      "StartDelay": 3.1999999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 12.0,
+        "Y": 28,
+        "Z": 0.0
+      },
+      "StartDelay": 3.46,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 10.392304845413264,
+        "Y": 28,
+        "Z": 5.999999999999999
+      },
+      "StartDelay": 3.53,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 6.000000000000002,
+        "Y": 28,
+        "Z": 10.392304845413264
+      },
+      "StartDelay": 3.6,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 7.347880794884119e-16,
+        "Y": 28,
+        "Z": 12.0
+      },
+      "StartDelay": 3.46,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -5.999999999999997,
+        "Y": 28,
+        "Z": 10.392304845413264
+      },
+      "StartDelay": 3.53,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -10.392304845413264,
+        "Y": 28,
+        "Z": 5.999999999999999
+      },
+      "StartDelay": 3.6,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -12.0,
+        "Y": 28,
+        "Z": 1.4695761589768238e-15
+      },
+      "StartDelay": 3.46,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -10.392304845413266,
+        "Y": 28,
+        "Z": -5.9999999999999964
+      },
+      "StartDelay": 3.53,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -6.000000000000005,
+        "Y": 28,
+        "Z": -10.392304845413262
+      },
+      "StartDelay": 3.6,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -2.204364238465236e-15,
+        "Y": 28,
+        "Z": -12.0
+      },
+      "StartDelay": 3.46,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 6.000000000000002,
+        "Y": 28,
+        "Z": -10.392304845413264
+      },
+      "StartDelay": 3.53,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 10.39230484541326,
+        "Y": 28,
+        "Z": -6.000000000000005
+      },
+      "StartDelay": 3.6,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 17.0,
+        "Y": 24,
+        "Z": 0.0
+      },
+      "StartDelay": 3.735,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 15.705952052691874,
+        "Y": 24,
+        "Z": 6.505618350206526
+      },
+      "StartDelay": 3.8049999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 12.020815280171309,
+        "Y": 24,
+        "Z": 12.020815280171309
+      },
+      "StartDelay": 3.875,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 6.505618350206527,
+        "Y": 24,
+        "Z": 15.705952052691874
+      },
+      "StartDelay": 3.735,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 1.0409497792752501e-15,
+        "Y": 24,
+        "Z": 17.0
+      },
+      "StartDelay": 3.8049999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -6.505618350206525,
+        "Y": 24,
+        "Z": 15.705952052691874
+      },
+      "StartDelay": 3.875,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -12.020815280171307,
+        "Y": 24,
+        "Z": 12.020815280171309
+      },
+      "StartDelay": 3.735,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -15.705952052691874,
+        "Y": 24,
+        "Z": 6.505618350206528
+      },
+      "StartDelay": 3.8049999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -17.0,
+        "Y": 24,
+        "Z": 2.0818995585505003e-15
+      },
+      "StartDelay": 3.875,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -15.705952052691876,
+        "Y": 24,
+        "Z": -6.505618350206524
+      },
+      "StartDelay": 3.735,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -12.02081528017131,
+        "Y": 24,
+        "Z": -12.020815280171307
+      },
+      "StartDelay": 3.8049999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -6.505618350206536,
+        "Y": 24,
+        "Z": -15.70595205269187
+      },
+      "StartDelay": 3.875,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -3.1228493378257506e-15,
+        "Y": 24,
+        "Z": -17.0
+      },
+      "StartDelay": 3.735,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 6.50561835020653,
+        "Y": 24,
+        "Z": -15.705952052691872
+      },
+      "StartDelay": 3.8049999999999997,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 12.020815280171306,
+        "Y": 24,
+        "Z": -12.02081528017131
+      },
+      "StartDelay": 3.875,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 15.70595205269187,
+        "Y": 24,
+        "Z": -6.505618350206537
+      },
+      "StartDelay": 3.735,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 9.510565162951535,
+        "Y": 21,
+        "Z": 3.090169943749474
+      },
+      "StartDelay": 3.3499999999999996,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 5.877852522924732,
+        "Y": 21,
+        "Z": 8.090169943749475
+      },
+      "StartDelay": 3.4199999999999995,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 6.123233995736766e-16,
+        "Y": 21,
+        "Z": 10.0
+      },
+      "StartDelay": 3.4899999999999998,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -5.87785252292473,
+        "Y": 21,
+        "Z": 8.090169943749475
+      },
+      "StartDelay": 3.3499999999999996,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -9.510565162951535,
+        "Y": 21,
+        "Z": 3.090169943749475
+      },
+      "StartDelay": 3.4199999999999995,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -9.510565162951538,
+        "Y": 21,
+        "Z": -3.090169943749469
+      },
+      "StartDelay": 3.4899999999999998,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -5.877852522924733,
+        "Y": 21,
+        "Z": -8.090169943749473
+      },
+      "StartDelay": 3.3499999999999996,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": -1.8369701987210296e-15,
+        "Y": 21,
+        "Z": -10.0
+      },
+      "StartDelay": 3.4199999999999995,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 5.877852522924729,
+        "Y": 21,
+        "Z": -8.090169943749476
+      },
+      "StartDelay": 3.4899999999999998,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_Cap",
+      "PositionOffset": {
+        "X": 9.510565162951535,
+        "Y": 21,
+        "Z": -3.0901699437494767
+      },
+      "StartDelay": 3.3499999999999996,
+      "LifeSpan": {
+        "Min": 24,
+        "Max": 24
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": 11.0,
+        "Y": 22,
+        "Z": 0.0
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": 9.526279441628827,
+        "Y": 22,
+        "Z": 5.499999999999999
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": 5.500000000000001,
+        "Y": 22,
+        "Z": 9.526279441628825
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": 6.735557395310443e-16,
+        "Y": 22,
+        "Z": 11.0
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": -5.499999999999997,
+        "Y": 22,
+        "Z": 9.526279441628827
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": -9.526279441628827,
+        "Y": 22,
+        "Z": 5.499999999999999
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": -11.0,
+        "Y": 22,
+        "Z": 1.3471114790620886e-15
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": -9.526279441628827,
+        "Y": 22,
+        "Z": -5.499999999999997
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": -5.500000000000005,
+        "Y": 22,
+        "Z": -9.526279441628823
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": -2.0206672185931327e-15,
+        "Y": 22,
+        "Z": -11.0
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": 5.500000000000001,
+        "Y": 22,
+        "Z": -9.526279441628825
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "Ember_Rocket_Nuclear_BurningUnderside",
+      "PositionOffset": {
+        "X": 9.526279441628823,
+        "Y": 22,
+        "Z": -5.500000000000005
+      },
+      "StartDelay": 2.5,
+      "LifeSpan": {
+        "Min": 9,
+        "Max": 9
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "LifeSpan": 32,
+  "CullDistance": 384,
+  "BoundingRadius": 80,
+  "IsImportant": true
+}

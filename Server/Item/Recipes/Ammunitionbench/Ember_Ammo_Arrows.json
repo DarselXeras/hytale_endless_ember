@@ -24,7 +24,7 @@
       "Type": "Crafting",
       "Id": "Ember_Ammunitionbench",
       "Categories": [
-        "Ember_Ammunitionbench_Projectiles"
+        "Ember_Ammunitionbench_Crossbow"
       ],
       "RequiredTierLevel": 1
     }

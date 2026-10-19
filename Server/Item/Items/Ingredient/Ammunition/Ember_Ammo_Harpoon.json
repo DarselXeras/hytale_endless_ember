@@ -53,7 +53,7 @@
         "Type": "Crafting",
         "Id": "Ember_Ammunitionbench",
         "Categories": [
-          "Ember_Ammunitionbench_Projectiles"
+          "Ember_Ammunitionbench_Harpoon"
         ],
         "RequiredTierLevel": 3
       }
