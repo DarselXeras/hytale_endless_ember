@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXEmberfarmer.Items.Emberfarmer_MK2_Legs.name",
+    "Description": "DarselXEmberfarmer.Items.Emberfarmer_MK2_Legs.description"
+  },
+  "Quality": "Uncommon",
+  "ItemLevel": 20,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Armor_Cloth",
+  "Categories": [
+    "Items.Armors"
+  ],
+  "Icon": "Icons/ItemsGenerated/Emberfarmer_MK2_Legs.png",
+  "Model": "Items/EndlessEmber/Armor/Emberfarmer_MK2_Legs.blockymodel",
+  "Texture": "Items/EndlessEmber/Armor/Emberfarmer_MK2_Legs.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 6
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_ConductiveBlossom_Pollen",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Emberfarmer_MK2_Legs",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Emberfarmer_MK2_Legs",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 8,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Armor"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    }
+  },
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.02,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.02,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 0,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 140,
+  "DurabilityLossOnHit": 0.35,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Emberfarmer"
+    ],
+    "Tier": [
+      "MK2"
+    ]
+  }
+}

@@ -5,6 +5,6 @@
     "Id": "Ember_Ammo_Pistol_AP",
     "Quantity": 1
   },
-  "Next": "Ember_Pistol_AP_Shoot",
+  "Next": "Ember_Pistol_AP_Shoot_CoilhunterGate",
   "Failed": "Gun_Shoot_Fail"
 }

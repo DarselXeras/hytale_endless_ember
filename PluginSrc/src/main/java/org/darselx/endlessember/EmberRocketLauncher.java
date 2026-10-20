@@ -208,6 +208,7 @@ public final class EmberRocketLauncher extends SimpleInstantInteraction {
     }
     static Damage damage(Flight rocket,Ref<EntityStore> target,String cause,float amount,ComponentAccessor<EntityStore> access){
         var hit=new Damage(new Damage.ProjectileSource(rocket.owner,rocket.visual),DamageCause.getAssetMap().getAsset(cause),amount);
+        if(rocket.mode==0&&cause.equals("Projectile"))hit.putMetaObject(EmberguardArmor.BLAST,true);
         DamageSystems.executeDamage(target,access,hit);return hit;
     }
     static void burst(Flight f,ComponentAccessor<EntityStore> access,Runtime data){

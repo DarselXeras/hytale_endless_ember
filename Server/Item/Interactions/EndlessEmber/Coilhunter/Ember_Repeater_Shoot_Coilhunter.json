@@ -1,0 +1,23 @@
+{
+  "Parent": "Gun_Shoot",
+  "RunTime": 0,
+  "ProjectileId": "Ember_Repeater_Bullet",
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "Ember_Coilhunter_Shoot",
+    "WorldSoundEventId": "SFX_Rifle_Fire",
+    "LocalSoundEventId": "SFX_Rifle_Fire_Local",
+    "Particles": [
+      {
+        "SystemId": "RifleShooting",
+        "PositionOffset": {
+          "Z": 0.85,
+          "Y": 0.15
+        },
+        "RotationOffset": {
+          "Pitch": 90
+        }
+      }
+    ]
+  }
+}

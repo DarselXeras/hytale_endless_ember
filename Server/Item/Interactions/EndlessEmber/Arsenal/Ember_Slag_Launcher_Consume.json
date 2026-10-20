@@ -5,6 +5,6 @@
     "Id": "Ember_Ammo_Slag",
     "Quantity": 1
   },
-  "Next": "Ember_Slag_Launcher_Shoot",
+  "Next": "Ember_Slag_Launcher_Shoot_CoilhunterGate",
   "Failed": "Gun_Shoot_Fail"
 }

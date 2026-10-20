@@ -1,0 +1,131 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXCoilhunter.Items.Coilhunter_MK3_Head.name",
+    "Description": "DarselXCoilhunter.Items.Coilhunter_MK3_Head.description"
+  },
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Categories": [
+    "Items.Armors"
+  ],
+  "Icon": "Icons/ItemsGenerated/Coilhunter_MK3_Head.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.5,
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Model": "Items/EndlessEmber/Armor/Coilhunter_MK3_Head.blockymodel",
+  "Texture": "Items/EndlessEmber/Armor/Coilhunter_MK3_Head.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Plate",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Gear",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ember_Energy_Cell",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Coilhunter_MK3_Head",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Coilhunter_MK3_Head",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 12,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Armor"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    }
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.045,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.045,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 4,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 180,
+  "DurabilityLossOnHit": 0.35,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Coilhunter"
+    ],
+    "Tier": [
+      "MK3"
+    ]
+  }
+}

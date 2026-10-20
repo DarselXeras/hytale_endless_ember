@@ -68,6 +68,9 @@ public class EndlessEmberPlugin extends JavaPlugin {
         EmberAdvancedArsenal.register(this);
         EmberMachineGun.register(this);
         EmberrunnerArmor.register(this);
+        CoilhunterArmor.register(this);
+        EmberguardArmor.register(this);
+        EmberfarmerClothes.register(this);
         setupNuclearRockets();
         EmberRocketLauncher.register(this);
         getEntityStoreRegistry().registerSystem(new ProjectileFoliage());

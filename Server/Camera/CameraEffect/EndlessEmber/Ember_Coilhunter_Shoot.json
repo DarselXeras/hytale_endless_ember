@@ -1,0 +1,7 @@
+{
+  "Type": "CameraShake",
+  "CameraShake": "Handgun_Shoot",
+  "Intensity": {
+    "Value": 0.034999999999999996
+  }
+}

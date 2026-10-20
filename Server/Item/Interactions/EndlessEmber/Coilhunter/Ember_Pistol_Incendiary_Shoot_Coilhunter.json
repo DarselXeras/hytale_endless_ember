@@ -1,0 +1,23 @@
+{
+  "Type": "Projectile",
+  "Config": "Ember_Pistol_Incendiary_Projectile",
+  "Lifetime": 2,
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "CameraEffect": "Ember_Coilhunter_Shoot",
+    "WorldSoundEventId": "SFX_Rifle_Fire",
+    "LocalSoundEventId": "SFX_Rifle_Fire_Local",
+    "Particles": [
+      {
+        "SystemId": "RifleShooting",
+        "PositionOffset": {
+          "Z": 0.8,
+          "Y": 0.15
+        },
+        "RotationOffset": {
+          "Pitch": 90
+        }
+      }
+    ]
+  }
+}

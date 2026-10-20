@@ -1,0 +1,6 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "SteadyAim",
+  "Next": "Ember_Harpoon_Launcher_Shoot_Coilhunter",
+  "Failed": "Ember_Harpoon_Launcher_Shoot"
+}

@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXCoilhunter.Items.Coilhunter_MK3_Legs.name",
+    "Description": "DarselXCoilhunter.Items.Coilhunter_MK3_Legs.description"
+  },
+  "Quality": "Rare",
+  "ItemLevel": 30,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Categories": [
+    "Items.Armors"
+  ],
+  "Icon": "Icons/ItemsGenerated/Coilhunter_MK3_Legs.png",
+  "Model": "Items/EndlessEmber/Armor/Coilhunter_MK3_Legs.blockymodel",
+  "Texture": "Items/EndlessEmber/Armor/Coilhunter_MK3_Legs.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 9
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Plate",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ember_Cast_Cobalt_Gear",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ember_Energy_Cell",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Coilhunter_MK3_Legs",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Coilhunter_MK3_Legs",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 12,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Armor"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    }
+  },
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.075,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.075,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 8,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 180,
+  "DurabilityLossOnHit": 0.35,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Coilhunter"
+    ],
+    "Tier": [
+      "MK3"
+    ]
+  }
+}

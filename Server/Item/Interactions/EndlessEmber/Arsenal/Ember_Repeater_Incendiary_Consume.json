@@ -5,6 +5,6 @@
     "Id": "Ember_Ammo_Rifle_Incendiary",
     "Quantity": 1
   },
-  "Next": "Ember_Repeater_Incendiary_Shoot",
+  "Next": "Ember_Repeater_Incendiary_Shoot_CoilhunterGate",
   "Failed": "Gun_Shoot_Fail"
 }

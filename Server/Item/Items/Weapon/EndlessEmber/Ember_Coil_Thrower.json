@@ -26,7 +26,7 @@
           "Next": {
             "Type": "EE_WeaponGate",
             "Action": "CoilEnergy",
-            "Next": "Ember_Coil_Thrower_Shoot",
+            "Next": "Ember_Coil_Thrower_Shoot_CoilhunterGate",
             "Failed": "Gun_Shoot_Fail"
           },
           "Failed": "Gun_Shoot_Fail"

@@ -2,26 +2,53 @@
   "Type": "Serial",
   "Interactions": [
     {
-      "Type": "Projectile",
-      "Config": "Ember_Shotgun_Pellet0",
-      "Lifetime": 0.35,
-      "Effects": {
-        "ItemAnimationId": "Shoot",
-        "CameraEffect": "Handgun_Shoot",
-        "WorldSoundEventId": "SFX_Rifle_Fire",
-        "LocalSoundEventId": "SFX_Rifle_Fire_Local",
-        "Particles": [
-          {
-            "SystemId": "RifleShooting",
-            "PositionOffset": {
-              "Z": 0.8,
-              "Y": 0.15
-            },
-            "RotationOffset": {
-              "Pitch": 90
+      "Type": "EE_WeaponGate",
+      "Action": "SteadyAim",
+      "Next": {
+        "Type": "Projectile",
+        "Config": "Ember_Shotgun_Pellet0",
+        "Lifetime": 0.35,
+        "Effects": {
+          "ItemAnimationId": "Shoot",
+          "CameraEffect": "Ember_Coilhunter_Shoot",
+          "WorldSoundEventId": "SFX_Rifle_Fire",
+          "LocalSoundEventId": "SFX_Rifle_Fire_Local",
+          "Particles": [
+            {
+              "SystemId": "RifleShooting",
+              "PositionOffset": {
+                "Z": 0.8,
+                "Y": 0.15
+              },
+              "RotationOffset": {
+                "Pitch": 90
+              }
             }
-          }
-        ]
+          ]
+        }
+      },
+      "Failed": {
+        "Type": "Projectile",
+        "Config": "Ember_Shotgun_Pellet0",
+        "Lifetime": 0.35,
+        "Effects": {
+          "ItemAnimationId": "Shoot",
+          "CameraEffect": "Handgun_Shoot",
+          "WorldSoundEventId": "SFX_Rifle_Fire",
+          "LocalSoundEventId": "SFX_Rifle_Fire_Local",
+          "Particles": [
+            {
+              "SystemId": "RifleShooting",
+              "PositionOffset": {
+                "Z": 0.8,
+                "Y": 0.15
+              },
+              "RotationOffset": {
+                "Pitch": 90
+              }
+            }
+          ]
+        }
       }
     },
     {

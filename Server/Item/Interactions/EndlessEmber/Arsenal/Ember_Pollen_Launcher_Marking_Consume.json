@@ -5,6 +5,6 @@
     "Id": "Ember_Ammo_Pollen_Marking",
     "Quantity": 1
   },
-  "Next": "Ember_Pollen_Launcher_Marking_Shoot",
+  "Next": "Ember_Pollen_Launcher_Marking_Shoot_CoilhunterGate",
   "Failed": "Gun_Shoot_Fail"
 }

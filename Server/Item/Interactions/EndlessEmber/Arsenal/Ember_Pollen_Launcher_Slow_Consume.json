@@ -5,6 +5,6 @@
     "Id": "Ember_Ammo_Pollen_Slow",
     "Quantity": 1
   },
-  "Next": "Ember_Pollen_Launcher_Slow_Shoot",
+  "Next": "Ember_Pollen_Launcher_Slow_Shoot_CoilhunterGate",
   "Failed": "Gun_Shoot_Fail"
 }

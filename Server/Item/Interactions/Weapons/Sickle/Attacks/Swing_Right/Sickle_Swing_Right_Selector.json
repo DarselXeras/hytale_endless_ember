@@ -1,0 +1,48 @@
+{
+  "Type": "Selector",
+  "$Comment": "Length of Combat",
+  "RunTime": 0.2,
+  "Selector": {
+    "Id": "Horizontal",
+    "Direction": "ToRight",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.1,
+    "ExtendBottom": 2,
+    "StartDistance": 0.1,
+    "EndDistance": 2.5,
+    "Length": 70,
+    "RollOffset": 0,
+    "YawStartOffset": -20
+  },
+  "HitBlock": {
+    "Interactions": [
+      {
+        "Type": "EE_FarmerHarvest",
+        "RequireNotBroken": true,
+        "Next": {
+          "Type": "ModifyInventory",
+          "AdjustHeldItemDurability": -1
+        },
+        "Failed": "Block_Break_Adventure"
+      }
+    ]
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "DefaultValue": {
+          "Interactions": [
+            "Sickle_Swing_Right_Damage"
+          ]
+        },
+        "Var": "Sickle_Swing_Right_Damage"
+      }
+    ]
+  },
+  "Next": {
+    "Type": "Simple",
+    "$Comment": "Pad the interaction length",
+    "RunTime": 0.2
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "SteadyAim",
+  "Next": "Ember_Pollen_Launcher_Slow_Shoot_Coilhunter",
+  "Failed": "Ember_Pollen_Launcher_Slow_Shoot"
+}

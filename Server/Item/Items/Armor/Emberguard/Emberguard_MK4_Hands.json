@@ -1,0 +1,125 @@
+{
+  "TranslationProperties": {
+    "Name": "DarselXEmberguard.Items.Emberguard_MK4_Hands.name",
+    "Description": "DarselXEmberguard.Items.Emberguard_MK4_Hands.description"
+  },
+  "Quality": "Epic",
+  "ItemLevel": 40,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Categories": [
+    "Items.Armors"
+  ],
+  "Icon": "Icons/ItemsGenerated/Emberguard_MK4_Hands.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.92,
+    "Translation": [
+      15,
+      -33
+    ]
+  },
+  "Model": "Items/EndlessEmber/Armor/Emberguard_MK4_Hands.blockymodel",
+  "Texture": "Items/EndlessEmber/Armor/Emberguard_MK4_Hands.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Adamantite_Plate",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ember_Cast_Thorium_Gear",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ember_Energy_Cell",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Emberguard_MK4_Hands",
+        "Quantity": 1
+      }
+    ],
+    "PrimaryOutput": {
+      "ItemId": "Emberguard_MK4_Hands",
+      "Quantity": 1
+    },
+    "KnowledgeRequired": false,
+    "TimeSeconds": 18,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Ember_Weaponbench",
+        "Categories": [
+          "Ember_Weaponbench_Armor"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    }
+  },
+  "Armor": {
+    "ArmorSlot": "Hands",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.045,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.045,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 6,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 260,
+  "DurabilityLossOnHit": 0.35,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Emberguard"
+    ],
+    "Tier": [
+      "MK4"
+    ]
+  }
+}

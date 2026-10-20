@@ -1,0 +1,6 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "SteadyAim",
+  "Next": "Ember_Precision_Rifle_Incendiary_Shoot_Coilhunter",
+  "Failed": "Ember_Precision_Rifle_Incendiary_Shoot"
+}

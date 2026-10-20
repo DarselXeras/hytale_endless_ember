@@ -69,7 +69,11 @@ public final class EmberAdvancedArsenal extends SimpleInstantInteraction {
         return TargetUtil.getTargetLocation(access.getExternalData().getWorld(),id->id!=0,a.x,a.y,a.z,d.x,d.y,d.z,distance-.03)==null;
     }
     static Damage hit(Ref<EntityStore> owner,Ref<EntityStore> target,float amount,ComponentAccessor<EntityStore> access){
+        return hit(owner,target,amount,access,false);
+    }
+    static Damage hit(Ref<EntityStore> owner,Ref<EntityStore> target,float amount,ComponentAccessor<EntityStore> access,boolean blast){
         var damage=new Damage(new Damage.EntitySource(owner),DamageCause.getAssetMap().getAsset("Projectile"),amount);
+        if(blast)damage.putMetaObject(EmberguardArmor.BLAST,true);
         DamageSystems.executeDamage(target,access,damage);return damage;
     }
     static boolean movable(BoundingBox box){
@@ -136,7 +140,7 @@ public final class EmberAdvancedArsenal extends SimpleInstantInteraction {
         for(var target:new ArrayList<>(TargetUtil.getAllEntitiesInSphere(point,1.8,access))){
             if(target.equals(owner)||!living(target,access))continue;
             var centre=centre(target,access);
-            if(centre!=null&&clear(point,centre,access))hit(owner,target,24,access);
+            if(centre!=null&&clear(point,centre,access))hit(owner,target,24,access,true);
         }
     }
     static Vector3d fragmentDirection(int index){

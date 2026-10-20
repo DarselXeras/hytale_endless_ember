@@ -5,6 +5,6 @@
     "Id": "Ember_Ammo_Precision_Marking",
     "Quantity": 1
   },
-  "Next": "Ember_Precision_Rifle_Marking_Shoot",
+  "Next": "Ember_Precision_Rifle_Marking_Shoot_CoilhunterGate",
   "Failed": "Gun_Shoot_Fail"
 }

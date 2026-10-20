@@ -5,6 +5,6 @@
     "Id": "Ember_Ammo_Induction",
     "Quantity": 1
   },
-  "Next": "Ember_Induction_Rifle_Shoot",
+  "Next": "Ember_Induction_Rifle_Shoot_CoilhunterGate",
   "Failed": "Gun_Shoot_Fail"
 }

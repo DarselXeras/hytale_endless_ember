@@ -60,6 +60,7 @@ public final class EmberWeaponGate extends SimpleInstantInteraction {
         var item=ctx.getHeldItem();if(ItemStack.isEmpty(item)||ctx.getHeldItemContainer()==null){fail(ctx,null);return;}
         switch(action){
             case "AmmoMenu"->EmberAmmoPage.open(ctx);
+            case "SteadyAim"->{if(!CoilhunterArmor.fullSet(ctx.getOwningEntity(),ctx.getCommandBuffer()))fail(ctx,null); }
             case "Mode"->{if(selected(item,modes)!=mode)fail(ctx,null);}
             case "Cycle"->{
                 var movement=ctx.getCommandBuffer().getComponent(ctx.getOwningEntity(),MovementStatesComponent.getComponentType());

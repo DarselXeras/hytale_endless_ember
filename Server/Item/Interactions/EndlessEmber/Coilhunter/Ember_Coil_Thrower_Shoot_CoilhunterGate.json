@@ -1,0 +1,6 @@
+{
+  "Type": "EE_WeaponGate",
+  "Action": "SteadyAim",
+  "Next": "Ember_Coil_Thrower_Shoot_Coilhunter",
+  "Failed": "Ember_Coil_Thrower_Shoot"
+}

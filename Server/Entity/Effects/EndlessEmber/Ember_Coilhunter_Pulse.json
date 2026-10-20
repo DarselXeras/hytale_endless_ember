@@ -1,0 +1,8 @@
+{
+  "Duration": 2,
+  "OverlapBehavior": "Overwrite",
+  "ApplicationEffects": {
+    "HorizontalSpeedMultiplier": 1.2
+  },
+  "StatusEffectIcon": "UI/StatusEffects/EndlessEmber/Coilhunter.png"
+}

@@ -106,7 +106,7 @@ public final class EmberMachineGun extends SimpleInstantInteraction {
             if(!used.add(target)||!EmberAdvancedArsenal.living(target,access))continue;
             var nearest=EmberAdvancedArsenal.closestPoint(target,point,access);
             if(nearest!=null&&nearest.distanceSquared(point)<=RADIUS*RADIUS&&ProjectileFoliage.clear(point,nearest,access))
-                EmberAdvancedArsenal.hit(ctx.getOwningEntity(),target,SPLASH,access);
+                EmberAdvancedArsenal.hit(ctx.getOwningEntity(),target,SPLASH,access,true);
         }
         ParticleUtil.spawnParticleEffect("Explosion_Small",point,access);
     }
